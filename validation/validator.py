@@ -6,13 +6,13 @@ def validate_recipe(recipe: Dict[str, Any]) -> Dict[str, Any]:
     verdict = "ACCEPTED"
 
     title = recipe.get("title")
-    ingredients = recipe.get("ingredients", [])
+    ingredients = recipe.get("ingredients_normalized", recipe.get("ingredients", []))
     steps = recipe.get("steps", [])
     prep_time = recipe.get("prep_time")
     servings = recipe.get("servings")
 
     # V01 - Schema Completeness
-    v01_pass = bool(title and len(title) > 2 and len(ingredients) >= 1 and len(steps) >= 1)
+    v01_pass = bool(title and len(str(title).strip()) > 2 and len(ingredients) >= 1 and len(steps) >= 1)
     check_results.append({
         "id": "V01",
         "severity": "CRITICAL",
@@ -38,7 +38,7 @@ def validate_recipe(recipe: Dict[str, Any]) -> Dict[str, Any]:
         "passed": v03_pass
     })
 
-    # V04 - Quantity Sanity (demo-friendly placeholder)
+    # V04 - Quantity Sanity (demo placeholder)
     v04_pass = True
     check_results.append({
         "id": "V04",
