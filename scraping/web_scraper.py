@@ -1,5 +1,4 @@
 from __future__ import annotations
-from utils.retry import retry
 
 import json
 import re
@@ -13,6 +12,12 @@ import requests
 from bs4 import BeautifulSoup
 
 from utils.logging_config import get_logger
+from utils.retry import retry
+from tracking.scrape_tracker import (
+    add_source,
+    update_source_status,
+)
+
 
 HEADERS = {
     "User-Agent": (
@@ -23,44 +28,72 @@ HEADERS = {
 }
 
 URLS_PATH = Path("data/raw/recipe_urls.txt")
-RAW_OUTPUT_PATH = Path("data/raw/web_recipes.json")
+
+RAW_OUTPUT_PATH = Path(
+    "data/raw/web_recipes.json"
+)
 
 logger = get_logger("web_scraper")
 
 
 def slugify(text: str) -> str:
     text = text.lower().strip()
-    text = re.sub(r"[^a-z0-9]+", "-", text)
+
+    text = re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        text,
+    )
+
     return text.strip("-")[:80] or "recipe"
 
 
-def load_urls(path: Path = URLS_PATH) -> List[str]:
+def load_urls(
+    path: Path = URLS_PATH,
+) -> List[str]:
+
     if not path.exists():
-        raise FileNotFoundError(f"Missing URL file: {path}")
+        raise FileNotFoundError(
+            f"Missing URL file: {path}"
+        )
 
     urls: List[str] = []
 
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in path.read_text(
+        encoding="utf-8"
+    ).splitlines():
+
         line = line.strip()
 
         if not line:
             continue
 
-        if line.startswith("HEBBARS_URLS"):
+        if line.startswith(
+            "HEBBARS_URLS"
+        ):
             continue
 
-        line = line.strip('",\' ')
+        line = line.strip(
+            '",\' '
+        )
+
         line = line.rstrip(",")
 
-        if line.startswith("http://") or line.startswith("https://"):
+        if (
+            line.startswith("http://")
+            or line.startswith("https://")
+        ):
             urls.append(line)
 
     return urls
 
 
-def safe_get(url: str) -> requests.Response:
+def safe_get(
+    url: str,
+) -> requests.Response:
 
     def _request() -> requests.Response:
+
         response = requests.get(
             url,
             headers=HEADERS,
@@ -78,15 +111,27 @@ def safe_get(url: str) -> requests.Response:
     )
 
 
-def extract_title(soup: BeautifulSoup) -> str:
+def extract_title(
+    soup: BeautifulSoup,
+) -> str:
+
     h1 = soup.find("h1")
+
     if h1:
-        text = h1.get_text(" ", strip=True)
+        text = h1.get_text(
+            " ",
+            strip=True,
+        )
+
         if text:
             return text
 
     if soup.title:
-        title_text = soup.title.get_text(" ", strip=True)
+        title_text = soup.title.get_text(
+            " ",
+            strip=True,
+        )
+
         if title_text:
             return title_text
 
@@ -97,33 +142,70 @@ def extract_text_after_heading(
     soup: BeautifulSoup,
     heading_keywords: List[str],
 ) -> List[str]:
-    headings = soup.find_all(["h1", "h2", "h3", "h4"])
+
+    headings = soup.find_all(
+        ["h1", "h2", "h3", "h4"]
+    )
 
     for heading in headings:
-        heading_text = heading.get_text(" ", strip=True).lower()
 
-        if not any(keyword.lower() in heading_text for keyword in heading_keywords):
+        heading_text = heading.get_text(
+            " ",
+            strip=True,
+        ).lower()
+
+        if not any(
+            keyword.lower()
+            in heading_text
+            for keyword in heading_keywords
+        ):
             continue
 
         collected: List[str] = []
 
         for sibling in heading.find_all_next():
+
             if sibling == heading:
                 continue
 
-            if sibling.name in ["h1", "h2", "h3", "h4"]:
+            if sibling.name in [
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+            ]:
                 break
 
-            if sibling.name in ["ul", "ol"]:
-                for li in sibling.find_all("li"):
-                    text = li.get_text(" ", strip=True)
+            if sibling.name in [
+                "ul",
+                "ol",
+            ]:
+
+                for li in sibling.find_all(
+                    "li"
+                ):
+
+                    text = li.get_text(
+                        " ",
+                        strip=True,
+                    )
+
                     if text:
-                        collected.append(text)
+                        collected.append(
+                            text
+                        )
 
             elif sibling.name == "p":
-                text = sibling.get_text(" ", strip=True)
+
+                text = sibling.get_text(
+                    " ",
+                    strip=True,
+                )
+
                 if text:
-                    collected.append(text)
+                    collected.append(
+                        text
+                    )
 
         if collected:
             return collected
@@ -131,114 +213,275 @@ def extract_text_after_heading(
     return []
 
 
-def find_recipe_object(payload: Any) -> Optional[Dict[str, Any]]:
+def find_recipe_object(
+    payload: Any,
+) -> Optional[Dict[str, Any]]:
+
     if isinstance(payload, dict):
+
         type_value = payload.get("@type")
 
-        if type_value == "Recipe" or (
-            isinstance(type_value, list) and "Recipe" in type_value
+        if (
+            type_value == "Recipe"
+            or (
+                isinstance(type_value, list)
+                and "Recipe" in type_value
+            )
         ):
             return payload
 
         if "@graph" in payload:
-            found = find_recipe_object(payload["@graph"])
+
+            found = find_recipe_object(
+                payload["@graph"]
+            )
+
             if found:
                 return found
 
         for value in payload.values():
-            found = find_recipe_object(value)
+
+            found = find_recipe_object(
+                value
+            )
+
             if found:
                 return found
 
     if isinstance(payload, list):
+
         for item in payload:
-            found = find_recipe_object(item)
+
+            found = find_recipe_object(
+                item
+            )
+
             if found:
                 return found
 
     return None
 
 
-def extract_json_ld_recipe(soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
-    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
-        raw_text = script.string or script.get_text(strip=True)
+def extract_json_ld_recipe(
+    soup: BeautifulSoup,
+) -> Optional[Dict[str, Any]]:
+
+    for script in soup.find_all(
+        "script",
+        attrs={
+            "type":
+            "application/ld+json"
+        },
+    ):
+
+        raw_text = (
+            script.string
+            or script.get_text(
+                strip=True
+            )
+        )
+
         if not raw_text:
             continue
 
         try:
             data = json.loads(raw_text)
+
         except Exception:
             continue
 
-        recipe = find_recipe_object(data)
+        recipe = find_recipe_object(
+            data
+        )
+
         if recipe:
             return recipe
 
     return None
 
 
-def normalize_instructions(instructions: Any) -> List[str]:
+def normalize_instructions(
+    instructions: Any,
+) -> List[str]:
+
     steps: List[str] = []
 
-    if isinstance(instructions, str):
-        parts = re.split(r"[\n.;•]+", instructions)
-        return [part.strip() for part in parts if part.strip()]
+    if isinstance(
+        instructions,
+        str,
+    ):
 
-    if isinstance(instructions, dict):
+        parts = re.split(
+            r"[\n.;•]+",
+            instructions,
+        )
+
+        return [
+            part.strip()
+            for part in parts
+            if part.strip()
+        ]
+
+    if isinstance(
+        instructions,
+        dict,
+    ):
+
         if "text" in instructions:
-            text = str(instructions["text"]).strip()
+
+            text = str(
+                instructions["text"]
+            ).strip()
+
             if text:
                 return [text]
 
-        if "itemListElement" in instructions:
-            return normalize_instructions(instructions["itemListElement"])
+        if (
+            "itemListElement"
+            in instructions
+        ):
 
-    if isinstance(instructions, list):
+            return normalize_instructions(
+                instructions[
+                    "itemListElement"
+                ]
+            )
+
+    if isinstance(
+        instructions,
+        list,
+    ):
+
         for item in instructions:
-            if isinstance(item, dict):
+
+            if isinstance(
+                item,
+                dict,
+            ):
+
                 if "text" in item:
-                    text = str(item["text"]).strip()
+
+                    text = str(
+                        item["text"]
+                    ).strip()
+
                     if text:
-                        steps.append(text)
-                elif "itemListElement" in item:
-                    steps.extend(normalize_instructions(item["itemListElement"]))
+                        steps.append(
+                            text
+                        )
+
+                elif (
+                    "itemListElement"
+                    in item
+                ):
+
+                    steps.extend(
+                        normalize_instructions(
+                            item[
+                                "itemListElement"
+                            ]
+                        )
+                    )
+
             else:
+
                 text = str(item).strip()
+
                 if text:
                     steps.append(text)
 
     return steps
 
 
-def scrape_recipe(url: str) -> Dict[str, Any]:
-    response = safe_get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
+def scrape_recipe(
+    url: str,
+) -> Dict[str, Any]:
 
-    json_ld = extract_json_ld_recipe(soup)
+    response = safe_get(url)
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
+
+    json_ld = extract_json_ld_recipe(
+        soup
+    )
+
     title = extract_title(soup)
 
     if json_ld:
-        title = json_ld.get("name") or title
-        ingredients = json_ld.get("recipeIngredient", []) or []
-        steps = normalize_instructions(json_ld.get("recipeInstructions", []))
-        cuisine = json_ld.get("recipeCuisine")
-        prep_time = json_ld.get("prepTime") or json_ld.get("totalTime")
-        servings = json_ld.get("recipeYield")
+
+        title = (
+            json_ld.get("name")
+            or title
+        )
+
+        ingredients = (
+            json_ld.get(
+                "recipeIngredient",
+                [],
+            )
+            or []
+        )
+
+        steps = normalize_instructions(
+            json_ld.get(
+                "recipeInstructions",
+                [],
+            )
+        )
+
+        cuisine = json_ld.get(
+            "recipeCuisine"
+        )
+
+        prep_time = (
+            json_ld.get("prepTime")
+            or json_ld.get(
+                "totalTime"
+            )
+        )
+
+        servings = json_ld.get(
+            "recipeYield"
+        )
+
     else:
-        ingredients = extract_text_after_heading(soup, ["ingredients"])
+
+        ingredients = (
+            extract_text_after_heading(
+                soup,
+                ["ingredients"],
+            )
+        )
+
         steps = extract_text_after_heading(
             soup,
-            ["instructions", "method", "preparation", "how to make", "recipe"],
+            [
+                "instructions",
+                "method",
+                "preparation",
+                "how to make",
+                "recipe",
+            ],
         )
+
         cuisine = None
         prep_time = None
         servings = None
 
     return {
-        "source_id": slugify(urlparse(url).netloc),
+        "source_id": slugify(
+            urlparse(url).netloc
+        ),
         "source_type": "web",
         "source_url": url,
-        "scraped_at": datetime.now(timezone.utc).isoformat(),
+        "scraped_at": (
+            datetime.now(
+                timezone.utc
+            ).isoformat()
+        ),
         "title": title,
         "cuisine": cuisine,
         "prep_time": prep_time,
@@ -250,28 +493,107 @@ def scrape_recipe(url: str) -> Dict[str, Any]:
 
 
 def main() -> None:
+
+    source_name = "Hebbars Kitchen"
+
+    source_type = "web"
+
+    base_url = (
+        "https://hebbarskitchen.com"
+    )
+
+    add_source(
+        source_name=source_name,
+        source_type=source_type,
+        base_url=base_url,
+    )
+
+    update_source_status(
+        base_url=base_url,
+        status="in_progress",
+        recipes_scraped=0,
+        notes="Scraping started",
+    )
+
     urls = load_urls()
-    logger.info("Found %d URLs", len(urls))
+
+    logger.info(
+        "Found %d URLs",
+        len(urls),
+    )
 
     scraped: List[Dict[str, Any]] = []
 
+    scraped_count = 0
+
     for url in urls[:10]:
+
         try:
+
             item = scrape_recipe(url)
+
             scraped.append(item)
-            logger.info("OK -> %s", item["title"])
+
+            scraped_count += 1
+
+            update_source_status(
+                base_url=base_url,
+                status="in_progress",
+                recipes_scraped=scraped_count,
+                notes=(
+                    f"Scraped "
+                    f"{scraped_count} "
+                    f"recipes so far"
+                ),
+            )
+
+            logger.info(
+                "OK -> %s",
+                item["title"],
+            )
+
         except Exception as exc:
-            logger.error("FAIL -> %s :: %s", url, exc)
+
+            logger.error(
+                "FAIL -> %s :: %s",
+                url,
+                exc,
+            )
 
         time.sleep(1)
 
-    RAW_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RAW_OUTPUT_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
     RAW_OUTPUT_PATH.write_text(
-        json.dumps({"recipes": scraped}, ensure_ascii=False, indent=2),
+        json.dumps(
+            {"recipes": scraped},
+            ensure_ascii=False,
+            indent=2,
+        ),
         encoding="utf-8",
     )
 
-    logger.info("Saved %d recipes to %s", len(scraped), RAW_OUTPUT_PATH)
+    final_status = (
+        "completed"
+        if scraped_count > 0
+        else "failed"
+    )
+
+    update_source_status(
+        base_url=base_url,
+        status=final_status,
+        recipes_scraped=scraped_count,
+        notes=f"Scraping {final_status}",
+    )
+
+    logger.info(
+        "Saved %d recipes to %s",
+        len(scraped),
+        RAW_OUTPUT_PATH,
+    )
 
 
 if __name__ == "__main__":

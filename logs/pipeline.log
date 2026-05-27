@@ -82,3 +82,40 @@
 2026-05-27 15:52:41,895 | web_scraper | INFO | OK -> sambar powder recipe | sambar masala | sambar podi | sambhar masala at home
 2026-05-27 15:52:43,561 | web_scraper | INFO | OK -> paneer butter masala without onion and garlic | paneer jain recipes
 2026-05-27 15:52:44,566 | web_scraper | INFO | Saved 10 recipes to data\raw\web_recipes.json
+2026-05-27 16:25:04,593 | web_scraper | INFO | Found 10 URLs
+2026-05-27 16:25:05,398 | web_scraper | INFO | OK -> Paneer Butter Masala Recipe - Restaurant Style
+2026-05-27 16:25:07,178 | web_scraper | INFO | OK -> Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa
+2026-05-27 16:25:09,379 | web_scraper | INFO | OK -> chole bhature recipe | chhole bhature | chana bhatura | chola batura
+2026-05-27 16:25:11,686 | web_scraper | INFO | OK -> aloo palak recipe | palak aloo recipe | aloo palak gravy recipe
+2026-05-27 16:25:13,587 | web_scraper | INFO | OK -> chana masala recipe | chickpea masala recipe | chana curry | chana masala curry
+2026-05-27 16:25:15,706 | web_scraper | INFO | OK -> pindi chole recipe | pindi chana masala | how to make pindi chole masala
+2026-05-27 16:25:17,563 | web_scraper | INFO | OK -> bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura
+2026-05-27 16:25:19,789 | web_scraper | INFO | OK -> potato curry for masala dosa | aloo baji for masala dosa
+2026-05-27 16:25:21,618 | web_scraper | INFO | OK -> sambar powder recipe | sambar masala | sambar podi | sambhar masala at home
+2026-05-27 16:25:23,574 | web_scraper | INFO | OK -> paneer butter masala without onion and garlic | paneer jain recipes
+2026-05-27 16:25:24,581 | web_scraper | INFO | Saved 10 recipes to data\raw\web_recipes.json
+2026-05-27 16:25:46,461 | pipeline_runner | INFO | Starting pipeline run
+2026-05-27 16:25:46,502 | pipeline_runner | INFO | Loaded 10 raw records
+2026-05-27 16:25:46,503 | pipeline_runner | INFO | Processing record_id=7fd59cd7-83c4-4603-aefd-c4b7595a60f4
+2026-05-27 16:25:46,505 | pipeline_runner | INFO | Accepted record_id=7fd59cd7-83c4-4603-aefd-c4b7595a60f4
+2026-05-27 16:25:46,506 | pipeline_runner | INFO | Processing record_id=a1512216-b3f0-4b45-b9dd-b86aeaba64f0
+2026-05-27 16:25:46,507 | pipeline_runner | INFO | Accepted record_id=a1512216-b3f0-4b45-b9dd-b86aeaba64f0
+2026-05-27 16:25:46,507 | pipeline_runner | INFO | Processing record_id=11bd9810-5d89-4067-ba34-f819a0fb1401
+2026-05-27 16:25:46,510 | pipeline_runner | INFO | Accepted record_id=11bd9810-5d89-4067-ba34-f819a0fb1401
+2026-05-27 16:25:46,510 | pipeline_runner | INFO | Processing record_id=9a2d64d9-bd96-45f0-903b-db8a64f60859
+2026-05-27 16:25:46,511 | pipeline_runner | INFO | Accepted record_id=9a2d64d9-bd96-45f0-903b-db8a64f60859
+2026-05-27 16:25:46,511 | pipeline_runner | INFO | Processing record_id=ac428a2a-9856-48f2-8eea-548844fe27a0
+2026-05-27 16:25:46,512 | pipeline_runner | INFO | Accepted record_id=ac428a2a-9856-48f2-8eea-548844fe27a0
+2026-05-27 16:25:46,512 | pipeline_runner | INFO | Processing record_id=3b9d55d4-3b15-4cb9-94af-c4706ab6ab4b
+2026-05-27 16:25:46,513 | pipeline_runner | INFO | Accepted record_id=3b9d55d4-3b15-4cb9-94af-c4706ab6ab4b
+2026-05-27 16:25:46,513 | pipeline_runner | INFO | Processing record_id=13a8e400-1efa-43bd-af3f-1a99e99ce072
+2026-05-27 16:25:46,514 | pipeline_runner | INFO | Accepted record_id=13a8e400-1efa-43bd-af3f-1a99e99ce072
+2026-05-27 16:25:46,514 | pipeline_runner | INFO | Processing record_id=4c122413-f429-42dd-826d-328a066c12fc
+2026-05-27 16:25:46,515 | pipeline_runner | INFO | Accepted record_id=4c122413-f429-42dd-826d-328a066c12fc
+2026-05-27 16:25:46,515 | pipeline_runner | INFO | Processing record_id=0dcccbe7-e346-4b5b-9ea7-ac14295cb1aa
+2026-05-27 16:25:46,516 | pipeline_runner | INFO | Accepted record_id=0dcccbe7-e346-4b5b-9ea7-ac14295cb1aa
+2026-05-27 16:25:46,516 | pipeline_runner | INFO | Processing record_id=dce0893b-7713-40c3-8c1f-1acdd11fe56d
+2026-05-27 16:25:46,517 | pipeline_runner | INFO | Accepted record_id=dce0893b-7713-40c3-8c1f-1acdd11fe56d
+2026-05-27 16:25:46,518 | pipeline_runner | INFO | Running deduplication on 10 accepted recipes
+2026-05-27 16:25:46,519 | pipeline_runner | INFO | Deduplicated 0 duplicates
+2026-05-27 16:25:46,585 | pipeline_runner | INFO | Pipeline summary: {'total': 10, 'accepted': 10, 'rejected': 0, 'duplicates_removed': 0}
