@@ -1,5 +1,6 @@
 from ingestion.json_adapter import JSONRecipeAdapter
 from preprocessing.coerce import coerce_raw_record
+from parsing.ingredient_parser import parse_ingredient_list
 from enrichment.enrich_recipe import enrich_recipe
 from normalization.normalize_recipe import normalize_recipe
 from validation.validator import validate_recipe
@@ -15,7 +16,19 @@ first_raw = raw_records[0].raw_content
 preprocessed = coerce_raw_record(first_raw)
 print(preprocessed)
 
-enriched = enrich_recipe(preprocessed)
+parsed_ingredients = parse_ingredient_list(preprocessed.ingredients)
+
+pipeline_recipe = {
+    "title": preprocessed.title,
+    "cuisine": preprocessed.cuisine,
+    "prep_time": preprocessed.prep_time,
+    "servings": preprocessed.servings,
+    "steps": preprocessed.steps,
+    "ingredients": parsed_ingredients,
+    "metadata": preprocessed.metadata,
+}
+
+enriched = enrich_recipe(pipeline_recipe)
 print(enriched)
 
 normalized = normalize_recipe(enriched)

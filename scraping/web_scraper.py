@@ -1,4 +1,5 @@
 from __future__ import annotations
+from utils.retry import retry
 
 import json
 import re
@@ -11,6 +12,8 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
+from utils.logging_config import get_logger
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -21,6 +24,8 @@ HEADERS = {
 
 URLS_PATH = Path("data/raw/recipe_urls.txt")
 RAW_OUTPUT_PATH = Path("data/raw/web_recipes.json")
+
+logger = get_logger("web_scraper")
 
 
 def slugify(text: str) -> str:
@@ -54,9 +59,23 @@ def load_urls(path: Path = URLS_PATH) -> List[str]:
 
 
 def safe_get(url: str) -> requests.Response:
-    response = requests.get(url, headers=HEADERS, timeout=30)
-    response.raise_for_status()
-    return response
+
+    def _request() -> requests.Response:
+        response = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=30,
+        )
+
+        response.raise_for_status()
+
+        return response
+
+    return retry(
+        _request,
+        retries=3,
+        delay=2,
+    )
 
 
 def extract_title(soup: BeautifulSoup) -> str:
@@ -78,10 +97,6 @@ def extract_text_after_heading(
     soup: BeautifulSoup,
     heading_keywords: List[str],
 ) -> List[str]:
-    """
-    Find a heading that contains one of the keywords, then collect list items
-    and short paragraphs that follow until the next heading.
-    """
     headings = soup.find_all(["h1", "h2", "h3", "h4"])
 
     for heading in headings:
@@ -116,27 +131,6 @@ def extract_text_after_heading(
     return []
 
 
-def extract_json_ld_recipe(soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
-    """
-    Try to read Recipe structured data from JSON-LD if the page has it.
-    """
-    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
-        raw_text = script.string or script.get_text(strip=True)
-        if not raw_text:
-            continue
-
-        try:
-            data = json.loads(raw_text)
-        except Exception:
-            continue
-
-        recipe = find_recipe_object(data)
-        if recipe:
-            return recipe
-
-    return None
-
-
 def find_recipe_object(payload: Any) -> Optional[Dict[str, Any]]:
     if isinstance(payload, dict):
         type_value = payload.get("@type")
@@ -161,6 +155,24 @@ def find_recipe_object(payload: Any) -> Optional[Dict[str, Any]]:
             found = find_recipe_object(item)
             if found:
                 return found
+
+    return None
+
+
+def extract_json_ld_recipe(soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw_text = script.string or script.get_text(strip=True)
+        if not raw_text:
+            continue
+
+        try:
+            data = json.loads(raw_text)
+        except Exception:
+            continue
+
+        recipe = find_recipe_object(data)
+        if recipe:
+            return recipe
 
     return None
 
@@ -239,7 +251,7 @@ def scrape_recipe(url: str) -> Dict[str, Any]:
 
 def main() -> None:
     urls = load_urls()
-    print(f"Found {len(urls)} URLs")
+    logger.info("Found %d URLs", len(urls))
 
     scraped: List[Dict[str, Any]] = []
 
@@ -247,9 +259,9 @@ def main() -> None:
         try:
             item = scrape_recipe(url)
             scraped.append(item)
-            print(f"OK   -> {item['title']}")
+            logger.info("OK -> %s", item["title"])
         except Exception as exc:
-            print(f"FAIL -> {url} :: {exc}")
+            logger.error("FAIL -> %s :: %s", url, exc)
 
         time.sleep(1)
 
@@ -259,7 +271,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    print(f"Saved {len(scraped)} recipes to {RAW_OUTPUT_PATH}")
+    logger.info("Saved %d recipes to %s", len(scraped), RAW_OUTPUT_PATH)
 
 
 if __name__ == "__main__":

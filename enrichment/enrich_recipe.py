@@ -1,19 +1,43 @@
 from typing import Dict, Any, List
 
-from preprocessing.schema import PreProcessedRecipe
 from enrichment.ingredient_resolver import resolve_ingredient
 
 
-def enrich_recipe(recipe: PreProcessedRecipe) -> Dict[str, Any]:
+def enrich_recipe(recipe: Dict[str, Any]) -> Dict[str, Any]:
     enriched_ingredients: List[Dict[str, Any]] = []
     unresolved_ingredients: List[str] = []
 
-    for ingredient in recipe.ingredients:
-        result = resolve_ingredient(ingredient)
+    ingredients = recipe.get("ingredients", [])
+
+    for ingredient in ingredients:
+        raw_name = None
+
+        if isinstance(ingredient, dict):
+            raw_name = (
+                ingredient.get("ingredient")
+                or ingredient.get("name")
+                or ingredient.get("raw_name")
+                or ingredient.get("raw_text")
+            )
+        else:
+            raw_name = str(ingredient)
+
+        result = resolve_ingredient(raw_name or "")
+        result["raw_name"] = raw_name
+
+        if isinstance(ingredient, dict):
+            result["quantity"] = ingredient.get("quantity")
+            result["unit"] = ingredient.get("unit")
+            result["flag"] = ingredient.get("flag")
+        else:
+            result["quantity"] = None
+            result["unit"] = None
+            result["flag"] = None
+
         enriched_ingredients.append(result)
 
         if result["resolution_type"] == "unresolved":
-            unresolved_ingredients.append(ingredient)
+            unresolved_ingredients.append(raw_name or "")
 
     exact_matches = sum(
         1 for item in enriched_ingredients if item["resolution_type"] == "exact"
@@ -22,15 +46,11 @@ def enrich_recipe(recipe: PreProcessedRecipe) -> Dict[str, Any]:
     confidence = exact_matches / total if total else 0.0
 
     return {
-        "title": recipe.title,
-        "cuisine": recipe.cuisine,
-        "prep_time": recipe.prep_time,
-        "servings": recipe.servings,
-        "steps": recipe.steps,
+        **recipe,
         "ingredients_enriched": enriched_ingredients,
         "unresolved_ingredients": unresolved_ingredients,
         "metadata": {
-            **recipe.metadata,
+            **recipe.get("metadata", {}),
             "enrichment_confidence": confidence,
         },
     }
