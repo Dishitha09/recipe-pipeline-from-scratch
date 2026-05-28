@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "reason": "finished",
+  "started_at": "2026-05-28T09:12:48.293576+00:00",
+  "finished_at": "2026-05-28T09:12:52.568957+00:00",
+  "scraped_count": 0,
+  "last_recipe_url": null,
+  "last_recipe_title": null,
+  "visited_urls_count": 98
+}

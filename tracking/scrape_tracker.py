@@ -6,37 +6,24 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-REGISTRY_PATH = Path(
-    "tracking/source_registry.json"
-)
+BASE_DIR = Path(__file__).resolve().parents[1]
+REGISTRY_PATH = BASE_DIR / "tracking" / "source_registry.json"
 
 
 def load_registry() -> List[Dict[str, Any]]:
-
     if not REGISTRY_PATH.exists():
         return []
 
     try:
-        return json.loads(
-            REGISTRY_PATH.read_text(
-                encoding="utf-8"
-            )
-        )
-
+        return json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     except Exception:
         return []
 
 
-def save_registry(
-    data: List[Dict[str, Any]]
-) -> None:
-
+def save_registry(data: List[Dict[str, Any]]) -> None:
+    REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
     REGISTRY_PATH.write_text(
-        json.dumps(
-            data,
-            indent=2,
-            ensure_ascii=False,
-        ),
+        json.dumps(data, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
 
@@ -46,15 +33,10 @@ def add_source(
     source_type: str,
     base_url: str,
 ) -> Dict[str, Any]:
-
     registry = load_registry()
 
     existing = next(
-        (
-            item
-            for item in registry
-            if item["base_url"] == base_url
-        ),
+        (item for item in registry if item["base_url"] == base_url),
         None,
     )
 
@@ -68,16 +50,12 @@ def add_source(
         "status": "pending",
         "recipes_scraped": 0,
         "last_scraped_at": None,
-        "created_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
+        "created_at": datetime.now(timezone.utc).isoformat(),
         "notes": "",
     }
 
     registry.append(source)
-
     save_registry(registry)
-
     return source
 
 
@@ -87,81 +65,36 @@ def update_source_status(
     recipes_scraped: int | None = None,
     notes: str | None = None,
 ) -> Dict[str, Any]:
-
     registry = load_registry()
 
     for source in registry:
-
         if source["base_url"] == base_url:
-
             source["status"] = status
-
-            source["last_scraped_at"] = (
-                datetime.now(
-                    timezone.utc
-                ).isoformat()
-            )
+            source["last_scraped_at"] = datetime.now(timezone.utc).isoformat()
 
             if recipes_scraped is not None:
-                source[
-                    "recipes_scraped"
-                ] = recipes_scraped
+                source["recipes_scraped"] = recipes_scraped
 
             if notes is not None:
                 source["notes"] = notes
 
             save_registry(registry)
-
             return source
 
-    raise ValueError(
-        f"Source not found: {base_url}"
-    )
+    raise ValueError(f"Source not found: {base_url}")
 
 
 def get_summary() -> Dict[str, Any]:
-
     registry = load_registry()
 
-    total_sources = len(registry)
-
-    completed = sum(
-        1
-        for item in registry
-        if item["status"] == "completed"
-    )
-
-    failed = sum(
-        1
-        for item in registry
-        if item["status"] == "failed"
-    )
-
-    pending = sum(
-        1
-        for item in registry
-        if item["status"] == "pending"
-    )
-
-    total_recipes = sum(
-        item.get(
-            "recipes_scraped",
-            0,
-        )
-        for item in registry
-    )
-
     return {
-        "total_sources": total_sources,
-        "completed_sources": completed,
-        "failed_sources": failed,
-        "pending_sources": pending,
-        "total_recipes_scraped": total_recipes,
+        "total_sources": len(registry),
+        "completed_sources": sum(1 for item in registry if item["status"] == "completed"),
+        "failed_sources": sum(1 for item in registry if item["status"] == "failed"),
+        "pending_sources": sum(1 for item in registry if item["status"] == "pending"),
+        "total_recipes_scraped": sum(item.get("recipes_scraped", 0) for item in registry),
     }
 
 
 if __name__ == "__main__":
-
-    summary = get_summary()
-
-    print(summary)
+    print(get_summary())

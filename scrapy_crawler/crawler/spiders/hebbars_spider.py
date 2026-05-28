@@ -1,10 +1,23 @@
+from __future__ import annotations
+
 import json
 import re
+import sys
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urlparse
 
 import scrapy
+
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from tracking.url_registry import record_url, mark_scraped  # noqa: E402
+
+
+CHECKPOINT_FILE = PROJECT_ROOT / "crawl_checkpoint.json"
 
 
 class HebbarsSpider(scrapy.Spider):
@@ -56,17 +69,39 @@ class HebbarsSpider(scrapy.Spider):
         "/search",
     )
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.scraped_count = 0
+        self.seen_urls = set()
+        self.started_at = datetime.now(timezone.utc).isoformat()
+        self.last_recipe_url = None
+        self.last_recipe_title = None
+
     def parse(self, response: scrapy.http.Response):
+        record_url(response.url, source_name="Hebbars Kitchen")
+
         recipe = self.extract_recipe(response)
         if recipe:
+            self.scraped_count += 1
+            self.last_recipe_url = response.url
+            self.last_recipe_title = recipe.get("title")
+            mark_scraped(response.url, recipe_found=True)
             yield recipe
+        else:
+            mark_scraped(response.url, recipe_found=False)
 
         for href in response.css("a::attr(href)").getall():
             if not href:
                 continue
 
             next_url = response.urljoin(href)
+
+            if next_url in self.seen_urls:
+                continue
+
             if self.should_follow(next_url):
+                self.seen_urls.add(next_url)
+                record_url(next_url, source_name="Hebbars Kitchen")
                 yield response.follow(next_url, callback=self.parse)
 
     def should_follow(self, url: str) -> bool:
@@ -239,3 +274,20 @@ class HebbarsSpider(scrapy.Spider):
                         steps.append(text)
 
         return steps
+
+    def closed(self, reason):
+        checkpoint = {
+            "status": "completed",
+            "reason": reason,
+            "started_at": self.started_at,
+            "finished_at": datetime.now(timezone.utc).isoformat(),
+            "scraped_count": self.scraped_count,
+            "last_recipe_url": self.last_recipe_url,
+            "last_recipe_title": self.last_recipe_title,
+            "visited_urls_count": len(self.seen_urls),
+        }
+
+        CHECKPOINT_FILE.write_text(
+            json.dumps(checkpoint, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )

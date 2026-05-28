@@ -1,0 +1,982 @@
+[
+  {
+    "url": "https://hebbarskitchen.com/",
+    "source_name": "Hebbars Kitchen",
+    "status": "failed",
+    "discovered_at": "2026-05-28T09:12:50.427680+00:00",
+    "scraped_at": "2026-05-28T09:12:50.443805+00:00",
+    "recipe_found": false,
+    "attempts": 1,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/breakfast-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.455421+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/south-indian-dosa-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.467675+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/south-indian-idli-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.481230+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-chutney-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.494988+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/sandwich-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.509497+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-rice-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.524350+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/biryani/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.542379+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/pulao-recipe-veg-pulav-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.562957+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/top-paneer-recipes-paneer-curries/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.581015+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-snacks-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.599817+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/starters-or-entree-course-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.621281+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/appetizer-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.644900+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/side-dish-course-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.669587+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-street-food-cuisines-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.689826+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-chaat-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.712467+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-curry-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.732314+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-dal-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.757611+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/rasam-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.779595+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/sambar-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.800374+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/homemade-sauce-dips-condiments-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.821608+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-sweets-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.840859+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/eggless-cakes-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.859519+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/dessert-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.878775+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/lunch-course-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.897983+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-roti-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.918310+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indian-paratha-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.936183+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/soup-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.957766+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/salad-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:50.981524+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/raita-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.003871+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/tambli-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.028181+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/pickle-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.048278+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/mango-shrikhand-recipe-amrakhand-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.071089+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/badam-puri-recipe-badam-poori-badam-puri/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.105362+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/easy-malpua-recipe-malpura-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.126549+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/matar-kachori-recipe-peas-kachori-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.147288+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/banana-appam-recipe-banana-paniyaram/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.194909+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/punjabi-dal-makhani-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.222931+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.254645+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/palak-paneer-recipe-restaurant-style/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.274770+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.297139+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/masala-pav-recipe-bhaji-masala-pav/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.317701+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/tangy-tomato-chutney-recipe-idli-dosa/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.339045+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/idli-dosa-batter-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.359385+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/diwali-sweets/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.382239+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/milk-powder-gulab-jamun-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.405969+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/veg-fried-rice-vegetable-fried-rice/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.427938+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/dinner-course-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.450789+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/white-chocolate-recipe-milk-chocolate/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.473551+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/buttermilk-vada-recipe-instant-mor-vadai/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.496250+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/green-chutney-recipe-hari-chutney/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.518074+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/panchamrit-recipe-panchamrut-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.544148+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/celebrations-rituals-traditions/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.565607+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/bisi-bele-bath-recipe-bisibelabath-rice/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.586667+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/upma-recipe-3-ways-sooji-upma-rava-upma/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.607672+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/besan-toast-recipe-besan-bread-toast/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.627254+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/besan-toast-recipe-besan-bread-toast/#comments",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.647800+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/choco-bar-recipe-chocobar-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.669372+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/choco-bar-recipe-chocobar-recipe/#respond",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.691734+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/rava-cake-recipe-suji-cake-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.714807+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/rava-cake-recipe-suji-cake-recipe/#respond",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.739417+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/veg-burnt-garlic-fried-rice-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.761861+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/indo-chinese-cuisines-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.783860+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/veg-burnt-garlic-fried-rice-recipe/#respond",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.806927+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/pani-puri-recipe-golgappa-recipe-puchka/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.828734+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/pani-puri-recipe-golgappa-recipe-puchka/#comments",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.852046+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-puri-recipe-aloo-ki-poori-masala-2/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.874426+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-puri-recipe-aloo-ki-poori-masala-2/#respond",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.899852+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/instant-oats-idli-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.921386+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/nuchinunde-recipe-steamed-lentil/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.943056+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/bedmi-puri-recipe-crispy-bedmi-poori/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.961639+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-masala-grilled-sandwich-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:51.981282+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-toast-recipe-aloo-bread-toast/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.000928+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/grilled-chilli-cheese-sandwich-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.021948+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-frankie-recipe-alu-paneer-frankie/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.041316+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/gluten-free-diet-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.064078+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/vegan-diet-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.087971+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/no-onion-no-garlic-diet-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.111349+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aate-ki-pinni-recipe-atta-pinni-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.134121+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/sugar-free-dry-fruit-barfi-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.159942+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/kozhukattai-recipe-kolukattai-recipe/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.185446+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/bombay-ice-halwa-recipe-mahim-halwa/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.211524+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/palak-chaat-recipe-palak-pakoda-chaat/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.235524+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/crispy-veg-starter-recipe-veg-crispy/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.258473+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/aloo-kachori-recipe-aloo-ki-kachori/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.280403+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/chilli-cheese-toast-recipe-tawa/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.302391+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/lunch-ideas-or-thali-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.322290+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/biryani-recipes-easy-veg-biryani-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.340917+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/vrat-recipes-navratri-vrat-festival/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.360901+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/junkfood-diet-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.382170+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/cocktail-samosa-recipe-party-samosa/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.402965+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/cooking-tips-tricks-methods/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.425338+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/kashmiri-pulao-recipe-saffron-rice/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.447315+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/brownie-recipe-chocolate-brownies/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.468970+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/roti-pizza-recipe-pizza-roti-chapati-2/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.493543+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/instant-recipes/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.507001+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/recipes/recipes-collection/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.532500+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  },
+  {
+    "url": "https://hebbarskitchen.com/hebbars-kitchen-recipes-videos/",
+    "source_name": "Hebbars Kitchen",
+    "status": "discovered",
+    "discovered_at": "2026-05-28T09:12:52.556232+00:00",
+    "scraped_at": null,
+    "recipe_found": null,
+    "attempts": 0,
+    "last_error": null
+  }
+]
