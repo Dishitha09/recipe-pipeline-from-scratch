@@ -6,24 +6,37 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-REGISTRY_PATH = Path("tracking/source_registry.json")
+REGISTRY_PATH = Path(
+    "tracking/source_registry.json"
+)
 
 
 def load_registry() -> List[Dict[str, Any]]:
+
     if not REGISTRY_PATH.exists():
         return []
 
     try:
         return json.loads(
-            REGISTRY_PATH.read_text(encoding="utf-8")
+            REGISTRY_PATH.read_text(
+                encoding="utf-8"
+            )
         )
+
     except Exception:
         return []
 
 
-def save_registry(data: List[Dict[str, Any]]) -> None:
+def save_registry(
+    data: List[Dict[str, Any]]
+) -> None:
+
     REGISTRY_PATH.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False),
+        json.dumps(
+            data,
+            indent=2,
+            ensure_ascii=False,
+        ),
         encoding="utf-8",
     )
 
@@ -78,17 +91,21 @@ def update_source_status(
     registry = load_registry()
 
     for source in registry:
+
         if source["base_url"] == base_url:
 
             source["status"] = status
 
             source["last_scraped_at"] = (
-                datetime.now(timezone.utc)
-                .isoformat()
+                datetime.now(
+                    timezone.utc
+                ).isoformat()
             )
 
             if recipes_scraped is not None:
-                source["recipes_scraped"] = recipes_scraped
+                source[
+                    "recipes_scraped"
+                ] = recipes_scraped
 
             if notes is not None:
                 source["notes"] = notes
@@ -127,7 +144,10 @@ def get_summary() -> Dict[str, Any]:
     )
 
     total_recipes = sum(
-        item.get("recipes_scraped", 0)
+        item.get(
+            "recipes_scraped",
+            0,
+        )
         for item in registry
     )
 
@@ -141,12 +161,6 @@ def get_summary() -> Dict[str, Any]:
 
 
 if __name__ == "__main__":
-
-    add_source(
-        source_name="Hebbars Kitchen",
-        source_type="web",
-        base_url="https://hebbarskitchen.com",
-    )
 
     summary = get_summary()
 

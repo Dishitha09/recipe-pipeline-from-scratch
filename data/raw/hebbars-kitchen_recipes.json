@@ -1,0 +1,2451 @@
+{
+  "source_name": "Hebbars Kitchen",
+  "recipes": [
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/",
+      "scraped_at": "2026-05-28T04:45:50.092438+00:00",
+      "title": "Paneer Butter Masala Recipe - Restaurant Style",
+      "cuisine": [
+        "punjabi"
+      ],
+      "prep_time": "PT10M",
+      "servings": [
+        "5",
+        "5 Servings"
+      ],
+      "ingredients": [
+        "2 tbsp oil",
+        "1 tsp butter",
+        "1 tsp cumin",
+        "1 inch cinnamon",
+        "4  cloves",
+        "1 pod  black cardamom",
+        "1  bay leaf",
+        "2  onion (sliced)",
+        "5 cloves garlic",
+        "1 inch ginger",
+        "3  tomato (sliced)",
+        "3 tbsp cashew",
+        "1 cup water",
+        "2 tsp oil",
+        "1 tbsp butter",
+        "½ tsp turmeric",
+        "1 tsp chilli powder",
+        "½ tsp cumin powder",
+        "½ tsp coriander powder",
+        "½ tsp garam masala",
+        "1 tsp salt",
+        "1 tsp sugar",
+        "2 tbsp cream",
+        "20  cubes paneer",
+        "2 tbsp kasuri methi (crushed)",
+        "2 tbsp coriander (finely chopped)"
+      ],
+      "steps": [
+        "Firstly, in a wok, heat 2 tbsp oil, 1 tsp butter, and saute spices. I have added 1 tsp of cumin, 1 inch of cinnamon, 4 cloves, 1 pod of black cardamom, and 1 bay leaf.",
+        "Once the spices have turned aromatic, add 2 onions, 5 cloves of garlic, and 1 inch of ginger, and sauté until the onions soften.",
+        "Also add 3 tomatoes, 3 tbsp cashew and saute for a minute.",
+        "Now add 1 cup water, cover and boil for 5 to 10 minutes.",
+        "Once the tomatoes are cooked well, discard the bay leaf and allow the mixture to cool completely.",
+        "Now grind to a smooth paste. Filter out to get a silky smooth texture. Keep aside.",
+        "In a wok ,heat 2 tsp oil and 1 tbsp butter.",
+        "Once the oil is heated, add ½ tsp turmeric, 1 tsp chilli powder, ½ tsp cumin powder, ½ tsp coriander powder and ½ tsp garam masala.",
+        "Sauté till the spices turn aromatic.",
+        "Add in the prepared tomato onion base and cook well.",
+        "Keep cooking and boil for 5 minutes, until the mixture is well-cooked.",
+        "Now add 1 tsp salt, 1 tsp sugar, 2 tbsp cream and mix well.",
+        "Add 20 cubes paneer and simmer for 5 minutes till the flavours are absorbed.",
+        "Add 2 tbsp kasuri methi and 2 tbsp coriander. Mix well.",
+        "Finally, enjoy Paneer Butter Masala Recipe with roti."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "Paneer Butter Masala Recipe - Restaurant Style",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "Easy Paneer Butter Masala Recipe | Butter Paneer Recipe | Cheese Butter Masala",
+        "datePublished": "2025-07-29T10:53:18+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2025/07/Paneer-Butter-Masala-Recipe-Restaurant-Style-2-scaled.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2025/07/Paneer-Butter-Masala-Recipe-Restaurant-Style-2-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2025/07/Paneer-Butter-Masala-Recipe-Restaurant-Style-2-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2025/07/Paneer-Butter-Masala-Recipe-Restaurant-Style-2-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "5",
+          "5 Servings"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT40M",
+        "totalTime": "PT50M",
+        "recipeIngredient": [
+          "2 tbsp oil",
+          "1 tsp butter",
+          "1 tsp cumin",
+          "1 inch cinnamon",
+          "4  cloves",
+          "1 pod  black cardamom",
+          "1  bay leaf",
+          "2  onion (sliced)",
+          "5 cloves garlic",
+          "1 inch ginger",
+          "3  tomato (sliced)",
+          "3 tbsp cashew",
+          "1 cup water",
+          "2 tsp oil",
+          "1 tbsp butter",
+          "½ tsp turmeric",
+          "1 tsp chilli powder",
+          "½ tsp cumin powder",
+          "½ tsp coriander powder",
+          "½ tsp garam masala",
+          "1 tsp salt",
+          "1 tsp sugar",
+          "2 tbsp cream",
+          "20  cubes paneer",
+          "2 tbsp kasuri methi (crushed)",
+          "2 tbsp coriander (finely chopped)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Firstly, in a wok, heat 2 tbsp oil, 1 tsp butter, and saute spices. I have added 1 tsp of cumin, 1 inch of cinnamon, 4 cloves, 1 pod of black cardamom, and 1 bay leaf.",
+            "name": "Firstly, in a wok, heat 2 tbsp oil, 1 tsp butter, and saute spices. I have added 1 tsp of cumin, 1 inch of cinnamon, 4 cloves, 1 pod of black cardamom, and 1 bay leaf.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Once the spices have turned aromatic, add 2 onions, 5 cloves of garlic, and 1 inch of ginger, and sauté until the onions soften.",
+            "name": "Once the spices have turned aromatic, add 2 onions, 5 cloves of garlic, and 1 inch of ginger, and sauté until the onions soften.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Also add 3 tomatoes, 3 tbsp cashew and saute for a minute.",
+            "name": "Also add 3 tomatoes, 3 tbsp cashew and saute for a minute.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Now add 1 cup water, cover and boil for 5 to 10 minutes.",
+            "name": "Now add 1 cup water, cover and boil for 5 to 10 minutes.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Once the tomatoes are cooked well, discard the bay leaf and allow the mixture to cool completely.",
+            "name": "Once the tomatoes are cooked well, discard the bay leaf and allow the mixture to cool completely.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Now grind to a smooth paste. Filter out to get a silky smooth texture. Keep aside.",
+            "name": "Now grind to a smooth paste. Filter out to get a silky smooth texture. Keep aside.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "In a wok ,heat 2 tsp oil and 1 tbsp butter.",
+            "name": "In a wok ,heat 2 tsp oil and 1 tbsp butter.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Once the oil is heated, add ½ tsp turmeric, 1 tsp chilli powder, ½ tsp cumin powder, ½ tsp coriander powder and ½ tsp garam masala.",
+            "name": "Once the oil is heated, add ½ tsp turmeric, 1 tsp chilli powder, ½ tsp cumin powder, ½ tsp coriander powder and ½ tsp garam masala.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Sauté till the spices turn aromatic.",
+            "name": "Sauté till the spices turn aromatic.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add in the prepared tomato onion base and cook well.",
+            "name": "Add in the prepared tomato onion base and cook well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-9"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Keep cooking and boil for 5 minutes, until the mixture is well-cooked.",
+            "name": "Keep cooking and boil for 5 minutes, until the mixture is well-cooked.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-10"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Now add 1 tsp salt, 1 tsp sugar, 2 tbsp cream and mix well.",
+            "name": "Now add 1 tsp salt, 1 tsp sugar, 2 tbsp cream and mix well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-11"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add 20 cubes paneer and simmer for 5 minutes till the flavours are absorbed.",
+            "name": "Add 20 cubes paneer and simmer for 5 minutes till the flavours are absorbed.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-12"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add 2 tbsp kasuri methi and 2 tbsp coriander. Mix well.",
+            "name": "Add 2 tbsp kasuri methi and 2 tbsp coriander. Mix well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-13"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Finally, enjoy Paneer Butter Masala Recipe with roti.",
+            "name": "Finally, enjoy Paneer Butter Masala Recipe with roti.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#wprm-recipe-146574-step-0-14"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.96",
+          "ratingCount": "359",
+          "reviewCount": "4"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "I Enjoyed making this. I found it very easy to do!!!",
+            "author": {
+              "@type": "Person",
+              "name": "Karan Murali"
+            },
+            "datePublished": "2026-02-17"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Tried. Tastes great.",
+            "author": {
+              "@type": "Person",
+              "name": "Vijayalakshmi"
+            },
+            "datePublished": "2026-01-09"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Loved it! Tasted just like the kind we get at restaurants. I blindly trust your recipes. Every dish I cook from here turns out perfect!",
+            "author": {
+              "@type": "Person",
+              "name": "Trishika"
+            },
+            "datePublished": "2025-03-07"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Best curry I've ever made! So simple and versatile, will absolutely make it again!",
+            "author": {
+              "@type": "Person",
+              "name": "Jonathan"
+            },
+            "datePublished": "2024-11-21"
+          }
+        ],
+        "recipeCategory": [
+          "curries"
+        ],
+        "recipeCuisine": [
+          "punjabi"
+        ],
+        "keywords": "Butter Paneer Recipe, Cheese Butter Masala, paneer butter masala recipe",
+        "@id": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/paneer-butter-masala-recipe/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/paneer-butter-masala-recipe/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/",
+      "scraped_at": "2026-05-28T04:45:51.464348+00:00",
+      "title": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa",
+      "cuisine": [
+        "south indian"
+      ],
+      "prep_time": "PT20M",
+      "servings": [
+        "30",
+        "30 dosa"
+      ],
+      "ingredients": [
+        "3 cup sona masuri rice",
+        "½ tsp methi / fenugreek seeds",
+        "water (for soaking)",
+        "1 cup urad dal",
+        "2 tbsp toor dal",
+        "2 tbsp chana dal",
+        "1 cup poha / avalakki (rinsed)",
+        "2 tbsp oil",
+        "1 tsp mustard",
+        "1 tsp urad dal",
+        "1 tsp chana dal",
+        "1  dried red chilli",
+        "few curry leaves",
+        "pinch hing / asafoetida",
+        "2  chilli (finely chopped)",
+        "1 inch ginger (finely chopped)",
+        "1  onion (sliced)",
+        "¼ tsp turmeric",
+        "1 tsp salt",
+        "3  potato (boiled &amp; mashed)",
+        "2 tbsp coriander (finely chopped)",
+        "2 tbsp lemon juice"
+      ],
+      "steps": [
+        "firstly, in a large bowl take 3 cup sona masuri rice and ½ tsp methi.",
+        "rinse well and soak in enough water for 4 hours.",
+        "in another bowl take 1 cup urad dal, 2 tbsp toor dal and 2 tbsp chana dal.",
+        "rinse well and soak in enough water for 2 hours.",
+        "after soaking dal for 2 hours, drain off the water and transfer to the grinder. you can also grind in mixi if you do not have access to a grinder.",
+        "add water as required and blend to smooth paste.",
+        "scrape sides. the smooth and fluffy batter will be ready after 40 minutes.",
+        "transfer the batter to a large vessel and keep aside.",
+        "in the same grinder add soaked rice and 1 cup rinsed poha.",
+        "add water slowly and scrape the sides. blend to a coarse paste.",
+        "transfer the rice batter to the same urad dal batter.",
+        "mix well making sure everything is well combined.",
+        "ferment in a warm place for at least 8 hours or until the batter doubles in volume. if you are living in a cold climate, then you can place the batter in the warm oven (just heat the oven until it turns slightly warm and then turn off) to ferment.",
+        "once the batter is well fermented, mix gently, without disturbing the air pockets.",
+        "transfer 4 cups of fermented batter to a small bowl and add 1 tsp salt.",
+        "mix well until the salt is well combined. masala dosa batter is ready. keep aside.",
+        "firstly, in a large kadai heat 2 tbsp oil and splutter 1 tsp mustard, 1 tsp urad dal, 1 tsp chana dal, 1 dried red chilli, few curry leaves, pinch hing.",
+        "now add 2 chilli and 1 inch ginger. saute well.",
+        "also, add 1 onion and saute until onions shrink slightly.",
+        "further, add ¼ tsp turmeric and 1 tsp salt. saute well.",
+        "now add 3 potato and mix well, mash slightly making sure everything is well combined.",
+        "turn off the flame and add 2 tbsp coriander and 2 tbsp lemon juice.",
+        "mix well and aloo bhaji for masala dosa is ready. keep aside.",
+        "firstly, add a ladleful of batter on hot tawa.",
+        "spread as thin as possible making a crispy dosa.",
+        "take 1 tsp of butter and spread uniformly.",
+        "also, place 2 tbsp of prepared aloo masala in the centre.",
+        "roast until the dosa turns golden brown and crisp.",
+        "scrape the sides of dosa and roll the dosa.",
+        "finally, masala dosa recipe is ready to serve with coconut chutney and sambar."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "Easy Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa",
+        "datePublished": "2026-04-04T12:18:52+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2020/07/masala-dosa-recipe-crispy-masale-dose-how-to-make-masala-dosa-2-scaled.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/07/masala-dosa-recipe-crispy-masale-dose-how-to-make-masala-dosa-2-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/07/masala-dosa-recipe-crispy-masale-dose-how-to-make-masala-dosa-2-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/07/masala-dosa-recipe-crispy-masale-dose-how-to-make-masala-dosa-2-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "30",
+          "30 dosa"
+        ],
+        "prepTime": "PT20M",
+        "cookTime": "PT45M",
+        "totalTime": "PT545M",
+        "recipeIngredient": [
+          "3 cup sona masuri rice",
+          "½ tsp methi / fenugreek seeds",
+          "water (for soaking)",
+          "1 cup urad dal",
+          "2 tbsp toor dal",
+          "2 tbsp chana dal",
+          "1 cup poha / avalakki (rinsed)",
+          "2 tbsp oil",
+          "1 tsp mustard",
+          "1 tsp urad dal",
+          "1 tsp chana dal",
+          "1  dried red chilli",
+          "few curry leaves",
+          "pinch hing / asafoetida",
+          "2  chilli (finely chopped)",
+          "1 inch ginger (finely chopped)",
+          "1  onion (sliced)",
+          "¼ tsp turmeric",
+          "1 tsp salt",
+          "3  potato (boiled &amp; mashed)",
+          "2 tbsp coriander (finely chopped)",
+          "2 tbsp lemon juice"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToSection",
+            "name": "masala dosa batter preparation:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large bowl take 3 cup sona masuri rice and ½ tsp methi.",
+                "name": "firstly, in a large bowl take 3 cup sona masuri rice and ½ tsp methi.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "rinse well and soak in enough water for 4 hours.",
+                "name": "rinse well and soak in enough water for 4 hours.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "in another bowl take 1 cup urad dal, 2 tbsp toor dal and 2 tbsp chana dal.",
+                "name": "in another bowl take 1 cup urad dal, 2 tbsp toor dal and 2 tbsp chana dal.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "rinse well and soak in enough water for 2 hours.",
+                "name": "rinse well and soak in enough water for 2 hours.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "after soaking dal for 2 hours, drain off the water and transfer to the grinder. you can also grind in mixi if you do not have access to a grinder.",
+                "name": "after soaking dal for 2 hours, drain off the water and transfer to the grinder. you can also grind in mixi if you do not have access to a grinder.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add water as required and blend to smooth paste.",
+                "name": "add water as required and blend to smooth paste.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "scrape sides. the smooth and fluffy batter will be ready after 40 minutes.",
+                "name": "scrape sides. the smooth and fluffy batter will be ready after 40 minutes.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-6"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "transfer the batter to a large vessel and keep aside.",
+                "name": "transfer the batter to a large vessel and keep aside.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-7"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "in the same grinder add soaked rice and 1 cup rinsed poha.",
+                "name": "in the same grinder add soaked rice and 1 cup rinsed poha.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-8"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add water slowly and scrape the sides. blend to a coarse paste.",
+                "name": "add water slowly and scrape the sides. blend to a coarse paste.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-9"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "transfer the rice batter to the same urad dal batter.",
+                "name": "transfer the rice batter to the same urad dal batter.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-10"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "mix well making sure everything is well combined.",
+                "name": "mix well making sure everything is well combined.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-11"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "ferment in a warm place for at least 8 hours or until the batter doubles in volume. if you are living in a cold climate, then you can place the batter in the warm oven (just heat the oven until it turns slightly warm and then turn off) to ferment.",
+                "name": "ferment in a warm place for at least 8 hours or until the batter doubles in volume. if you are living in a cold climate, then you can place the batter in the warm oven (just heat the oven until it turns slightly warm and then turn off) to ferment.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-12"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "once the batter is well fermented, mix gently, without disturbing the air pockets.",
+                "name": "once the batter is well fermented, mix gently, without disturbing the air pockets.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-13"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "transfer 4 cups of fermented batter to a small bowl and add 1 tsp salt.",
+                "name": "transfer 4 cups of fermented batter to a small bowl and add 1 tsp salt.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-14"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "mix well until the salt is well combined. masala dosa batter is ready. keep aside.",
+                "name": "mix well until the salt is well combined. masala dosa batter is ready. keep aside.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-0-15"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "aloo bhaji preparation:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large kadai heat 2 tbsp oil and splutter 1 tsp mustard, 1 tsp urad dal, 1 tsp chana dal, 1 dried red chilli, few curry leaves, pinch hing.",
+                "name": "firstly, in a large kadai heat 2 tbsp oil and splutter 1 tsp mustard, 1 tsp urad dal, 1 tsp chana dal, 1 dried red chilli, few curry leaves, pinch hing.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add 2 chilli and 1 inch ginger. saute well.",
+                "name": "now add 2 chilli and 1 inch ginger. saute well.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "also, add 1 onion and saute until onions shrink slightly.",
+                "name": "also, add 1 onion and saute until onions shrink slightly.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further, add ¼ tsp turmeric and 1 tsp salt. saute well.",
+                "name": "further, add ¼ tsp turmeric and 1 tsp salt. saute well.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add 3 potato and mix well, mash slightly making sure everything is well combined.",
+                "name": "now add 3 potato and mix well, mash slightly making sure everything is well combined.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "turn off the flame and add 2 tbsp coriander and 2 tbsp lemon juice.",
+                "name": "turn off the flame and add 2 tbsp coriander and 2 tbsp lemon juice.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "mix well and aloo bhaji for masala dosa is ready. keep aside.",
+                "name": "mix well and aloo bhaji for masala dosa is ready. keep aside.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-1-6"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "masala dosa preparation:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, add a ladleful of batter on hot tawa.",
+                "name": "firstly, add a ladleful of batter on hot tawa.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "spread as thin as possible making a crispy dosa.",
+                "name": "spread as thin as possible making a crispy dosa.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "take 1 tsp of butter and spread uniformly.",
+                "name": "take 1 tsp of butter and spread uniformly.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "also, place 2 tbsp of prepared aloo masala in the centre.",
+                "name": "also, place 2 tbsp of prepared aloo masala in the centre.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "roast until the dosa turns golden brown and crisp.",
+                "name": "roast until the dosa turns golden brown and crisp.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "scrape the sides of dosa and roll the dosa.",
+                "name": "scrape the sides of dosa and roll the dosa.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, masala dosa recipe is ready to serve with coconut chutney and sambar.",
+                "name": "finally, masala dosa recipe is ready to serve with coconut chutney and sambar.",
+                "url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#wprm-recipe-123449-step-2-6"
+              }
+            ]
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.98",
+          "ratingCount": "334"
+        },
+        "recipeCategory": [
+          "dosa"
+        ],
+        "recipeCuisine": [
+          "south indian"
+        ],
+        "keywords": "masala dosa recipe",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "40 kcal",
+          "carbohydrateContent": "6 g",
+          "proteinContent": "2 g",
+          "fatContent": "1 g",
+          "saturatedFatContent": "1 g",
+          "sodiumContent": "81 mg",
+          "fiberContent": "2 g",
+          "sugarContent": "1 g",
+          "servingSize": "1 serving"
+        },
+        "@id": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/",
+      "scraped_at": "2026-05-28T04:45:52.874190+00:00",
+      "title": "chole bhature recipe | chhole bhature | chana bhatura | chola batura",
+      "cuisine": [
+        "Indian"
+      ],
+      "prep_time": "PT10M",
+      "servings": [
+        "8",
+        "8 bhatura"
+      ],
+      "ingredients": [
+        "2 cup maida",
+        "2 tbsp rava / semolina (fine)",
+        "1 tsp sugar",
+        "¼ tsp baking soda",
+        "1 tsp sugar",
+        "½ tsp salt",
+        "2 tbsp oil",
+        "¼ cup curd",
+        "water (for kneading)",
+        "oil (for frying)",
+        "1 cup chana / chickpea (soaked overnight)",
+        "2  tea bags",
+        "¼ tsp baking soda",
+        "1 tsp salt",
+        "3 cup water",
+        "2 tbsp oil",
+        "1  bay leaf",
+        "1  black cardamom",
+        "2  pod cardamom",
+        "1 inch cinnamon",
+        "1 tsp cumin / jeera",
+        "½ tsp kasuri methi",
+        "1  onion (finely chopped)",
+        "1 tsp ginger garlic paste",
+        "¼ tsp turmeric",
+        "1 tsp chilli powder",
+        "1 tsp coriander powder",
+        "½ tsp cumin powder",
+        "½ tsp garam masala",
+        "1 tsp aamchur",
+        "¼ tsp salt",
+        "1½ cup tomato puree",
+        "2 tbsp coriander (finely chopped)",
+        "1 tbsp ghee / clarified butter",
+        "2  chilli (slit)",
+        "¼ tsp turmeric",
+        "¼ tsp chilli powder",
+        "¼ tsp garam masala"
+      ],
+      "steps": [
+        "firstly, in a large bowl take 2 cup maida, 2 tbsp rava, 1 tsp sugar, ¼ tsp baking soda, 1 tsp sugar, ½ tsp salt and 2 tbsp oil. mix well.",
+        "now add ¼ cup curd and mix well making sure everything is well combined.",
+        "further, add water as required and knead the dough.",
+        "knead to the smooth and soft dough without putting much pressure.",
+        "grease the dough with oil, cover and rest for 2 hours",
+        "after 2 hours, knead the dough slightly.",
+        "pinch a ball sized dough and make a ball without andy cracks.",
+        "roll slightly thick, applying oil to prevent from sticking.",
+        "drop the rolled dough into the hot oil.",
+        "press until the bhature puffs up and splash oil to puff up fully.",
+        "flip over and fry until it turns golden brown.",
+        "finally, drain off the bhatura and is ready to enjoy with chole masala.",
+        "firstly, in a pressure cooker take soaked chana. i have soaked 1 cup chana in enough water for 8 hours.",
+        "add 2 tea bags, ¼ tsp baking soda, 1 tsp salt and 3 cup water.",
+        "cover and pressure cook for 5 whistles. if you do not have tea bags, then you can prepare tea decoction and add to cooker.",
+        "once the pressure releases, open the cooker and discard the tea bags. keep aside.",
+        "in a large kadai, heat 2 tbsp oil, 1 bay leaf, 1 black cardamom, 2 pod cardamom, 1 inch cinnamon, 1 tsp cumin, ½ tsp kasuri methi. saute on low flame until the spices turn aroamtic.",
+        "now add 1 onion, 1 tsp ginger garlic paste and saute until onions turn golden brown.",
+        "add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder, ½ tsp cumin powder, ½ tsp garam masala, 1 tsp aamchur and ¼ tsp salt.",
+        "saute on low flame until the spices turn aromatic.",
+        "further add 1½ cup tomato puree and saute until the oil separates. to prepare tomato puree, i have blended 2½ ripened tomatoes in blender without adding water.",
+        "now add boiled chole and mix well. adjust consistency by adding water if required.",
+        "cover and simmer for 10 minutes, or until chole absorbs all the flavour.",
+        "to prepare the tempering, heat 1 tbsp ghee in a pan.",
+        "add 2 chilli, ¼ tsp turmeri, ¼ tsp chilli powder and ¼ tsp garam masala.",
+        "saute on low flame without burning the spices.",
+        "pour the tempering over the chole masala, add 2 tbsp coriander and mix well.",
+        "finally, chole bhature is ready to enjoy with some onions."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "chole bhature recipe | chhole bhature | chana bhatura | chola batura",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy chole bhature recipe | chhole bhature | chana bhatura | chola batura",
+        "datePublished": "2020-12-23T22:25:16+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2020/11/chole-bhature-recipe-chhole-bhature-chana-bhatura-chola-batura-2-scaled.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/11/chole-bhature-recipe-chhole-bhature-chana-bhatura-chola-batura-2-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/11/chole-bhature-recipe-chhole-bhature-chana-bhatura-chola-batura-2-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/11/chole-bhature-recipe-chhole-bhature-chana-bhatura-chola-batura-2-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "8",
+          "8 bhatura"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT15M",
+        "totalTime": "PT145M",
+        "recipeIngredient": [
+          "2 cup maida",
+          "2 tbsp rava / semolina (fine)",
+          "1 tsp sugar",
+          "¼ tsp baking soda",
+          "1 tsp sugar",
+          "½ tsp salt",
+          "2 tbsp oil",
+          "¼ cup curd",
+          "water (for kneading)",
+          "oil (for frying)",
+          "1 cup chana / chickpea (soaked overnight)",
+          "2  tea bags",
+          "¼ tsp baking soda",
+          "1 tsp salt",
+          "3 cup water",
+          "2 tbsp oil",
+          "1  bay leaf",
+          "1  black cardamom",
+          "2  pod cardamom",
+          "1 inch cinnamon",
+          "1 tsp cumin / jeera",
+          "½ tsp kasuri methi",
+          "1  onion (finely chopped)",
+          "1 tsp ginger garlic paste",
+          "¼ tsp turmeric",
+          "1 tsp chilli powder",
+          "1 tsp coriander powder",
+          "½ tsp cumin powder",
+          "½ tsp garam masala",
+          "1 tsp aamchur",
+          "¼ tsp salt",
+          "1½ cup tomato puree",
+          "2 tbsp coriander (finely chopped)",
+          "1 tbsp ghee / clarified butter",
+          "2  chilli (slit)",
+          "¼ tsp turmeric",
+          "¼ tsp chilli powder",
+          "¼ tsp garam masala"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToSection",
+            "name": "how to make bhatura recipe:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large bowl take 2 cup maida, 2 tbsp rava, 1 tsp sugar, ¼ tsp baking soda, 1 tsp sugar, ½ tsp salt and 2 tbsp oil. mix well.",
+                "name": "firstly, in a large bowl take 2 cup maida, 2 tbsp rava, 1 tsp sugar, ¼ tsp baking soda, 1 tsp sugar, ½ tsp salt and 2 tbsp oil. mix well.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add ¼ cup curd and mix well making sure everything is well combined.",
+                "name": "now add ¼ cup curd and mix well making sure everything is well combined.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further, add water as required and knead the dough.",
+                "name": "further, add water as required and knead the dough.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "knead to the smooth and soft dough without putting much pressure.",
+                "name": "knead to the smooth and soft dough without putting much pressure.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "grease the dough with oil, cover and rest for 2 hours",
+                "name": "grease the dough with oil, cover and rest for 2 hours",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "after 2 hours, knead the dough slightly.",
+                "name": "after 2 hours, knead the dough slightly.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "pinch a ball sized dough and make a ball without andy cracks.",
+                "name": "pinch a ball sized dough and make a ball without andy cracks.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-6"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "roll slightly thick, applying oil to prevent from sticking.",
+                "name": "roll slightly thick, applying oil to prevent from sticking.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-7"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "drop the rolled dough into the hot oil.",
+                "name": "drop the rolled dough into the hot oil.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-8"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "press until the bhature puffs up and splash oil to puff up fully.",
+                "name": "press until the bhature puffs up and splash oil to puff up fully.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-9"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "flip over and fry until it turns golden brown.",
+                "name": "flip over and fry until it turns golden brown.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-10"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, drain off the bhatura and is ready to enjoy with chole masala.",
+                "name": "finally, drain off the bhatura and is ready to enjoy with chole masala.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-0-11"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "how to make chole recipe for batura:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a pressure cooker take soaked chana. i have soaked 1 cup chana in enough water for 8 hours.",
+                "name": "firstly, in a pressure cooker take soaked chana. i have soaked 1 cup chana in enough water for 8 hours.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add 2 tea bags, ¼ tsp baking soda, 1 tsp salt and 3 cup water.",
+                "name": "add 2 tea bags, ¼ tsp baking soda, 1 tsp salt and 3 cup water.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "cover and pressure cook for 5 whistles. if you do not have tea bags, then you can prepare tea decoction and add to cooker.",
+                "name": "cover and pressure cook for 5 whistles. if you do not have tea bags, then you can prepare tea decoction and add to cooker.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "once the pressure releases, open the cooker and discard the tea bags. keep aside.",
+                "name": "once the pressure releases, open the cooker and discard the tea bags. keep aside.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "in a large kadai, heat 2 tbsp oil, 1 bay leaf, 1 black cardamom, 2 pod cardamom, 1 inch cinnamon, 1 tsp cumin, ½ tsp kasuri methi. saute on low flame until the spices turn aroamtic.",
+                "name": "in a large kadai, heat 2 tbsp oil, 1 bay leaf, 1 black cardamom, 2 pod cardamom, 1 inch cinnamon, 1 tsp cumin, ½ tsp kasuri methi. saute on low flame until the spices turn aroamtic.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add 1 onion, 1 tsp ginger garlic paste and saute until onions turn golden brown.",
+                "name": "now add 1 onion, 1 tsp ginger garlic paste and saute until onions turn golden brown.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder, ½ tsp cumin powder, ½ tsp garam masala, 1 tsp aamchur and ¼ tsp salt.",
+                "name": "add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder, ½ tsp cumin powder, ½ tsp garam masala, 1 tsp aamchur and ¼ tsp salt.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-6"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "saute on low flame until the spices turn aromatic.",
+                "name": "saute on low flame until the spices turn aromatic.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-7"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further add 1½ cup tomato puree and saute until the oil separates. to prepare tomato puree, i have blended 2½ ripened tomatoes in blender without adding water.",
+                "name": "further add 1½ cup tomato puree and saute until the oil separates. to prepare tomato puree, i have blended 2½ ripened tomatoes in blender without adding water.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-8"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add boiled chole and mix well. adjust consistency by adding water if required.",
+                "name": "now add boiled chole and mix well. adjust consistency by adding water if required.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-9"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "cover and simmer for 10 minutes, or until chole absorbs all the flavour.",
+                "name": "cover and simmer for 10 minutes, or until chole absorbs all the flavour.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-10"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "to prepare the tempering, heat 1 tbsp ghee in a pan.",
+                "name": "to prepare the tempering, heat 1 tbsp ghee in a pan.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-11"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add 2 chilli, ¼ tsp turmeri, ¼ tsp chilli powder and ¼ tsp garam masala.",
+                "name": "add 2 chilli, ¼ tsp turmeri, ¼ tsp chilli powder and ¼ tsp garam masala.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-12"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "saute on low flame without burning the spices.",
+                "name": "saute on low flame without burning the spices.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-13"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "pour the tempering over the chole masala, add 2 tbsp coriander and mix well.",
+                "name": "pour the tempering over the chole masala, add 2 tbsp coriander and mix well.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-14"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, chole bhature is ready to enjoy with some onions.",
+                "name": "finally, chole bhature is ready to enjoy with some onions.",
+                "url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#wprm-recipe-133066-step-1-15"
+              }
+            ]
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.99",
+          "ratingCount": "318"
+        },
+        "recipeCategory": [
+          "dinner"
+        ],
+        "recipeCuisine": [
+          "Indian"
+        ],
+        "keywords": "chole bhature recipe",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "286 kcal",
+          "carbohydrateContent": "42 g",
+          "proteinContent": "8 g",
+          "fatContent": "10 g",
+          "saturatedFatContent": "2 g",
+          "cholesterolContent": "4 mg",
+          "sodiumContent": "631 mg",
+          "fiberContent": "5 g",
+          "sugarContent": "6 g",
+          "servingSize": "1 serving"
+        },
+        "@id": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/",
+      "scraped_at": "2026-05-28T04:45:54.249046+00:00",
+      "title": "aloo palak recipe | palak aloo recipe | aloo palak gravy recipe",
+      "cuisine": [
+        "Indian"
+      ],
+      "prep_time": "PT15M",
+      "servings": [
+        "4",
+        "4 Servings"
+      ],
+      "ingredients": [
+        "2 tsp oil",
+        "3 clove garlic (chopped)",
+        "1 inch ginger (chopped)",
+        "1  onion (finely chopped)",
+        "4  green chilli",
+        "1  bunch spinach / palak (chopped)",
+        "½ cup water",
+        "4 tsp oil",
+        "13  baby potatoes / aloo (boiled &amp; peeled)",
+        "1 tsp jeera / cumin",
+        "1 inch cinnamon stick / dalchini",
+        "½  onion (finely chopped)",
+        "1  bay leaf / tej patta",
+        "1 to  mato (finely chopped)",
+        "½ tsp turmeric / haldi",
+        "salt to taste",
+        "½ cup water (or as required)",
+        "½ tsp garam masala",
+        "1 tsp kasuri methi / dry fenugreek leaves (crushed)"
+      ],
+      "steps": [
+        "firstly, heat 3 tsp of oil in a kadai and roast 13 boiled &amp; peeled baby potatoes / aloo.",
+        "roast potatoes to golden brown, keep aside.",
+        "further add a tsp of oil if required and saute 1 tsp jeera, 1 inch cinnamon and 1 bay leaf.",
+        "additionally add in ½ onion and saute well.",
+        "also add 1 tomato and saute till it turns soft and mushy.",
+        "add in ½ tsp turmeric and salt to taste. saute on low flame.",
+        "further add prepared palak puree and mix well.",
+        "additionally add ½ cup water and roasted potato / aloo.",
+        "mix well and adjust the consistency by adding water if required.",
+        "simmer for 5 minutes or till potatoes absorb flavours.",
+        "furthermore add ½ tsp garam masala and 1 tsp crushed kasuri methi.",
+        "finally, serve aloo palak gravy with hot rice or roti."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "aloo palak recipe | palak aloo recipe | aloo palak gravy recipe",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy aloo palak recipe | palak aloo recipe | aloo palak gravy recipe",
+        "datePublished": "2017-07-18T21:32:27+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2017/07/aloo-palak-recipe-palak-aloo-recipe-aloo-palak-gravy-recipe-3.jpeg"
+        ],
+        "recipeYield": [
+          "4",
+          "4 Servings"
+        ],
+        "prepTime": "PT15M",
+        "cookTime": "PT30M",
+        "totalTime": "PT45M",
+        "recipeIngredient": [
+          "2 tsp oil",
+          "3 clove garlic (chopped)",
+          "1 inch ginger (chopped)",
+          "1  onion (finely chopped)",
+          "4  green chilli",
+          "1  bunch spinach / palak (chopped)",
+          "½ cup water",
+          "4 tsp oil",
+          "13  baby potatoes / aloo (boiled &amp; peeled)",
+          "1 tsp jeera / cumin",
+          "1 inch cinnamon stick / dalchini",
+          "½  onion (finely chopped)",
+          "1  bay leaf / tej patta",
+          "1 to  mato (finely chopped)",
+          "½ tsp turmeric / haldi",
+          "salt to taste",
+          "½ cup water (or as required)",
+          "½ tsp garam masala",
+          "1 tsp kasuri methi / dry fenugreek leaves (crushed)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "firstly, heat 3 tsp of oil in a kadai and roast 13 boiled &amp; peeled baby potatoes / aloo.",
+            "name": "firstly, heat 3 tsp of oil in a kadai and roast 13 boiled &amp; peeled baby potatoes / aloo.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "roast potatoes to golden brown, keep aside.",
+            "name": "roast potatoes to golden brown, keep aside.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add a tsp of oil if required and saute 1 tsp jeera, 1 inch cinnamon and 1 bay leaf.",
+            "name": "further add a tsp of oil if required and saute 1 tsp jeera, 1 inch cinnamon and 1 bay leaf.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "additionally add in ½ onion and saute well.",
+            "name": "additionally add in ½ onion and saute well.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "also add 1 tomato and saute till it turns soft and mushy.",
+            "name": "also add 1 tomato and saute till it turns soft and mushy.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "add in ½ tsp turmeric and salt to taste. saute on low flame.",
+            "name": "add in ½ tsp turmeric and salt to taste. saute on low flame.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add prepared palak puree and mix well.",
+            "name": "further add prepared palak puree and mix well.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "additionally add ½ cup water and roasted potato / aloo.",
+            "name": "additionally add ½ cup water and roasted potato / aloo.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "mix well and adjust the consistency by adding water if required.",
+            "name": "mix well and adjust the consistency by adding water if required.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "simmer for 5 minutes or till potatoes absorb flavours.",
+            "name": "simmer for 5 minutes or till potatoes absorb flavours.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-9"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "furthermore add ½ tsp garam masala and 1 tsp crushed kasuri methi.",
+            "name": "furthermore add ½ tsp garam masala and 1 tsp crushed kasuri methi.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-10"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finally, serve aloo palak gravy with hot rice or roti.",
+            "name": "finally, serve aloo palak gravy with hot rice or roti.",
+            "url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#wprm-recipe-37712-step-0-11"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "255",
+          "reviewCount": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "I tried ur recipe... It came out very out well,tasty,delicious...thanks!!!",
+            "author": {
+              "@type": "Person",
+              "name": "Kamakshi"
+            },
+            "datePublished": "2017-10-12"
+          }
+        ],
+        "recipeCategory": [
+          "curry"
+        ],
+        "recipeCuisine": [
+          "Indian"
+        ],
+        "@id": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/",
+      "scraped_at": "2026-05-28T04:45:55.647537+00:00",
+      "title": "chana masala recipe | chickpea masala recipe | chana curry | chana masala curry",
+      "cuisine": [
+        "punjabi"
+      ],
+      "prep_time": "PT15M",
+      "servings": [
+        "5",
+        "5 Servings"
+      ],
+      "ingredients": [
+        "1 cup chickpea / chana",
+        "water (for soaking)",
+        "¼ tsp baking soda",
+        "¾ tsp salt",
+        "3 cup water (for pressure cooking)",
+        "¼ cup coriander seeds",
+        "¼ cup cumin / jeera",
+        "2 tsp pepper",
+        "1 tsp clove",
+        "2 pod black cardamom",
+        "2 inch cinnamon",
+        "1  mace / javitri",
+        "1 tsp fennel / saunf",
+        "1 tsp shah jeera / caraway seed",
+        "10  dried red chilli",
+        "2 tbsp aamchur",
+        "2 tbsp kasuri methi",
+        "1 tsp turmeric",
+        "2 tbsp ghee / clarified butter",
+        "3 pod cardamom",
+        "1  bay leaf",
+        "1 tsp cumin / jeera",
+        "1  onion (finely chopped)",
+        "1  chilli (slit)",
+        "1 tsp ginger garlic paste",
+        "½ tsp salt",
+        "2 cup tomato puree",
+        "2 tbsp coriander (finely chopped)"
+      ],
+      "steps": [
+        "firstly, in a large bowl take 1 cup chickpea and soak in enough water for 8 hours.",
+        "transfer the soaked chickpea to a pressure cooker.",
+        "add ¼ tsp baking soda, ¾ tsp salt and 3 cup water.",
+        "pressure cook for 5 to 6 whistles or until the chana is cooked well.",
+        "firstly, in a pan take ¼ cup coriander seeds, ¼ cup cumin, 2 tsp pepper, 1 tsp clove, 2 pod black cardamom, 2 inch cinnamon, 1 mace, 1 tsp fennel, 1 tsp shah jeera.",
+        "roast on low flame until the spices turn aromatic.",
+        "further add 10 dried red chilli and roast until the chilli puffs up and turns crunchy.",
+        "cool completely and transfer to a mixi.",
+        "add 2 tbsp aamchur, 2 tbsp kasuri methi and 1 tsp turmeric.",
+        "blend to fine powder without adding any water.",
+        "chole masala powder is ready. store in an airtight container for longer shelf life.",
+        "firstly, in a large kadai heat 2 tbsp ghee and saute 3 pod cardamom, 1 bay leaf, 1 tsp cumin until spices turn aromatic.",
+        "add 1 onion, 1 chilli, 1 tsp ginger garlic paste and saute until the onions turn golden brown.",
+        "further add in 1 tbsp of prepared chole masala and ½ tsp salt. saute on low flame until the masala turn aromatic.",
+        "now add 2 cup tomato puree and mix well. to prepare tomato puree, blend two ripened tomatoes to a smooth paste without adding any water.",
+        "saute until the oil separates from the masala paste.",
+        "now add in pressure cooked chana and mix well adjusting consistency as required.",
+        "cover and simmer for 10 minutes or until the flavours are well absorbed.",
+        "finally, enjoy 2 tbsp coriander and enjoy chana masala with roti, puri or hot steamed rice."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "chana masala recipe | chickpea masala recipe | chana curry | chana masala curry",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy chana masala recipe | chickpea masala recipe | chana curry | chana masala curry",
+        "datePublished": "2020-04-22T21:24:51+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2020/04/chana-masala-recipe-chickpea-masala-recipe-chana-curry-chana-masala-curry-1-scaled.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/04/chana-masala-recipe-chickpea-masala-recipe-chana-curry-chana-masala-curry-1-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/04/chana-masala-recipe-chickpea-masala-recipe-chana-curry-chana-masala-curry-1-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2020/04/chana-masala-recipe-chickpea-masala-recipe-chana-curry-chana-masala-curry-1-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "5",
+          "5 Servings"
+        ],
+        "prepTime": "PT15M",
+        "cookTime": "PT30M",
+        "recipeIngredient": [
+          "1 cup chickpea / chana",
+          "water (for soaking)",
+          "¼ tsp baking soda",
+          "¾ tsp salt",
+          "3 cup water (for pressure cooking)",
+          "¼ cup coriander seeds",
+          "¼ cup cumin / jeera",
+          "2 tsp pepper",
+          "1 tsp clove",
+          "2 pod black cardamom",
+          "2 inch cinnamon",
+          "1  mace / javitri",
+          "1 tsp fennel / saunf",
+          "1 tsp shah jeera / caraway seed",
+          "10  dried red chilli",
+          "2 tbsp aamchur",
+          "2 tbsp kasuri methi",
+          "1 tsp turmeric",
+          "2 tbsp ghee / clarified butter",
+          "3 pod cardamom",
+          "1  bay leaf",
+          "1 tsp cumin / jeera",
+          "1  onion (finely chopped)",
+          "1  chilli (slit)",
+          "1 tsp ginger garlic paste",
+          "½ tsp salt",
+          "2 cup tomato puree",
+          "2 tbsp coriander (finely chopped)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToSection",
+            "name": "pressure cooking chana:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large bowl take 1 cup chickpea and soak in enough water for 8 hours.",
+                "name": "firstly, in a large bowl take 1 cup chickpea and soak in enough water for 8 hours.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-0-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "transfer the soaked chickpea to a pressure cooker.",
+                "name": "transfer the soaked chickpea to a pressure cooker.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-0-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add ¼ tsp baking soda, ¾ tsp salt and 3 cup water.",
+                "name": "add ¼ tsp baking soda, ¾ tsp salt and 3 cup water.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-0-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "pressure cook for 5 to 6 whistles or until the chana is cooked well.",
+                "name": "pressure cook for 5 to 6 whistles or until the chana is cooked well.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-0-3"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "chana masala powder preparation:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a pan take ¼ cup coriander seeds, ¼ cup cumin, 2 tsp pepper, 1 tsp clove, 2 pod black cardamom, 2 inch cinnamon, 1 mace, 1 tsp fennel, 1 tsp shah jeera.",
+                "name": "firstly, in a pan take ¼ cup coriander seeds, ¼ cup cumin, 2 tsp pepper, 1 tsp clove, 2 pod black cardamom, 2 inch cinnamon, 1 mace, 1 tsp fennel, 1 tsp shah jeera.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "roast on low flame until the spices turn aromatic.",
+                "name": "roast on low flame until the spices turn aromatic.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further add 10 dried red chilli and roast until the chilli puffs up and turns crunchy.",
+                "name": "further add 10 dried red chilli and roast until the chilli puffs up and turns crunchy.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "cool completely and transfer to a mixi.",
+                "name": "cool completely and transfer to a mixi.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add 2 tbsp aamchur, 2 tbsp kasuri methi and 1 tsp turmeric.",
+                "name": "add 2 tbsp aamchur, 2 tbsp kasuri methi and 1 tsp turmeric.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "blend to fine powder without adding any water.",
+                "name": "blend to fine powder without adding any water.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "chole masala powder is ready. store in an airtight container for longer shelf life.",
+                "name": "chole masala powder is ready. store in an airtight container for longer shelf life.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-1-6"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "chana masala curry preparation:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large kadai heat 2 tbsp ghee and saute 3 pod cardamom, 1 bay leaf, 1 tsp cumin until spices turn aromatic.",
+                "name": "firstly, in a large kadai heat 2 tbsp ghee and saute 3 pod cardamom, 1 bay leaf, 1 tsp cumin until spices turn aromatic.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "add 1 onion, 1 chilli, 1 tsp ginger garlic paste and saute until the onions turn golden brown.",
+                "name": "add 1 onion, 1 chilli, 1 tsp ginger garlic paste and saute until the onions turn golden brown.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further add in 1 tbsp of prepared chole masala and ½ tsp salt. saute on low flame until the masala turn aromatic.",
+                "name": "further add in 1 tbsp of prepared chole masala and ½ tsp salt. saute on low flame until the masala turn aromatic.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add 2 cup tomato puree and mix well. to prepare tomato puree, blend two ripened tomatoes to a smooth paste without adding any water.",
+                "name": "now add 2 cup tomato puree and mix well. to prepare tomato puree, blend two ripened tomatoes to a smooth paste without adding any water.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "saute until the oil separates from the masala paste.",
+                "name": "saute until the oil separates from the masala paste.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "now add in pressure cooked chana and mix well adjusting consistency as required.",
+                "name": "now add in pressure cooked chana and mix well adjusting consistency as required.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "cover and simmer for 10 minutes or until the flavours are well absorbed.",
+                "name": "cover and simmer for 10 minutes or until the flavours are well absorbed.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-6"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, enjoy 2 tbsp coriander and enjoy chana masala with roti, puri or hot steamed rice.",
+                "name": "finally, enjoy 2 tbsp coriander and enjoy chana masala with roti, puri or hot steamed rice.",
+                "url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#wprm-recipe-114654-step-2-7"
+              }
+            ]
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.97",
+          "ratingCount": "345"
+        },
+        "recipeCategory": [
+          "curries"
+        ],
+        "recipeCuisine": [
+          "punjabi"
+        ],
+        "keywords": "chana masala recipe",
+        "@id": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/",
+      "scraped_at": "2026-05-28T04:45:57.011448+00:00",
+      "title": "pindi chole recipe | pindi chana masala | how to make pindi chole masala",
+      "cuisine": [
+        "north indian"
+      ],
+      "prep_time": "PT480M",
+      "servings": [
+        "4",
+        "4 Servings"
+      ],
+      "ingredients": [
+        "1 cup chana / chickpea",
+        "2  tea bags",
+        "1 inch cinnamon / dalchini",
+        "1  bay leaf / tej patta",
+        "3  pods cardamom / elachi",
+        "4 cloves / lavang",
+        "¼ tsp baking soda",
+        "½ tsp salt",
+        "3 cup water",
+        "½ tsp cumin / jeera",
+        "1 tsp coriander seeds",
+        "¼ tsp shahi jeera",
+        "¼ tsp pepper",
+        "¼ tsp fennel / saunf",
+        "1 tsp kasuri methi / dry fenugreek leaves",
+        "3  cloves",
+        "2  pods cardamom / elachi",
+        "3  dried red chilli",
+        "¼ tsp turmeric",
+        "¼ tsp aamchur / dry mango powder",
+        "¼ tsp pomegranate powder",
+        "pinch hing / asafoetida",
+        "3 tsp oil",
+        "1  bay leaf / tej patta",
+        "1  onion (finely chopped)",
+        "1 tsp ginger garlic paste",
+        "1  chilli (slit)",
+        "2  tomato (finely chopped)",
+        "½ tsp salt",
+        "2 tbsp coriander (finely chopped)",
+        "1 tbsp ghee / clarified butter",
+        "1  chilli (slit)",
+        "1 inch ginger (julienne)",
+        "¼ tsp kashmiri red chilli powder"
+      ],
+      "steps": [
+        "firstly, in a large kadai heat 3 tsp oil and saute 1 bay leaf.",
+        "further add 1 onion followed by 1 tsp ginger garlic paste and 1 chilli.",
+        "saute well until the onions turn golden brown.",
+        "now add prepared spice powder.",
+        "saute on low flame until the spice powder turn aromatic.",
+        "further add 2 tomato and saute well.",
+        "cook until the tomatoes turn mushy and oil is separated.",
+        "now add cooked chana and ½ tsp salt.",
+        "furthermore, cover and simmer for 15 minutes.",
+        "also add 2 tbsp coriander and mix well.",
+        "finally, enjoy pindi chole with roti or bhatura."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "pindi chole recipe | pindi chana masala | how to make pindi chole masala",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy&nbsp;pindi chole recipe | pindi chana masala | how to make pindi chole masala",
+        "datePublished": "2018-10-28T20:12:22+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/pindi-chole-recipe-pindi-chana-masala-how-to-make-pindi-chole-masala-1.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/pindi-chole-recipe-pindi-chana-masala-how-to-make-pindi-chole-masala-1-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/pindi-chole-recipe-pindi-chana-masala-how-to-make-pindi-chole-masala-1-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/pindi-chole-recipe-pindi-chana-masala-how-to-make-pindi-chole-masala-1-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "4",
+          "4 Servings"
+        ],
+        "prepTime": "PT480M",
+        "cookTime": "PT30M",
+        "totalTime": "PT510M",
+        "recipeIngredient": [
+          "1 cup chana / chickpea",
+          "2  tea bags",
+          "1 inch cinnamon / dalchini",
+          "1  bay leaf / tej patta",
+          "3  pods cardamom / elachi",
+          "4 cloves / lavang",
+          "¼ tsp baking soda",
+          "½ tsp salt",
+          "3 cup water",
+          "½ tsp cumin / jeera",
+          "1 tsp coriander seeds",
+          "¼ tsp shahi jeera",
+          "¼ tsp pepper",
+          "¼ tsp fennel / saunf",
+          "1 tsp kasuri methi / dry fenugreek leaves",
+          "3  cloves",
+          "2  pods cardamom / elachi",
+          "3  dried red chilli",
+          "¼ tsp turmeric",
+          "¼ tsp aamchur / dry mango powder",
+          "¼ tsp pomegranate powder",
+          "pinch hing / asafoetida",
+          "3 tsp oil",
+          "1  bay leaf / tej patta",
+          "1  onion (finely chopped)",
+          "1 tsp ginger garlic paste",
+          "1  chilli (slit)",
+          "2  tomato (finely chopped)",
+          "½ tsp salt",
+          "2 tbsp coriander (finely chopped)",
+          "1 tbsp ghee / clarified butter",
+          "1  chilli (slit)",
+          "1 inch ginger (julienne)",
+          "¼ tsp kashmiri red chilli powder"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "firstly, in a large kadai heat 3 tsp oil and saute 1 bay leaf.",
+            "name": "firstly, in a large kadai heat 3 tsp oil and saute 1 bay leaf."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add 1 onion followed by 1 tsp ginger garlic paste and 1 chilli.",
+            "name": "further add 1 onion followed by 1 tsp ginger garlic paste and 1 chilli."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute well until the onions turn golden brown.",
+            "name": "saute well until the onions turn golden brown."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add prepared spice powder.",
+            "name": "now add prepared spice powder."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute on low flame until the spice powder turn aromatic.",
+            "name": "saute on low flame until the spice powder turn aromatic."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add 2 tomato and saute well.",
+            "name": "further add 2 tomato and saute well."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "cook until the tomatoes turn mushy and oil is separated.",
+            "name": "cook until the tomatoes turn mushy and oil is separated."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add cooked chana and ½ tsp salt.",
+            "name": "now add cooked chana and ½ tsp salt."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "furthermore, cover and simmer for 15 minutes.",
+            "name": "furthermore, cover and simmer for 15 minutes."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "also add 2 tbsp coriander and mix well.",
+            "name": "also add 2 tbsp coriander and mix well."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finally, enjoy pindi chole with roti or bhatura.",
+            "name": "finally, enjoy pindi chole with roti or bhatura."
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.99",
+          "ratingCount": "266"
+        },
+        "recipeCategory": [
+          "curry"
+        ],
+        "recipeCuisine": [
+          "north indian"
+        ],
+        "@id": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/",
+      "scraped_at": "2026-05-28T04:45:58.411840+00:00",
+      "title": "bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura",
+      "cuisine": [
+        "south indian"
+      ],
+      "prep_time": "PT150M",
+      "servings": [
+        "8",
+        "8 Servings"
+      ],
+      "ingredients": [
+        "2 cups maida / all-purpose flour / plain flour",
+        "1 tbsp rava / semolina",
+        "1 tsp sugar",
+        "salt to taste",
+        "½ tsp baking powder",
+        "¼ tsp baking soda / cooking soda",
+        "2 tsp oil",
+        "1 cup curd / yogurt",
+        "½ cup maida / all-purpose flour / plain flour (for dusting)",
+        "oil for deep frying",
+        "full recipe of chole"
+      ],
+      "steps": [
+        "firstly, in a large mixing bowl take maida.",
+        "to that add rava, sugar and salt.",
+        "also add baking powder and baking soda and mix well.",
+        "furthermore, add oil and rub with the flour.",
+        "also add curd and start to knead dough.",
+        "knead and punch the dough well for atleast 5 minutes.",
+        "further, grease the dough with oil.",
+        "cover with moist cloth and rest for atleast 2 hours.",
+        "further, roll and get to a long shape. pinch the dough into medium sized balls.",
+        "then make balls between your palms.",
+        "finally, roll the dough evenly into circles using rolling pin. roll neither too thin nor thick.",
+        "firstly, heat oil in a deep frying pan or kadai. when the oil is sufficiently hot, add one bhatura.",
+        "and, press with the spoon to puff up.",
+        "also once they begin to puff, splash oil over the bhatura till they puff completely.",
+        "flip over and fry the bhatura till golden brown all over.",
+        "then drain the poori into tissue paper to remove excess oil. fry all batura same way.",
+        "finally, serve bhatura with chole curry.",
+        "full recipe for chole masala"
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura",
+        "datePublished": "2016-10-12T20:25:55+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2016/10/bhatura-recipe-punjabi-bhature-recipe-perfect-bhatura-restaurant-style-19.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/10/bhatura-recipe-punjabi-bhature-recipe-perfect-bhatura-restaurant-style-19-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/10/bhatura-recipe-punjabi-bhature-recipe-perfect-bhatura-restaurant-style-19-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/10/bhatura-recipe-punjabi-bhature-recipe-perfect-bhatura-restaurant-style-19-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "8",
+          "8 Servings"
+        ],
+        "prepTime": "PT150M",
+        "cookTime": "PT20M",
+        "totalTime": "PT170M",
+        "recipeIngredient": [
+          "2 cups maida / all-purpose flour / plain flour",
+          "1 tbsp rava / semolina",
+          "1 tsp sugar",
+          "salt to taste",
+          "½ tsp baking powder",
+          "¼ tsp baking soda / cooking soda",
+          "2 tsp oil",
+          "1 cup curd / yogurt",
+          "½ cup maida / all-purpose flour / plain flour (for dusting)",
+          "oil for deep frying",
+          "full recipe of chole"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToSection",
+            "name": "bhatura dough recipe:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, in a large mixing bowl take maida.",
+                "name": "firstly, in a large mixing bowl take maida.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "to that add rava, sugar and salt.",
+                "name": "to that add rava, sugar and salt.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "also add baking powder and baking soda and mix well.",
+                "name": "also add baking powder and baking soda and mix well.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "furthermore, add oil and rub with the flour.",
+                "name": "furthermore, add oil and rub with the flour.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "also add curd and start to knead dough.",
+                "name": "also add curd and start to knead dough.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "knead and punch the dough well for atleast 5 minutes.",
+                "name": "knead and punch the dough well for atleast 5 minutes.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-5"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further, grease the dough with oil.",
+                "name": "further, grease the dough with oil.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-6"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "cover with moist cloth and rest for atleast 2 hours.",
+                "name": "cover with moist cloth and rest for atleast 2 hours.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-7"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "further, roll and get to a long shape. pinch the dough into medium sized balls.",
+                "name": "further, roll and get to a long shape. pinch the dough into medium sized balls.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-8"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "then make balls between your palms.",
+                "name": "then make balls between your palms.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-9"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, roll the dough evenly into circles using rolling pin. roll neither too thin nor thick.",
+                "name": "finally, roll the dough evenly into circles using rolling pin. roll neither too thin nor thick.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-0-10"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "frying bhatura recipe:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "firstly, heat oil in a deep frying pan or kadai. when the oil is sufficiently hot, add one bhatura.",
+                "name": "firstly, heat oil in a deep frying pan or kadai. when the oil is sufficiently hot, add one bhatura.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "and, press with the spoon to puff up.",
+                "name": "and, press with the spoon to puff up.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "also once they begin to puff, splash oil over the bhatura till they puff completely.",
+                "name": "also once they begin to puff, splash oil over the bhatura till they puff completely.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "flip over and fry the bhatura till golden brown all over.",
+                "name": "flip over and fry the bhatura till golden brown all over.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "then drain the poori into tissue paper to remove excess oil. fry all batura same way.",
+                "name": "then drain the poori into tissue paper to remove excess oil. fry all batura same way.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "finally, serve bhatura with chole curry.",
+                "name": "finally, serve bhatura with chole curry.",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-1-5"
+              }
+            ]
+          },
+          {
+            "@type": "HowToSection",
+            "name": "instructions for chole masala",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "full recipe for chole masala",
+                "name": "full recipe for chole masala",
+                "url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#wprm-recipe-38307-step-2-0"
+              }
+            ]
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.99",
+          "ratingCount": "279",
+          "reviewCount": "4"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Today I tried this recipe really it's yummy.thanks a lot for the recipe",
+            "author": {
+              "@type": "Person",
+              "name": "Sravani"
+            },
+            "datePublished": "2017-12-11"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Thank you for the fantastic recipe. My family loved it,  The bhatura was perfect. thanks again",
+            "author": {
+              "@type": "Person",
+              "name": "Sharmila"
+            },
+            "datePublished": "2017-06-03"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Hi , I tried bhature as per ur recipe..it was soft but didnt puffed up well as urs....can u pls tell whts wrong with me...",
+            "author": {
+              "@type": "Person",
+              "name": "Jayanthi Muthuvel"
+            },
+            "datePublished": "2017-05-08"
+          },
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Hello Hebbar\r\nJust a question, can we make bhatura dough ahead a day before?  Letc say  to make a dough a t night and fry bhature in the morning? Is it fine? \r\nPlease reply asap\r\nThanks.",
+            "author": {
+              "@type": "Person",
+              "name": "Mrs Hasan"
+            },
+            "datePublished": "2017-03-04"
+          }
+        ],
+        "recipeCategory": [
+          "Breakfast"
+        ],
+        "recipeCuisine": [
+          "south indian"
+        ],
+        "@id": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/",
+      "scraped_at": "2026-05-28T04:45:59.842505+00:00",
+      "title": "potato curry for masala dosa | aloo baji for masala dosa",
+      "cuisine": [
+        "Indian"
+      ],
+      "prep_time": "PT10M",
+      "servings": [
+        "4",
+        "4 servings"
+      ],
+      "ingredients": [
+        "4  potatoes (boiled)",
+        "1  onion (thinly sliced)",
+        "1  green chilli (finely chopped)",
+        "1 inch ginger (finely chopped)",
+        "1  dried red chilli",
+        "1 tsp cumin seeds",
+        "1 tsp mustard seeds / rai",
+        "1 tsp urad dal",
+        "1 tsp chana dal",
+        "½ tsp turmeric powder",
+        "pinch hing / asafoetida",
+        "1  stem curry leaves",
+        "2 tsp lemon juice",
+        "1  stem coriander leaves (finely chopped)",
+        "2 tsp oil",
+        "salt to taste"
+      ],
+      "steps": [
+        "boil the potatoes well and peel off the skin.",
+        "finely chop green chillies, ginger, coriander leaves. also thinly slice onion and keep ready.",
+        "in a pan heat a tablespoon of oil and add cumin seeds, mustard seeds, urad dal, red chilli and channa dal. wait till mustard seeds splutter.",
+        "then add curry leaves and hing. fry for a minute.",
+        "now add thinly sliced onion and fry till then turn translucent.",
+        "add in finely chopped chilli and ginger. fry till the raw smell of ginger goes away.",
+        "now add boiled potatoes and turmeric.",
+        "mash the potatoes well and add in 3 tbsp of water to have a smooth gravy paste. cook 3 mins",
+        "squeeze some lemon juice and add chopped coriander leaves. give a good mix.",
+        "serve aloo bhaji hot with masala dosa's, rice or chapathis."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "potato curry for masala dosa | aloo baji for masala dosa",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "potato curry for masala dosa | aloo baji for masala dosa",
+        "datePublished": "2016-05-09T11:56:16+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2016/05/potato-curry-recipe-for-masala-dosa-aloo-bhaji-for-masala-dosa-1.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/05/potato-curry-recipe-for-masala-dosa-aloo-bhaji-for-masala-dosa-1-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/05/potato-curry-recipe-for-masala-dosa-aloo-bhaji-for-masala-dosa-1-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2016/05/potato-curry-recipe-for-masala-dosa-aloo-bhaji-for-masala-dosa-1-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "4",
+          "4 servings"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT20M",
+        "totalTime": "PT30M",
+        "recipeIngredient": [
+          "4  potatoes (boiled)",
+          "1  onion (thinly sliced)",
+          "1  green chilli (finely chopped)",
+          "1 inch ginger (finely chopped)",
+          "1  dried red chilli",
+          "1 tsp cumin seeds",
+          "1 tsp mustard seeds / rai",
+          "1 tsp urad dal",
+          "1 tsp chana dal",
+          "½ tsp turmeric powder",
+          "pinch hing / asafoetida",
+          "1  stem curry leaves",
+          "2 tsp lemon juice",
+          "1  stem coriander leaves (finely chopped)",
+          "2 tsp oil",
+          "salt to taste"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "boil the potatoes well and peel off the skin.",
+            "name": "boil the potatoes well and peel off the skin.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finely chop green chillies, ginger, coriander leaves. also thinly slice onion and keep ready.",
+            "name": "finely chop green chillies, ginger, coriander leaves. also thinly slice onion and keep ready.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "in a pan heat a tablespoon of oil and add cumin seeds, mustard seeds, urad dal, red chilli and channa dal. wait till mustard seeds splutter.",
+            "name": "in a pan heat a tablespoon of oil and add cumin seeds, mustard seeds, urad dal, red chilli and channa dal. wait till mustard seeds splutter.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "then add curry leaves and hing. fry for a minute.",
+            "name": "then add curry leaves and hing. fry for a minute.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add thinly sliced onion and fry till then turn translucent.",
+            "name": "now add thinly sliced onion and fry till then turn translucent.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "add in finely chopped chilli and ginger. fry till the raw smell of ginger goes away.",
+            "name": "add in finely chopped chilli and ginger. fry till the raw smell of ginger goes away.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add boiled potatoes and turmeric.",
+            "name": "now add boiled potatoes and turmeric.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "mash the potatoes well and add in 3 tbsp of water to have a smooth gravy paste. cook 3 mins",
+            "name": "mash the potatoes well and add in 3 tbsp of water to have a smooth gravy paste. cook 3 mins",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "squeeze some lemon juice and add chopped coriander leaves. give a good mix.",
+            "name": "squeeze some lemon juice and add chopped coriander leaves. give a good mix.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "serve aloo bhaji hot with masala dosa's, rice or chapathis.",
+            "name": "serve aloo bhaji hot with masala dosa's, rice or chapathis.",
+            "url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#wprm-recipe-38684-step-0-9"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "245"
+        },
+        "recipeCategory": [
+          "curry"
+        ],
+        "recipeCuisine": [
+          "Indian"
+        ],
+        "@id": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/",
+      "scraped_at": "2026-05-28T04:46:01.200060+00:00",
+      "title": "sambar powder recipe | sambar masala | sambar podi | sambhar masala at home",
+      "cuisine": [
+        "udupi"
+      ],
+      "prep_time": "PT10M",
+      "servings": [
+        "285",
+        "285 grams"
+      ],
+      "ingredients": [
+        "2 tsp coconut oil",
+        "1 cup (75 grams) coriander seeds",
+        "¼ cup (25 grams) cumin seeds",
+        "2 tbsp (20 grams) methi",
+        "2 tbsp (30 grams) urad dal",
+        "1 tbsp (15 grams) chana dal",
+        "½ cup (10 grams) curry leaves",
+        "100 gram dried red chilli",
+        "1 tsp turmeric"
+      ],
+      "steps": [
+        "how to make udupi sambar pudi or sambar powder:",
+        "firstly, in a heavy-bottomed pan heat ½ tsp coconut oil and saute 1 cup ((75 grams)) coriander seeds.",
+        "saute on low flame until the coriander seeds turn aromatic.",
+        "transfer to a large plate and keep aside.",
+        "in the same pan heat ½ tsp coconut oil, add ¼ cup ((25 grams)) cumin seeds and 2 tbsp ((20 grams)) methi, 2 tbsp ((30 grams)) urad dal and 1 tbsp ((15 grams)) chana dal.",
+        "roast on low flame until the spices turn aromatic.",
+        "now add ½ cup ((10 grams)) curry leaves and roast well.",
+        "roast until the curry leaves turn crisp.",
+        "transfer to a large plate and keep aside.",
+        "further heat 1 tsp coconut oil and saute 100 gram dried red chilli.",
+        "saute until the chills puff up and turn crisp.",
+        "transfer to a large plate and cool completely.",
+        "now take all the roasted spices to the mixi, add 1 tsp turmeric.",
+        "grind to a fine powder.",
+        "finally, udupi style sambar powder or sambar pudi is ready to prepare udupi sambar."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "sambar powder recipe | sambar masala | sambar podi | sambhar masala at home",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy sambar powder recipe | sambar masala | sambar podi | sambhar masala at home",
+        "datePublished": "2021-01-27T21:40:18+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/2021/01/sambar-powder-recipe-sambar-masala-sambar-podi-sambhar-masala-at-home-2-scaled.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2021/01/sambar-powder-recipe-sambar-masala-sambar-podi-sambhar-masala-at-home-2-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2021/01/sambar-powder-recipe-sambar-masala-sambar-podi-sambhar-masala-at-home-2-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/2021/01/sambar-powder-recipe-sambar-masala-sambar-podi-sambhar-masala-at-home-2-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "285",
+          "285 grams"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT15M",
+        "totalTime": "PT25M",
+        "recipeIngredient": [
+          "2 tsp coconut oil",
+          "1 cup (75 grams) coriander seeds",
+          "¼ cup (25 grams) cumin seeds",
+          "2 tbsp (20 grams) methi",
+          "2 tbsp (30 grams) urad dal",
+          "1 tbsp (15 grams) chana dal",
+          "½ cup (10 grams) curry leaves",
+          "100 gram dried red chilli",
+          "1 tsp turmeric"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "how to make udupi sambar pudi or sambar powder:",
+            "name": "how to make udupi sambar pudi or sambar powder:"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "firstly, in a heavy-bottomed pan heat ½ tsp coconut oil and saute 1 cup ((75 grams)) coriander seeds.",
+            "name": "firstly, in a heavy-bottomed pan heat ½ tsp coconut oil and saute 1 cup ((75 grams)) coriander seeds."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute on low flame until the coriander seeds turn aromatic.",
+            "name": "saute on low flame until the coriander seeds turn aromatic."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "transfer to a large plate and keep aside.",
+            "name": "transfer to a large plate and keep aside."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "in the same pan heat ½ tsp coconut oil, add ¼ cup ((25 grams)) cumin seeds and 2 tbsp ((20 grams)) methi, 2 tbsp ((30 grams)) urad dal and 1 tbsp ((15 grams)) chana dal.",
+            "name": "in the same pan heat ½ tsp coconut oil, add ¼ cup ((25 grams)) cumin seeds and 2 tbsp ((20 grams)) methi, 2 tbsp ((30 grams)) urad dal and 1 tbsp ((15 grams)) chana dal."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "roast on low flame until the spices turn aromatic.",
+            "name": "roast on low flame until the spices turn aromatic."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add ½ cup ((10 grams)) curry leaves and roast well.",
+            "name": "now add ½ cup ((10 grams)) curry leaves and roast well."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "roast until the curry leaves turn crisp.",
+            "name": "roast until the curry leaves turn crisp."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "transfer to a large plate and keep aside.",
+            "name": "transfer to a large plate and keep aside."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further heat 1 tsp coconut oil and saute 100 gram dried red chilli.",
+            "name": "further heat 1 tsp coconut oil and saute 100 gram dried red chilli."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute until the chills puff up and turn crisp.",
+            "name": "saute until the chills puff up and turn crisp."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "transfer to a large plate and cool completely.",
+            "name": "transfer to a large plate and cool completely."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now take all the roasted spices to the mixi, add 1 tsp turmeric.",
+            "name": "now take all the roasted spices to the mixi, add 1 tsp turmeric."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "grind to a fine powder.",
+            "name": "grind to a fine powder."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finally, udupi style sambar powder or sambar pudi is ready to prepare udupi sambar.",
+            "name": "finally, udupi style sambar powder or sambar pudi is ready to prepare udupi sambar."
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.98",
+          "ratingCount": "304"
+        },
+        "recipeCategory": [
+          "spice blend"
+        ],
+        "recipeCuisine": [
+          "udupi"
+        ],
+        "keywords": "sambar powder recipe",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "4 kcal",
+          "carbohydrateContent": "1 g",
+          "proteinContent": "1 g",
+          "fatContent": "1 g",
+          "saturatedFatContent": "1 g",
+          "sodiumContent": "6 mg",
+          "fiberContent": "1 g",
+          "sugarContent": "1 g",
+          "servingSize": "1 serving"
+        },
+        "@id": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/"
+      },
+      "source_name": "Hebbars Kitchen"
+    },
+    {
+      "source_id": "hebbarskitchen-com",
+      "source_type": "web",
+      "source_url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/",
+      "scraped_at": "2026-05-28T04:46:02.587792+00:00",
+      "title": "paneer butter masala without onion and garlic | paneer jain recipes",
+      "cuisine": [
+        "Indian"
+      ],
+      "prep_time": "PT10M",
+      "servings": [
+        "4",
+        "4 Servings"
+      ],
+      "ingredients": [
+        "3 to  mato (roughly chopped)",
+        "2 tbsp butter",
+        "3  pods cardamom / elachi",
+        "1 inch cinnamon",
+        "1  bay leaf / tej patta",
+        "½ tsp jeera / cumin",
+        "1 inch ginger (finely chopped)",
+        "1  green chilli (slit)",
+        "¼ tsp turmeric",
+        "½ tsp kashmiri red chilli powder / lal mirch powder",
+        "1 cup milk",
+        "½ tsp coriander powder",
+        "¼ tsp sugar",
+        "salt to taste",
+        "¼ cup cashew paste (prepared by blending 10 cashews)",
+        "9  cubes panner / cottage cheese",
+        "¼ tsp garam masala",
+        "½ tsp kasuri methi / dry fenugreek leaves (crushed)"
+      ],
+      "steps": [
+        "firstly heat kadai with 2 tbsp butter.",
+        "saute in ½ ts jeera, 3 pods cardamom, 1 inch cinnamon and 1 bay leaf till they turn aromatic.",
+        "additionally add 1 inch ginger and 1 green chilli. saute well.",
+        "further add tomato puree and cook till oil releases from sides.",
+        "further add ¼ tsp turmeric, ½ tsp chilli powder, ½ tsp coriander powder, ¼ tsp sugar and ½ tsp salt.",
+        "saute on low flame for a minute or till spices get cooked well.",
+        "keeping the flame on low add ¼ cup cashew paste and 1 cup of milk stirring continuously.",
+        "additionally add 9 cubes panner.",
+        "cover and simmer for 5 minutes or till panner gets cooked well completely.",
+        "further add ¼ tsp garam masala and ½ tsp crushed kasuri methi. mix well.",
+        "finally, serve paneer butter masala with tandoori roti or aloo kulcha."
+      ],
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "paneer butter masala without onion and garlic | paneer jain recipes",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "easy paneer butter masala without onion and garlic | paneer jain recipes",
+        "datePublished": "2017-09-26T21:47:50+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/paneer-butter-masala-without-onion-and-garlic-paneer-jain-recipes-1.jpeg"
+        ],
+        "recipeYield": [
+          "4",
+          "4 Servings"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT25M",
+        "totalTime": "PT35M",
+        "recipeIngredient": [
+          "3 to  mato (roughly chopped)",
+          "2 tbsp butter",
+          "3  pods cardamom / elachi",
+          "1 inch cinnamon",
+          "1  bay leaf / tej patta",
+          "½ tsp jeera / cumin",
+          "1 inch ginger (finely chopped)",
+          "1  green chilli (slit)",
+          "¼ tsp turmeric",
+          "½ tsp kashmiri red chilli powder / lal mirch powder",
+          "1 cup milk",
+          "½ tsp coriander powder",
+          "¼ tsp sugar",
+          "salt to taste",
+          "¼ cup cashew paste (prepared by blending 10 cashews)",
+          "9  cubes panner / cottage cheese",
+          "¼ tsp garam masala",
+          "½ tsp kasuri methi / dry fenugreek leaves (crushed)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "firstly heat kadai with 2 tbsp butter.",
+            "name": "firstly heat kadai with 2 tbsp butter.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute in ½ ts jeera, 3 pods cardamom, 1 inch cinnamon and 1 bay leaf till they turn aromatic.",
+            "name": "saute in ½ ts jeera, 3 pods cardamom, 1 inch cinnamon and 1 bay leaf till they turn aromatic.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "additionally add 1 inch ginger and 1 green chilli. saute well.",
+            "name": "additionally add 1 inch ginger and 1 green chilli. saute well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add tomato puree and cook till oil releases from sides.",
+            "name": "further add tomato puree and cook till oil releases from sides.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add ¼ tsp turmeric, ½ tsp chilli powder, ½ tsp coriander powder, ¼ tsp sugar and ½ tsp salt.",
+            "name": "further add ¼ tsp turmeric, ½ tsp chilli powder, ½ tsp coriander powder, ¼ tsp sugar and ½ tsp salt.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute on low flame for a minute or till spices get cooked well.",
+            "name": "saute on low flame for a minute or till spices get cooked well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "keeping the flame on low add ¼ cup cashew paste and 1 cup of milk stirring continuously.",
+            "name": "keeping the flame on low add ¼ cup cashew paste and 1 cup of milk stirring continuously.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "additionally add 9 cubes panner.",
+            "name": "additionally add 9 cubes panner.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "cover and simmer for 5 minutes or till panner gets cooked well completely.",
+            "name": "cover and simmer for 5 minutes or till panner gets cooked well completely.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "further add ¼ tsp garam masala and ½ tsp crushed kasuri methi. mix well.",
+            "name": "further add ¼ tsp garam masala and ½ tsp crushed kasuri methi. mix well.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-9"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finally, serve paneer butter masala with tandoori roti or aloo kulcha.",
+            "name": "finally, serve paneer butter masala with tandoori roti or aloo kulcha.",
+            "url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#wprm-recipe-37551-step-0-10"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "260"
+        },
+        "recipeCategory": [
+          "curry"
+        ],
+        "recipeCuisine": [
+          "Indian"
+        ],
+        "@id": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/"
+      },
+      "source_name": "Hebbars Kitchen"
+    }
+  ]
+}

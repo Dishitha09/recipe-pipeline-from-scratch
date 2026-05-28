@@ -5,8 +5,8 @@
     "base_url": "https://hebbarskitchen.com",
     "status": "completed",
     "recipes_scraped": 10,
-    "last_scraped_at": "2026-05-27T10:55:24.580749+00:00",
-    "created_at": "2026-05-27T10:49:32.900710+00:00",
-    "notes": "Scraping completed"
+    "last_scraped_at": "2026-05-28T04:46:03.595853+00:00",
+    "created_at": "2026-05-28T04:44:16.718094+00:00",
+    "notes": "Dispatcher finished with status=completed"
   }
 ]

@@ -1,0 +1,10 @@
+[
+  {
+    "source_name": "Hebbars Kitchen",
+    "source_type": "web",
+    "base_url": "https://hebbarskitchen.com",
+    "url_file": "configs/hebbars_urls.txt",
+    "enabled": true,
+    "scraper": "web"
+  }
+]

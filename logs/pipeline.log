@@ -119,3 +119,44 @@
 2026-05-27 16:25:46,518 | pipeline_runner | INFO | Running deduplication on 10 accepted recipes
 2026-05-27 16:25:46,519 | pipeline_runner | INFO | Deduplicated 0 duplicates
 2026-05-27 16:25:46,585 | pipeline_runner | INFO | Pipeline summary: {'total': 10, 'accepted': 10, 'rejected': 0, 'duplicates_removed': 0}
+2026-05-28 10:14:16,715 | scraper_dispatcher | INFO | Loaded 1 source configs
+2026-05-28 10:14:16,762 | scraper_dispatcher | INFO | Source=Hebbars Kitchen URLs=10
+2026-05-28 10:14:17,325 | scraper_dispatcher | INFO | OK 1 -> Paneer Butter Masala Recipe - Restaurant Style
+2026-05-28 10:14:18,732 | scraper_dispatcher | INFO | OK 2 -> Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa
+2026-05-28 10:14:20,137 | scraper_dispatcher | INFO | OK 3 -> chole bhature recipe | chhole bhature | chana bhatura | chola batura
+2026-05-28 10:14:21,827 | scraper_dispatcher | INFO | OK 4 -> aloo palak recipe | palak aloo recipe | aloo palak gravy recipe
+2026-05-28 10:14:23,254 | scraper_dispatcher | INFO | OK 5 -> chana masala recipe | chickpea masala recipe | chana curry | chana masala curry
+2026-05-28 10:14:24,682 | scraper_dispatcher | INFO | OK 6 -> pindi chole recipe | pindi chana masala | how to make pindi chole masala
+2026-05-28 10:14:26,133 | scraper_dispatcher | INFO | OK 7 -> bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura
+2026-05-28 10:14:27,519 | scraper_dispatcher | INFO | OK 8 -> potato curry for masala dosa | aloo baji for masala dosa
+2026-05-28 10:14:28,917 | scraper_dispatcher | INFO | OK 9 -> sambar powder recipe | sambar masala | sambar podi | sambhar masala at home
+2026-05-28 10:14:30,577 | scraper_dispatcher | INFO | OK 10 -> paneer butter masala without onion and garlic | paneer jain recipes
+2026-05-28 10:14:31,589 | scraper_dispatcher | INFO | Saved 10 recipes for Hebbars Kitchen to data\raw\hebbars-kitchen_recipes.json
+2026-05-28 10:14:31,591 | scraper_dispatcher | INFO | Dispatcher summary: {'total_sources': 1, 'completed': 1, 'failed': 0, 'skipped': 0, 'total_recipes': 10}
+2026-05-28 10:15:49,641 | scraper_dispatcher | INFO | Loaded 1 source configs
+2026-05-28 10:15:49,643 | scraper_dispatcher | INFO | Source=Hebbars Kitchen URLs=10
+2026-05-28 10:15:50,093 | scraper_dispatcher | INFO | OK 1 -> Paneer Butter Masala Recipe - Restaurant Style
+2026-05-28 10:15:51,465 | scraper_dispatcher | INFO | OK 2 -> Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa
+2026-05-28 10:15:52,875 | scraper_dispatcher | INFO | OK 3 -> chole bhature recipe | chhole bhature | chana bhatura | chola batura
+2026-05-28 10:15:54,249 | scraper_dispatcher | INFO | OK 4 -> aloo palak recipe | palak aloo recipe | aloo palak gravy recipe
+2026-05-28 10:15:55,648 | scraper_dispatcher | INFO | OK 5 -> chana masala recipe | chickpea masala recipe | chana curry | chana masala curry
+2026-05-28 10:15:57,015 | scraper_dispatcher | INFO | OK 6 -> pindi chole recipe | pindi chana masala | how to make pindi chole masala
+2026-05-28 10:15:58,414 | scraper_dispatcher | INFO | OK 7 -> bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura
+2026-05-28 10:15:59,843 | scraper_dispatcher | INFO | OK 8 -> potato curry for masala dosa | aloo baji for masala dosa
+2026-05-28 10:16:01,201 | scraper_dispatcher | INFO | OK 9 -> sambar powder recipe | sambar masala | sambar podi | sambhar masala at home
+2026-05-28 10:16:02,588 | scraper_dispatcher | INFO | OK 10 -> paneer butter masala without onion and garlic | paneer jain recipes
+2026-05-28 10:16:03,596 | scraper_dispatcher | INFO | Saved 10 recipes for Hebbars Kitchen to data\raw\hebbars-kitchen_recipes.json
+2026-05-28 10:16:03,598 | scraper_dispatcher | INFO | Dispatcher summary: {'total_sources': 1, 'completed': 1, 'failed': 0, 'skipped': 0, 'total_recipes': 10}
+2026-05-28 10:21:36,599 | batch_processor | INFO | Processing source file: data\raw\hebbars-kitchen_recipes.json
+2026-05-28 10:21:36,602 | batch_processor | INFO | Accepted record_id=eaa236fa-fd91-4a05-ba40-f8c7bd91d8dd
+2026-05-28 10:21:36,602 | batch_processor | INFO | Accepted record_id=cbce8d49-a00e-4e3b-a5b2-aec9c4c4d035
+2026-05-28 10:21:36,602 | batch_processor | INFO | Accepted record_id=00fb3937-27a0-4b34-ab55-df0309c221ec
+2026-05-28 10:21:36,603 | batch_processor | INFO | Accepted record_id=4fd789c0-86d7-4bf5-965a-fc4e0f98dcbb
+2026-05-28 10:21:36,603 | batch_processor | INFO | Accepted record_id=47ced5fb-e128-4c8b-8fb7-9e668d66ff98
+2026-05-28 10:21:36,604 | batch_processor | INFO | Accepted record_id=b16b9449-3d6c-4672-96cd-246e675acd4c
+2026-05-28 10:21:36,604 | batch_processor | INFO | Accepted record_id=a9448dbf-140e-4021-a93d-c4aa64650cfd
+2026-05-28 10:21:36,605 | batch_processor | INFO | Accepted record_id=62f9ffb4-33ca-434e-abc4-fce236283283
+2026-05-28 10:21:36,605 | batch_processor | INFO | Accepted record_id=9706b330-8526-4b31-9f51-1105f9d44c48
+2026-05-28 10:21:36,606 | batch_processor | INFO | Accepted record_id=c4f4b0de-8eab-4d30-bc25-5ec74de72303
+2026-05-28 10:21:36,606 | batch_processor | INFO | Running deduplication on 10 accepted recipes
+2026-05-28 10:21:36,639 | batch_processor | INFO | Batch summary: {'total_files': 1, 'total': 10, 'accepted': 10, 'rejected': 0, 'duplicates_removed': 0}
