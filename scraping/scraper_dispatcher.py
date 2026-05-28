@@ -2,11 +2,10 @@ from __future__ import annotations
 
 import json
 import re
-import time
 from pathlib import Path
 from typing import Any, Dict, List
 
-from scraping.web_scraper import scrape_recipe
+from scraping.plugin_loader import get_plugin
 from tracking.scrape_tracker import add_source, update_source_status
 from utils.logging_config import get_logger
 
@@ -90,7 +89,7 @@ def run_source(source_config: Dict[str, Any]) -> Dict[str, Any]:
     base_url = source_config["base_url"]
     url_file = source_config["url_file"]
     enabled = source_config.get("enabled", True)
-    scraper = source_config.get("scraper", "web")
+    scraper_name = source_config.get("scraper", "web")
 
     if not enabled:
         logger.info("Skipping disabled source: %s", source_name)
@@ -116,32 +115,23 @@ def run_source(source_config: Dict[str, Any]) -> Dict[str, Any]:
     urls = load_urls(url_file)
     logger.info("Source=%s URLs=%d", source_name, len(urls))
 
-    scraped: List[Dict[str, Any]] = []
+    try:
+        plugin = get_plugin(scraper_name)
+    except Exception as exc:
+        update_source_status(
+            base_url=base_url,
+            status="failed",
+            recipes_scraped=0,
+            notes=f"Plugin load failed: {exc}",
+        )
+        raise
 
-    for idx, url in enumerate(urls, start=1):
-        try:
-            if scraper != "web":
-                raise NotImplementedError(
-                    f"Scraper '{scraper}' not implemented yet"
-                )
+    scraped = plugin.scrape(urls)
 
-            item = scrape_recipe(url)
-            item["source_name"] = source_name
-            scraped.append(item)
-
-            logger.info("OK %s -> %s", idx, item.get("title"))
-
-            update_source_status(
-                base_url=base_url,
-                status="in_progress",
-                recipes_scraped=len(scraped),
-                notes=f"Scraped {len(scraped)} recipes so far",
-            )
-
-        except Exception as exc:
-            logger.error("FAIL %s -> %s :: %s", idx, url, exc)
-
-        time.sleep(1)
+    for item in scraped:
+        item["source_name"] = source_name
+        item["source_type"] = source_type
+        item["base_url"] = base_url
 
     output_path = save_source_output(source_name, scraped)
 

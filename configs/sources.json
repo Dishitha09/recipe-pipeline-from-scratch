@@ -5,6 +5,14 @@
     "base_url": "https://hebbarskitchen.com",
     "url_file": "configs/hebbars_urls.txt",
     "enabled": true,
-    "scraper": "web"
+    "scraper": "hebbars"
+  },
+  {
+    "source_name": "Archana Kitchen",
+    "source_type": "web",
+    "base_url": "https://www.archanaskitchen.com",
+    "url_file": "configs/archana_urls.txt",
+    "enabled": true,
+    "scraper": "archana"
   }
 ]

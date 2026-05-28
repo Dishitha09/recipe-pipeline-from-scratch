@@ -5,7 +5,7 @@
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/",
-      "scraped_at": "2026-05-28T04:45:50.092438+00:00",
+      "scraped_at": "2026-05-28T05:08:26.611548+00:00",
       "title": "Paneer Butter Masala Recipe - Restaurant Style",
       "cuisine": [
         "punjabi"
@@ -274,13 +274,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/paneer-butter-masala-recipe/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/",
-      "scraped_at": "2026-05-28T04:45:51.464348+00:00",
+      "scraped_at": "2026-05-28T05:08:28.065711+00:00",
       "title": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa",
       "cuisine": [
         "south indian"
@@ -621,13 +622,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/",
-      "scraped_at": "2026-05-28T04:45:52.874190+00:00",
+      "scraped_at": "2026-05-28T05:08:29.486341+00:00",
       "title": "chole bhature recipe | chhole bhature | chana bhatura | chola batura",
       "cuisine": [
         "Indian"
@@ -981,13 +983,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/",
-      "scraped_at": "2026-05-28T04:45:54.249046+00:00",
+      "scraped_at": "2026-05-28T05:08:30.909762+00:00",
       "title": "aloo palak recipe | palak aloo recipe | aloo palak gravy recipe",
       "cuisine": [
         "Indian"
@@ -1178,13 +1181,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/",
-      "scraped_at": "2026-05-28T04:45:55.647537+00:00",
+      "scraped_at": "2026-05-28T05:08:32.311471+00:00",
       "title": "chana masala recipe | chickpea masala recipe | chana curry | chana masala curry",
       "cuisine": [
         "punjabi"
@@ -1447,13 +1451,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/",
-      "scraped_at": "2026-05-28T04:45:57.011448+00:00",
+      "scraped_at": "2026-05-28T05:08:33.731439+00:00",
       "title": "pindi chole recipe | pindi chana masala | how to make pindi chole masala",
       "cuisine": [
         "north indian"
@@ -1643,13 +1648,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/",
-      "scraped_at": "2026-05-28T04:45:58.411840+00:00",
+      "scraped_at": "2026-05-28T05:08:35.170100+00:00",
       "title": "bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura",
       "cuisine": [
         "south indian"
@@ -1926,13 +1932,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/",
-      "scraped_at": "2026-05-28T04:45:59.842505+00:00",
+      "scraped_at": "2026-05-28T05:08:36.582560+00:00",
       "title": "potato curry for masala dosa | aloo baji for masala dosa",
       "cuisine": [
         "Indian"
@@ -2090,13 +2097,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/",
-      "scraped_at": "2026-05-28T04:46:01.200060+00:00",
+      "scraped_at": "2026-05-28T05:08:37.964086+00:00",
       "title": "sambar powder recipe | sambar masala | sambar podi | sambhar masala at home",
       "cuisine": [
         "udupi"
@@ -2273,13 +2281,14 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     },
     {
       "source_id": "hebbarskitchen-com",
       "source_type": "web",
       "source_url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/",
-      "scraped_at": "2026-05-28T04:46:02.587792+00:00",
+      "scraped_at": "2026-05-28T05:08:39.367739+00:00",
       "title": "paneer butter masala without onion and garlic | paneer jain recipes",
       "cuisine": [
         "Indian"
@@ -2445,7 +2454,8 @@
         },
         "mainEntityOfPage": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/"
       },
-      "source_name": "Hebbars Kitchen"
+      "source_name": "Hebbars Kitchen",
+      "base_url": "https://hebbarskitchen.com"
     }
   ]
 }

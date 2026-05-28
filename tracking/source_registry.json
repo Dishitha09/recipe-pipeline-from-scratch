@@ -5,8 +5,18 @@
     "base_url": "https://hebbarskitchen.com",
     "status": "completed",
     "recipes_scraped": 10,
-    "last_scraped_at": "2026-05-28T04:46:03.595853+00:00",
+    "last_scraped_at": "2026-05-28T05:08:40.379176+00:00",
     "created_at": "2026-05-28T04:44:16.718094+00:00",
     "notes": "Dispatcher finished with status=completed"
+  },
+  {
+    "source_name": "Archana Kitchen",
+    "source_type": "web",
+    "base_url": "https://www.archanaskitchen.com",
+    "status": "failed",
+    "recipes_scraped": 0,
+    "last_scraped_at": "2026-05-28T05:09:11.846885+00:00",
+    "created_at": "2026-05-28T05:08:40.409094+00:00",
+    "notes": "Dispatcher finished with status=failed"
   }
 ]
