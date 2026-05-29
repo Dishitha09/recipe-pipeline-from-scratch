@@ -1,34 +1,36 @@
 from __future__ import annotations
 
-import json
+import sqlite3
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-REGISTRY_PATH = BASE_DIR / "tracking" / "url_registry.json"
+DB_PATH = BASE_DIR / "data" / "registry.db"
 
 
-def load_registry():
-    if not REGISTRY_PATH.exists():
+def load_rows():
+    if not DB_PATH.exists():
         return []
 
-    with open(REGISTRY_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    rows = conn.execute("SELECT url, source_name, status, discovered_at, scraped_at, recipe_found, attempts, last_error FROM urls").fetchall()
+    conn.close()
+    return [dict(row) for row in rows]
 
 
 def main():
-    data = load_registry()
+    data = load_rows()
 
     total = len(data)
     discovered = sum(1 for x in data if x.get("status") == "discovered")
     scraped = sum(1 for x in data if x.get("status") == "scraped")
     failed = sum(1 for x in data if x.get("status") == "failed")
-    recipe_found = sum(1 for x in data if x.get("recipe_found") is True)
+    recipe_found = sum(1 for x in data if x.get("recipe_found") == 1)
 
     domains = Counter()
-
     for item in data:
         url = item.get("url", "")
         if url:

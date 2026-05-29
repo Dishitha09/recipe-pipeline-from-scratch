@@ -14,8 +14,15 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from tracking.url_registry import record_url, mark_scraped  # noqa: E402
+from tracking.url_registry_db import (  # noqa: E402
+    initialize_database,
+    record_url,
+    mark_scraped,
+    record_crawl_run,
+)
 
+
+initialize_database()
 
 CHECKPOINT_FILE = PROJECT_ROOT / "crawl_checkpoint.json"
 
@@ -78,23 +85,24 @@ class HebbarsSpider(scrapy.Spider):
         self.last_recipe_title = None
 
     def parse(self, response: scrapy.http.Response):
-        record_url(response.url, source_name="Hebbars Kitchen")
+        current_url = self.canonicalize_url(response.url)
+        record_url(current_url, source_name="Hebbars Kitchen")
 
         recipe = self.extract_recipe(response)
         if recipe:
             self.scraped_count += 1
-            self.last_recipe_url = response.url
+            self.last_recipe_url = current_url
             self.last_recipe_title = recipe.get("title")
-            mark_scraped(response.url, recipe_found=True)
+            mark_scraped(current_url, recipe_found=True)
             yield recipe
         else:
-            mark_scraped(response.url, recipe_found=False)
+            mark_scraped(current_url, recipe_found=False)
 
         for href in response.css("a::attr(href)").getall():
             if not href:
                 continue
 
-            next_url = response.urljoin(href)
+            next_url = self.canonicalize_url(response.urljoin(href))
 
             if next_url in self.seen_urls:
                 continue
@@ -103,6 +111,10 @@ class HebbarsSpider(scrapy.Spider):
                 self.seen_urls.add(next_url)
                 record_url(next_url, source_name="Hebbars Kitchen")
                 yield response.follow(next_url, callback=self.parse)
+
+    def canonicalize_url(self, url: str) -> str:
+        parts = urlparse(url)
+        return parts._replace(fragment="").geturl()
 
     def should_follow(self, url: str) -> bool:
         parsed = urlparse(url)
@@ -143,7 +155,7 @@ class HebbarsSpider(scrapy.Spider):
             "source_id": "hebbars_spider",
             "source_type": "web",
             "source_name": "Hebbars Kitchen",
-            "source_url": response.url,
+            "source_url": self.canonicalize_url(response.url),
             "scraped_at": datetime.now(timezone.utc).isoformat(),
             "title": title,
             "cuisine": cuisine,
@@ -276,11 +288,13 @@ class HebbarsSpider(scrapy.Spider):
         return steps
 
     def closed(self, reason):
+        finished_at = datetime.now(timezone.utc).isoformat()
+
         checkpoint = {
             "status": "completed",
             "reason": reason,
             "started_at": self.started_at,
-            "finished_at": datetime.now(timezone.utc).isoformat(),
+            "finished_at": finished_at,
             "scraped_count": self.scraped_count,
             "last_recipe_url": self.last_recipe_url,
             "last_recipe_title": self.last_recipe_title,
@@ -291,3 +305,15 @@ class HebbarsSpider(scrapy.Spider):
             json.dumps(checkpoint, indent=2, ensure_ascii=False),
             encoding="utf-8",
         )
+
+        try:
+            record_crawl_run(
+                source_name="Hebbars Kitchen",
+                started_at=self.started_at,
+                finished_at=finished_at,
+                status=reason,
+                scraped_count=self.scraped_count,
+                notes=f"Last recipe: {self.last_recipe_title or ''}",
+            )
+        except Exception as exc:
+            self.logger.error("Failed to record crawl run: %s", exc)

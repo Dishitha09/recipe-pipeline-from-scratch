@@ -4,199 +4,74 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List
 
-from ingestion.json_adapter import JSONRecipeAdapter
-from preprocessing.coerce import coerce_raw_record
-from parsing.ingredient_parser import parse_ingredient_list
-from enrichment.enrich_recipe import enrich_recipe
-from normalization.normalize_recipe import normalize_recipe
 from validation.validator import validate_recipe
-from deduplication.deduplicate import deduplicate_recipes
-from utils.logging_config import get_logger
+from deduplication.dedupe import dedupe_recipes
 
 
-logger = get_logger("pipeline_runner")
-
-INPUT_JSON = Path("data/raw/web_recipes.json")
-
-ACCEPTED_OUTPUT = Path("processed_data/accepted_recipes.json")
-REJECTED_OUTPUT = Path("quarantine/rejected_recipes.json")
+INPUT_FILE = Path("data/raw/web_recipes.json")
+ACCEPTED_FILE = Path("processed_data/accepted_recipes.json")
+REJECTED_FILE = Path("quarantine/rejected_recipes.json")
 
 
-def ensure_parent(path: Path) -> None:
+def load_input() -> List[Dict[str, Any]]:
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(f"Missing input file: {INPUT_FILE}")
+
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if isinstance(data, dict) and "recipes" in data and isinstance(data["recipes"], list):
+        return data["recipes"]
+
+    if isinstance(data, list):
+        return data
+
+    raise ValueError("Unexpected input format in web_recipes.json")
+
+
+def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def load_existing_json(path: Path, default: Any) -> Any:
-    if not path.exists():
-        return default
+def run_pipeline() -> Dict[str, Any]:
+    raw_recipes = load_input()
 
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return default
-
-
-def run_pipeline() -> Dict[str, int]:
-    logger.info("Starting pipeline run")
-
-    adapter = JSONRecipeAdapter(str(INPUT_JSON))
-
-    raw_records = adapter.extract()
-
-    logger.info("Loaded %d raw records", len(raw_records))
-
-    processed_rows: List[Dict[str, Any]] = []
+    accepted: List[Dict[str, Any]] = []
     rejected: List[Dict[str, Any]] = []
 
-    for raw_record in raw_records:
-        try:
-            logger.info(
-                "Processing record_id=%s",
-                raw_record.record_id,
-            )
+    for recipe in raw_recipes:
+        result = validate_recipe(recipe)
 
-            preprocessed = coerce_raw_record(
-                raw_record.raw_content
-            )
+        verdict = result.get("verdict", "REJECTED")
 
-            parsed_ingredients = parse_ingredient_list(
-                preprocessed.ingredients
-            )
-
-            pipeline_recipe = {
-                "title": preprocessed.title,
-                "cuisine": preprocessed.cuisine,
-                "prep_time": preprocessed.prep_time,
-                "servings": preprocessed.servings,
-                "steps": preprocessed.steps,
-                "ingredients": parsed_ingredients,
-                "metadata": preprocessed.metadata,
-                "source_id": raw_record.source_id,
-                "source_type": raw_record.source_type,
-                "record_id": raw_record.record_id,
-                "ingested_at": raw_record.ingested_at,
-            }
-
-            enriched = enrich_recipe(
-                pipeline_recipe
-            )
-
-            normalized = normalize_recipe(
-                enriched
-            )
-
-            validated = validate_recipe(
-                normalized
-            )
-
-            output_row = {
-                "record_id": raw_record.record_id,
-                "source_id": raw_record.source_id,
-                "source_type": raw_record.source_type,
-                "ingested_at": raw_record.ingested_at,
-                "verdict": validated["verdict"],
-                "recipe": validated["recipe"],
-                "check_results": validated["check_results"],
-            }
-
-            if validated["verdict"] == "ACCEPTED":
-                processed_rows.append(output_row)
-
-                logger.info(
-                    "Accepted record_id=%s",
-                    raw_record.record_id,
-                )
-
-            else:
-                rejected.append(output_row)
-
-                logger.warning(
-                    "Rejected record_id=%s verdict=%s",
-                    raw_record.record_id,
-                    validated["verdict"],
-                )
-
-        except Exception as exc:
-            logger.exception(
-                "Error processing record_id=%s",
-                raw_record.record_id,
-            )
-
+        if verdict == "ACCEPTED":
+            accepted.append(recipe)
+        else:
             rejected.append(
                 {
-                    "record_id": raw_record.record_id,
-                    "source_id": raw_record.source_id,
-                    "source_type": raw_record.source_type,
-                    "ingested_at": raw_record.ingested_at,
-                    "verdict": "ERROR",
-                    "error": str(exc),
-                    "raw_content": raw_record.raw_content,
+                    "recipe": recipe,
+                    "verdict": verdict,
+                    "checks": result.get("check_results", []),
                 }
             )
 
-    logger.info(
-        "Running deduplication on %d accepted recipes",
-        len(processed_rows),
-    )
+    deduped_accepted, duplicates_removed = dedupe_recipes(accepted)
 
-    unique_recipes, duplicate_recipes = deduplicate_recipes(
-        [row["recipe"] for row in processed_rows]
-    )
-
-    accepted: List[Dict[str, Any]] = []
-
-    for row in processed_rows:
-        if row["recipe"] in unique_recipes:
-            accepted.append(row)
-
-    logger.info(
-        "Deduplicated %d duplicates",
-        len(duplicate_recipes),
-    )
-
-    ensure_parent(ACCEPTED_OUTPUT)
-    ensure_parent(REJECTED_OUTPUT)
-
-    ACCEPTED_OUTPUT.write_text(
-        json.dumps(
-            load_existing_json(
-                ACCEPTED_OUTPUT,
-                [],
-            ) + accepted,
-            indent=2,
-            ensure_ascii=False,
-        ),
-        encoding="utf-8",
-    )
-
-    REJECTED_OUTPUT.write_text(
-        json.dumps(
-            load_existing_json(
-                REJECTED_OUTPUT,
-                [],
-            ) + rejected,
-            indent=2,
-            ensure_ascii=False,
-        ),
-        encoding="utf-8",
-    )
+    write_json(ACCEPTED_FILE, deduped_accepted)
+    write_json(REJECTED_FILE, rejected)
 
     summary = {
-        "total": len(raw_records),
-        "accepted": len(accepted),
+        "total": len(raw_recipes),
+        "accepted": len(deduped_accepted),
         "rejected": len(rejected),
-        "duplicates_removed": len(duplicate_recipes),
+        "duplicates_removed": duplicates_removed,
     }
 
-    logger.info(
-        "Pipeline summary: %s",
-        summary,
-    )
-
+    print(f"Pipeline summary: {summary}")
     return summary
 
 
 if __name__ == "__main__":
-    summary = run_pipeline()
-
-    print(summary)
+    run_pipeline()

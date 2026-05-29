@@ -1,0 +1,129 @@
+{
+  "run_name": "run_20260529_161321",
+  "created_at": "2026-05-29T16:13:22.137250",
+  "run_dir": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321",
+  "copied_files": [
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\data\\raw\\hebbars_kitchen_recipes.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\raw\\hebbars_kitchen_recipes.json",
+      "size_bytes": 946577,
+      "json_summary": {
+        "type": "list",
+        "count": 74
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\data\\raw\\web_recipes.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\raw\\web_recipes.json",
+      "size_bytes": 870210,
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "recipes"
+        ],
+        "recipes_count": 74
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\processed_data\\normalized_recipes.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\processed_data\\normalized_recipes.json",
+      "size_bytes": 848335,
+      "json_summary": {
+        "type": "list",
+        "count": 74
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\processed_data\\ingredient_catalog.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\processed_data\\ingredient_catalog.json",
+      "size_bytes": 16294,
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "total_unique_ingredients",
+          "top_ingredients"
+        ],
+        "top_ingredients_count": 227
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\processed_data\\cuisine_catalog.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\processed_data\\cuisine_catalog.json",
+      "size_bytes": 26229,
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "total_recipes",
+          "cuisine_counts",
+          "classified_recipes"
+        ],
+        "classified_recipes_count": 74
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\processed_data\\accepted_recipes.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\processed_data\\accepted_recipes.json",
+      "size_bytes": 2,
+      "json_summary": {
+        "type": "list",
+        "count": 0
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\quarantine\\rejected_recipes.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\quarantine\\rejected_recipes.json",
+      "size_bytes": 875739,
+      "json_summary": {
+        "type": "list",
+        "count": 74
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\tracking\\url_registry.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\tracking\\url_registry.json",
+      "size_bytes": 494538,
+      "json_summary": {
+        "type": "list",
+        "count": 1538
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\tracking\\source_registry.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\tracking\\source_registry.json",
+      "size_bytes": 707,
+      "json_summary": {
+        "type": "list",
+        "count": 2
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\data\\registry.db",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\data\\registry.db",
+      "size_bytes": 741376,
+      "json_summary": {
+        "type": "unreadable_json"
+      }
+    },
+    {
+      "source": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\crawl_checkpoint.json",
+      "destination": "C:\\Users\\Dishitha Ramesh\\recipe_pipeline_from_scratch\\runs\\run_20260529_161321\\crawl_checkpoint.json",
+      "size_bytes": 414,
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "status",
+          "reason",
+          "started_at",
+          "finished_at",
+          "scraped_count",
+          "last_recipe_url",
+          "last_recipe_title",
+          "visited_urls_count"
+        ]
+      }
+    }
+  ],
+  "missing_files": [],
+  "total_copied": 11,
+  "total_missing": 0
+}

@@ -4,10 +4,17 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from urllib.parse import urlsplit, urlunsplit
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = BASE_DIR / "tracking" / "url_registry.json"
+
+
+def canonicalize_url(url: str) -> str:
+    parts = urlsplit(url)
+    clean_parts = parts._replace(fragment="")
+    return urlunsplit(clean_parts)
 
 
 def load_registry() -> List[Dict[str, Any]]:
@@ -33,6 +40,7 @@ def record_url(
     source_name: str,
     discovered_at: Optional[str] = None,
 ) -> Dict[str, Any]:
+    url = canonicalize_url(url)
     registry = load_registry()
 
     existing = next((item for item in registry if item["url"] == url), None)
@@ -60,6 +68,7 @@ def mark_scraped(
     recipe_found: bool,
     error: Optional[str] = None,
 ) -> Dict[str, Any]:
+    url = canonicalize_url(url)
     registry = load_registry()
 
     for item in registry:

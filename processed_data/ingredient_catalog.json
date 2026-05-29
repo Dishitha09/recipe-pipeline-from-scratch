@@ -1,0 +1,913 @@
+{
+  "total_unique_ingredients": 227,
+  "top_ingredients": [
+    {
+      "ingredient": "salt",
+      "count": 48
+    },
+    {
+      "ingredient": "oil",
+      "count": 42
+    },
+    {
+      "ingredient": "water",
+      "count": 34
+    },
+    {
+      "ingredient": "onion",
+      "count": 22
+    },
+    {
+      "ingredient": "coriander",
+      "count": 21
+    },
+    {
+      "ingredient": "turmeric",
+      "count": 21
+    },
+    {
+      "ingredient": "sugar",
+      "count": 17
+    },
+    {
+      "ingredient": "garlic",
+      "count": 16
+    },
+    {
+      "ingredient": "few curry leaves",
+      "count": 15
+    },
+    {
+      "ingredient": "kashmiri red chilli powder",
+      "count": 15
+    },
+    {
+      "ingredient": "milk",
+      "count": 13
+    },
+    {
+      "ingredient": "capsicum",
+      "count": 12
+    },
+    {
+      "ingredient": "ghee clarified butter",
+      "count": 11
+    },
+    {
+      "ingredient": "ginger garlic paste",
+      "count": 11
+    },
+    {
+      "ingredient": "mustard",
+      "count": 10
+    },
+    {
+      "ingredient": "dried red chilli",
+      "count": 9
+    },
+    {
+      "ingredient": "soy sauce",
+      "count": 9
+    },
+    {
+      "ingredient": "butter",
+      "count": 9
+    },
+    {
+      "ingredient": "chilli",
+      "count": 9
+    },
+    {
+      "ingredient": "cardamom powder",
+      "count": 8
+    },
+    {
+      "ingredient": "rice flour",
+      "count": 8
+    },
+    {
+      "ingredient": "corn flour",
+      "count": 8
+    },
+    {
+      "ingredient": "vinegar",
+      "count": 8
+    },
+    {
+      "ingredient": "tomato",
+      "count": 8
+    },
+    {
+      "ingredient": "urad dal",
+      "count": 8
+    },
+    {
+      "ingredient": "inch ginger",
+      "count": 7
+    },
+    {
+      "ingredient": "carrot",
+      "count": 7
+    },
+    {
+      "ingredient": "cumin",
+      "count": 7
+    },
+    {
+      "ingredient": "hing",
+      "count": 7
+    },
+    {
+      "ingredient": "chilli powder",
+      "count": 7
+    },
+    {
+      "ingredient": "green chilli",
+      "count": 6
+    },
+    {
+      "ingredient": "besan gram flour",
+      "count": 6
+    },
+    {
+      "ingredient": "salt to taste",
+      "count": 6
+    },
+    {
+      "ingredient": "pepper powder",
+      "count": 6
+    },
+    {
+      "ingredient": "garam masala",
+      "count": 6
+    },
+    {
+      "ingredient": "potato",
+      "count": 6
+    },
+    {
+      "ingredient": "moong dal",
+      "count": 5
+    },
+    {
+      "ingredient": "potato aloo",
+      "count": 5
+    },
+    {
+      "ingredient": "oil for deep frying",
+      "count": 5
+    },
+    {
+      "ingredient": "jaggery",
+      "count": 5
+    },
+    {
+      "ingredient": "coriander seeds",
+      "count": 5
+    },
+    {
+      "ingredient": "pepper",
+      "count": 5
+    },
+    {
+      "ingredient": "vanilla extract",
+      "count": 5
+    },
+    {
+      "ingredient": "maida plain flour",
+      "count": 5
+    },
+    {
+      "ingredient": "chana dal",
+      "count": 5
+    },
+    {
+      "ingredient": "hing asafoetida",
+      "count": 5
+    },
+    {
+      "ingredient": "coriander powder",
+      "count": 5
+    },
+    {
+      "ingredient": "chilli sauce",
+      "count": 5
+    },
+    {
+      "ingredient": "tomato sauce",
+      "count": 5
+    },
+    {
+      "ingredient": "pav bhaji masala",
+      "count": 5
+    },
+    {
+      "ingredient": "rava semolina suji",
+      "count": 4
+    },
+    {
+      "ingredient": "cashew",
+      "count": 4
+    },
+    {
+      "ingredient": "kashmiri red chilli powder lal mirch powder",
+      "count": 4
+    },
+    {
+      "ingredient": "chaat masala",
+      "count": 4
+    },
+    {
+      "ingredient": "baking soda",
+      "count": 4
+    },
+    {
+      "ingredient": "oil for frying",
+      "count": 4
+    },
+    {
+      "ingredient": "turmeric haldi",
+      "count": 4
+    },
+    {
+      "ingredient": "custard powder",
+      "count": 4
+    },
+    {
+      "ingredient": "cumin powder",
+      "count": 4
+    },
+    {
+      "ingredient": "spring onion",
+      "count": 4
+    },
+    {
+      "ingredient": "sweet corn",
+      "count": 4
+    },
+    {
+      "ingredient": "peas matar",
+      "count": 4
+    },
+    {
+      "ingredient": "lemon juice",
+      "count": 4
+    },
+    {
+      "ingredient": "methi",
+      "count": 4
+    },
+    {
+      "ingredient": "ajwain carom seeds",
+      "count": 3
+    },
+    {
+      "ingredient": "cubes paneer cottage cheese",
+      "count": 3
+    },
+    {
+      "ingredient": "cashew kaju",
+      "count": 3
+    },
+    {
+      "ingredient": "cloves",
+      "count": 3
+    },
+    {
+      "ingredient": "masoor dal",
+      "count": 3
+    },
+    {
+      "ingredient": "peanuts",
+      "count": 3
+    },
+    {
+      "ingredient": "aamchur",
+      "count": 3
+    },
+    {
+      "ingredient": "to mato",
+      "count": 3
+    },
+    {
+      "ingredient": "small ball sized tamarind",
+      "count": 3
+    },
+    {
+      "ingredient": "beans",
+      "count": 3
+    },
+    {
+      "ingredient": "cumin seeds",
+      "count": 3
+    },
+    {
+      "ingredient": "bread",
+      "count": 2
+    },
+    {
+      "ingredient": "green chutney",
+      "count": 2
+    },
+    {
+      "ingredient": "cumin jeera",
+      "count": 2
+    },
+    {
+      "ingredient": "fennel saunf",
+      "count": 2
+    },
+    {
+      "ingredient": "tamarind extract",
+      "count": 2
+    },
+    {
+      "ingredient": "curd yogurt",
+      "count": 2
+    },
+    {
+      "ingredient": "pods cardamom",
+      "count": 2
+    },
+    {
+      "ingredient": "black pepper",
+      "count": 2
+    },
+    {
+      "ingredient": "baking powder",
+      "count": 2
+    },
+    {
+      "ingredient": "cream",
+      "count": 2
+    },
+    {
+      "ingredient": "hot water",
+      "count": 2
+    },
+    {
+      "ingredient": "coconut",
+      "count": 2
+    },
+    {
+      "ingredient": "powdered sugar",
+      "count": 2
+    },
+    {
+      "ingredient": "hot oil",
+      "count": 2
+    },
+    {
+      "ingredient": "toor dal",
+      "count": 2
+    },
+    {
+      "ingredient": "kasuri methi",
+      "count": 2
+    },
+    {
+      "ingredient": "cumin powder jeera powder",
+      "count": 2
+    },
+    {
+      "ingredient": "paneer cottage cheese",
+      "count": 2
+    },
+    {
+      "ingredient": "coriander leaves",
+      "count": 2
+    },
+    {
+      "ingredient": "raisins",
+      "count": 2
+    },
+    {
+      "ingredient": "florets gobi cauliflower",
+      "count": 2
+    },
+    {
+      "ingredient": "cold water",
+      "count": 2
+    },
+    {
+      "ingredient": "pav",
+      "count": 2
+    },
+    {
+      "ingredient": "cabbage",
+      "count": 2
+    },
+    {
+      "ingredient": "sesame",
+      "count": 2
+    },
+    {
+      "ingredient": "roasted chana dal putani",
+      "count": 2
+    },
+    {
+      "ingredient": "sev",
+      "count": 2
+    },
+    {
+      "ingredient": "dry coconut",
+      "count": 2
+    },
+    {
+      "ingredient": "almond",
+      "count": 1
+    },
+    {
+      "ingredient": "aamchur dry mango powder",
+      "count": 1
+    },
+    {
+      "ingredient": "of soda",
+      "count": 1
+    },
+    {
+      "ingredient": "water or as required",
+      "count": 1
+    },
+    {
+      "ingredient": "ghee",
+      "count": 1
+    },
+    {
+      "ingredient": "murmura puffed rice",
+      "count": 1
+    },
+    {
+      "ingredient": "gram flour besan",
+      "count": 1
+    },
+    {
+      "ingredient": "saffron",
+      "count": 1
+    },
+    {
+      "ingredient": "methi fenugreek",
+      "count": 1
+    },
+    {
+      "ingredient": "almonds badam",
+      "count": 1
+    },
+    {
+      "ingredient": "pistachios",
+      "count": 1
+    },
+    {
+      "ingredient": "raw papaya papita",
+      "count": 1
+    },
+    {
+      "ingredient": "drops food colour",
+      "count": 1
+    },
+    {
+      "ingredient": "mango",
+      "count": 1
+    },
+    {
+      "ingredient": "scoops vanilla ice cream",
+      "count": 1
+    },
+    {
+      "ingredient": "few nuts",
+      "count": 1
+    },
+    {
+      "ingredient": "corn",
+      "count": 1
+    },
+    {
+      "ingredient": "sesame seeds til",
+      "count": 1
+    },
+    {
+      "ingredient": "mixed herbs",
+      "count": 1
+    },
+    {
+      "ingredient": "breadcrumbs",
+      "count": 1
+    },
+    {
+      "ingredient": "tea powder",
+      "count": 1
+    },
+    {
+      "ingredient": "cardamoms",
+      "count": 1
+    },
+    {
+      "ingredient": "half cup milk",
+      "count": 1
+    },
+    {
+      "ingredient": "half cup water",
+      "count": 1
+    },
+    {
+      "ingredient": "condensed milk milkmaid",
+      "count": 1
+    },
+    {
+      "ingredient": "agar agar gelatin china grass",
+      "count": 1
+    },
+    {
+      "ingredient": "mango puree",
+      "count": 1
+    },
+    {
+      "ingredient": "agar agar gelatin",
+      "count": 1
+    },
+    {
+      "ingredient": "vanilla extract vanilla essence",
+      "count": 1
+    },
+    {
+      "ingredient": "of salt",
+      "count": 1
+    },
+    {
+      "ingredient": "condensed milk",
+      "count": 1
+    },
+    {
+      "ingredient": "mango pulp",
+      "count": 1
+    },
+    {
+      "ingredient": "pomegranate",
+      "count": 1
+    },
+    {
+      "ingredient": "apple",
+      "count": 1
+    },
+    {
+      "ingredient": "banana",
+      "count": 1
+    },
+    {
+      "ingredient": "strawberry",
+      "count": 1
+    },
+    {
+      "ingredient": "grapes",
+      "count": 1
+    },
+    {
+      "ingredient": "jaggery gud bella",
+      "count": 1
+    },
+    {
+      "ingredient": "raisins kishmish",
+      "count": 1
+    },
+    {
+      "ingredient": "saffron milk",
+      "count": 1
+    },
+    {
+      "ingredient": "wheat flour atta",
+      "count": 1
+    },
+    {
+      "ingredient": "cardamom powder ealchi powder",
+      "count": 1
+    },
+    {
+      "ingredient": "cocoa powder",
+      "count": 1
+    },
+    {
+      "ingredient": "whipping cream",
+      "count": 1
+    },
+    {
+      "ingredient": "icing sugar",
+      "count": 1
+    },
+    {
+      "ingredient": "bay leaf",
+      "count": 1
+    },
+    {
+      "ingredient": "idlis",
+      "count": 1
+    },
+    {
+      "ingredient": "maida all purpose flour",
+      "count": 1
+    },
+    {
+      "ingredient": "corn flour corn starch",
+      "count": 1
+    },
+    {
+      "ingredient": "water as required",
+      "count": 1
+    },
+    {
+      "ingredient": "garlic cloves",
+      "count": 1
+    },
+    {
+      "ingredient": "tomato sauce or add as required",
+      "count": 1
+    },
+    {
+      "ingredient": "bread crumbs",
+      "count": 1
+    },
+    {
+      "ingredient": "coriander powder daniya powder",
+      "count": 1
+    },
+    {
+      "ingredient": "garam masala powder",
+      "count": 1
+    },
+    {
+      "ingredient": "aamchur powder dry mango powder",
+      "count": 1
+    },
+    {
+      "ingredient": "small capsicum",
+      "count": 1
+    },
+    {
+      "ingredient": "handful of mozzarella cheddar cheese",
+      "count": 1
+    },
+    {
+      "ingredient": "kashmiri red chilli",
+      "count": 1
+    },
+    {
+      "ingredient": "spicy dried red chilli",
+      "count": 1
+    },
+    {
+      "ingredient": "ginger",
+      "count": 1
+    },
+    {
+      "ingredient": "tbsp butter",
+      "count": 1
+    },
+    {
+      "ingredient": "tsp kashmiri red chilli powder lal mirch powder",
+      "count": 1
+    },
+    {
+      "ingredient": "tsp pav bhaji masala",
+      "count": 1
+    },
+    {
+      "ingredient": "tsp kasuri methi dry fenugreek leaves",
+      "count": 1
+    },
+    {
+      "ingredient": "tbsp coriander leaves",
+      "count": 1
+    },
+    {
+      "ingredient": "drops red food colour",
+      "count": 1
+    },
+    {
+      "ingredient": "water to adjust consistency",
+      "count": 1
+    },
+    {
+      "ingredient": "pav bread roll",
+      "count": 1
+    },
+    {
+      "ingredient": "almonds",
+      "count": 1
+    },
+    {
+      "ingredient": "kesar water",
+      "count": 1
+    },
+    {
+      "ingredient": "florets cauliflower",
+      "count": 1
+    },
+    {
+      "ingredient": "peas",
+      "count": 1
+    },
+    {
+      "ingredient": "beetroot",
+      "count": 1
+    },
+    {
+      "ingredient": "warm water",
+      "count": 1
+    },
+    {
+      "ingredient": "dry yeast",
+      "count": 1
+    },
+    {
+      "ingredient": "maida plain flour all purpose flour",
+      "count": 1
+    },
+    {
+      "ingredient": "mustard rai",
+      "count": 1
+    },
+    {
+      "ingredient": "of asafoetida hing",
+      "count": 1
+    },
+    {
+      "ingredient": "ginger and garlic",
+      "count": 1
+    },
+    {
+      "ingredient": "potatoes",
+      "count": 1
+    },
+    {
+      "ingredient": "dry garlic powder",
+      "count": 1
+    },
+    {
+      "ingredient": "banana chilli",
+      "count": 1
+    },
+    {
+      "ingredient": "spicy chilli",
+      "count": 1
+    },
+    {
+      "ingredient": "tomato saue",
+      "count": 1
+    },
+    {
+      "ingredient": "chikpea chana",
+      "count": 1
+    },
+    {
+      "ingredient": "spring onions",
+      "count": 1
+    },
+    {
+      "ingredient": "cubes capsicum",
+      "count": 1
+    },
+    {
+      "ingredient": "pack noodles",
+      "count": 1
+    },
+    {
+      "ingredient": "few bean sprouts",
+      "count": 1
+    },
+    {
+      "ingredient": "roasted gram dal putani",
+      "count": 1
+    },
+    {
+      "ingredient": "maida",
+      "count": 1
+    },
+    {
+      "ingredient": "bhindi okra",
+      "count": 1
+    },
+    {
+      "ingredient": "small piece tamarind",
+      "count": 1
+    },
+    {
+      "ingredient": "red onion",
+      "count": 1
+    },
+    {
+      "ingredient": "raw papaya",
+      "count": 1
+    },
+    {
+      "ingredient": "kalonji seeds",
+      "count": 1
+    },
+    {
+      "ingredient": "lemon",
+      "count": 1
+    },
+    {
+      "ingredient": "bunch coriander",
+      "count": 1
+    },
+    {
+      "ingredient": "tamarind",
+      "count": 1
+    },
+    {
+      "ingredient": "gobi cauliflower",
+      "count": 1
+    },
+    {
+      "ingredient": "ginger paste",
+      "count": 1
+    },
+    {
+      "ingredient": "parotta",
+      "count": 1
+    },
+    {
+      "ingredient": "kashmiri chilli powder",
+      "count": 1
+    },
+    {
+      "ingredient": "white peas vatana safed matar",
+      "count": 1
+    },
+    {
+      "ingredient": "puri",
+      "count": 1
+    },
+    {
+      "ingredient": "few onion",
+      "count": 1
+    },
+    {
+      "ingredient": "tamarind chutney",
+      "count": 1
+    },
+    {
+      "ingredient": "handful sev",
+      "count": 1
+    },
+    {
+      "ingredient": "few coriander",
+      "count": 1
+    },
+    {
+      "ingredient": "few drops red food colour",
+      "count": 1
+    },
+    {
+      "ingredient": "pav bhaji masala powder",
+      "count": 1
+    },
+    {
+      "ingredient": "puffed rice murmura churmuri",
+      "count": 1
+    },
+    {
+      "ingredient": "handful coriander leaves",
+      "count": 1
+    },
+    {
+      "ingredient": "papdi",
+      "count": 1
+    },
+    {
+      "ingredient": "onions",
+      "count": 1
+    },
+    {
+      "ingredient": "inch cinnamon",
+      "count": 1
+    },
+    {
+      "ingredient": "khus khus poppy seeds",
+      "count": 1
+    },
+    {
+      "ingredient": "cheese",
+      "count": 1
+    },
+    {
+      "ingredient": "maggi tastemaker",
+      "count": 1
+    },
+    {
+      "ingredient": "maggi noodles",
+      "count": 1
+    },
+    {
+      "ingredient": "bitter gourd karela",
+      "count": 1
+    },
+    {
+      "ingredient": "poppy seeds",
+      "count": 1
+    },
+    {
+      "ingredient": "peanut",
+      "count": 1
+    }
+  ]
+}
