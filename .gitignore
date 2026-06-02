@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Database files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Crawl outputs
+runs/
+
+# Logs
+logs/
+
+# VS Code
+.vscode/
