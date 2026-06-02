@@ -1,0 +1,1745 @@
+[
+  {
+    "record_id": "edc6db33-20d4-4719-8b05-7545fdbe85a4",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:28.899201+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/09/why-skipping-breakfast-is-bad-how-to-deal-it-with-healthy-food-intakes-1.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/09/why-skipping-breakfast-is-bad-how-to-deal-it-with-healthy-food-intakes-1.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "5d575d9e-b534-4c72-9302-ee5c79b0b9e0",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:28.885447+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/why-skipping-breakfast-is-bad-how-to-deal-it-with-healthy-food-intakes-2.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/why-skipping-breakfast-is-bad-how-to-deal-it-with-healthy-food-intakes-2.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "aebefa70-4c92-43db-b7a6-c8bd770a6700",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:28.926637+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-7.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-7.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ffc02a0b-cf76-4dfd-ae35-2b4a94982ffc",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:28.946866+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-4.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-4.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "4b8ccc8a-5642-4df3-bb6f-474d89a675eb",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:29.004586+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-6.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-6.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "3e17306d-eaa1-459c-8bf6-10f55bff6bd4",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:29.029219+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-1.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/how-to-get-more-protein-into-your-toddler-when-on-a-vegetarian-diet-1.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "e19bbd7e-3af2-4ff9-9d32-914b188fbba1",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:29.702294+00:00",
+    "raw_content": {
+      "title": "5 things you are doing wrong in the kitchen and how to correct it",
+      "source_url": "https://hebbarskitchen.com/5-things-wrong-kitchen",
+      "ingredients": [],
+      "steps": [
+        "Pooja shivhare January 2, 2018                                                At                                                10:08 pm Hi… I love the recepies of ur’s . It’s easy to make as well delicious… Hebbars Kitchen January 5, 2018                                                At                                                7:16 pm Thanks a lot 🙂",
+        "Hebbars Kitchen January 5, 2018                                                At                                                7:16 pm Thanks a lot 🙂",
+        "jyotika November 14, 2017                                                At                                                5:51 pm hi hebbar  kitchen i love your app, it has so much delicacies of your own, i’m a happy follower of your page as well.. i on behalf of other viewers would like to request you to give us some dishes made in air fryer as well thanks in advance love love love and more love on your way Hebbars Kitchen November 15, 2017                                                At                                                7:54 pm thank yu 🙂 sure..ill share soon jyotika 🙂",
+        "Hebbars Kitchen November 15, 2017                                                At                                                7:54 pm thank yu 🙂 sure..ill share soon jyotika 🙂",
+        "jyotika November 14, 2017                                                At                                                5:50 pm hi hebbers kitchen i love your app, it has so much delicacies of your own, i’m a happy follower of your page as well.. i on behalf of other viewers would like to request you to give us some dishes made in air fryer as well thanks in advance love love love and more love on your way Hebbars Kitchen November 15, 2017                                                At                                                7:55 pm thank you 🙂 sure..ill share soon jyotika 🙂",
+        "Hebbars Kitchen November 15, 2017                                                At                                                7:55 pm thank you 🙂 sure..ill share soon jyotika 🙂",
+        "Surendra October 18, 2017                                                At                                                5:05 pm Cool.. useful tips. Thanks."
+      ],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/5-things-wrong-kitchen",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "3c34b9c1-8571-4330-bb6d-ca1cdcb3a0a3",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.032179+00:00",
+    "raw_content": {
+      "title": "why skipping breakfast is bad & how to deal it with healthy food intakes",
+      "source_url": "https://hebbarskitchen.com/skipping-breakfast-bad-healthy-food",
+      "ingredients": [],
+      "steps": [
+        "fresh fruit juices and shakes",
+        "fruit popsicles",
+        "instant poha mix",
+        "homemade banana bread",
+        "overnight oats with banana",
+        "mango smoothies",
+        "oats upma",
+        "sandwich recipes",
+        "dry fruit laddu",
+        "grab and go options like granola bars.",
+        "Regina September 7, 2017                                                At                                                1:57 am Hello why am I not getting your daily recipes? Hebbars Kitchen September 17, 2017                                                At                                                7:18 pm It seems you have subscribed to mailing..I am not sure why you are not receiving notification.",
+        "Hebbars Kitchen September 17, 2017                                                At                                                7:18 pm It seems you have subscribed to mailing..I am not sure why you are not receiving notification."
+      ],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/skipping-breakfast-bad-healthy-food",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "f01b6b53-6358-49a5-b127-7d2a06cefef5",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.280217+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/09/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-7.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/09/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-7.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "f4aed597-aa99-4da3-8bbc-425e916daf30",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.620612+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-4.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-4.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "634a8dda-8bfc-474d-a46a-e7747be315a7",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.616275+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-5.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-5.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "2e3f92ab-bca3-4406-95fa-6f5b80f9cbda",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.646964+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-6.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-6.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "401acd0a-2d77-4301-998d-51cffccd9cfc",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.700278+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-3.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-3.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ef10ca90-1b9d-49be-97c1-3788882ad958",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:30.720253+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-2.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/2017/08/5-things-you-are-doing-wrong-in-the-kitchen-and-how-to-correct-it-2.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ffc27051-2ea7-43b6-8802-1ced77dfaf0d",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:31.683343+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-4.jpg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/09/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-4.jpg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "0d29ff2f-cf6b-4e09-ae75-d15ff75e05d5",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:31.891709+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-1.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-1.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "5b39daff-1923-4bff-a112-44482faa2255",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.224158+00:00",
+    "raw_content": {
+      "title": "benefits of green leafy vegetables | how to store green leafy vegetables",
+      "source_url": "https://hebbarskitchen.com/store-green-leafy-vegetables-benefits",
+      "ingredients": [],
+      "steps": [
+        "firstly, wash and dry leafy vegetables, cover with paper towel, store in storage container and refrigerate it.",
+        "wash and boil leafy vegetables for 2 mins, drain in cold water, store and freeze in zipper bag.",
+        "furthermore, cut stems, wash and drain it, roll in towel with rubber band, store in ziploc bags and refrigerate it.",
+        "always, cut the roots, wrap the leafy vegetables in paper towel and store in plastic bags and refrigerate it.",
+        "also, store coriander leaves in storage container by wrapping in kitchen towel or news paper and refrigerate it.",
+        "in addition, for coriander, cut ends, place in glass of water, cover the leaves with plastic bag and refrigerate it.",
+        "also, for spinach, wrap in damp paper towels and store unwashed in perforated plastic bags or ziploc bags.",
+        "in addition, for spinach, cut the bottom and dip it in glass of water and refrigerate it for a week.",
+        "also, for spinach, wash and make puree, fill it in tray, freeze and store in ziploc bags.",
+        "furthermore, for spinach and amarnath, wash and blanch it, store the puree in freezer for many days.",
+        "also, microwave fenugreek, curry and mint leaves, store in air tight container and crush it for use.",
+        "finally, for curry leaves, wash and dry it, store in box, wipe the lid for every 2 days."
+      ],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/store-green-leafy-vegetables-benefits",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "bc9a453c-811d-4871-b7d6-a75d145d3de2",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.387200+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-2.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2017/08/benefits-of-green-leafy-vegetables-how-to-store-green-leafy-vegetables-2.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "2dcf2930-c42b-4b1d-90b6-ece4f1e4a07c",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.500384+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-2.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-2.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "a4b46201-c059-4678-a6cf-c34fde17371f",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.516493+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "http://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1-400x300.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "http://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1-400x300.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "5d4359dd-416c-4bd7-91f6-c7f2852452dd",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.673720+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "8cb50092-21d7-4d5f-9e34-1072b413aa4d",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.690028+00:00",
+    "raw_content": {
+      "title": "घेवर रेसिपी | ghevar in hindi | घर पर ही बनाइये घेवर | जयपुर घेवर",
+      "source_url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home",
+      "ingredients": [
+        "½ कप घी",
+        "1  बर्फ का टुकड़ा",
+        "2 कप मैदा",
+        "½ कप दूध (ठंडा)",
+        "3 कप पानी (ठंडा)",
+        "1 टी स्पून नींबू का रस",
+        "1 कप शक्कर",
+        "¼ कप पानी",
+        "तेल / घी डीप फ्राई करने के लिए",
+        "सूखे मेवे (सजाने के लिए)",
+        "¼ टी स्पून इलाइची पाउडर",
+        "चाँदी का वर्क (सजाने के लिए)"
+      ],
+      "steps": [
+        "सबसे पहले एक बड़े कटोरे में ½ कप घी लें।",
+        "अब एक बर्फ का टुकड़ा लें और इसे रगड़ना शुरू करें।",
+        "घी को गोलाकार गति में रगड़ें जब तक कि घी की कंसिस्टेंसी गाढ़ी और क्रीमी ना हो जाए।",
+        "इसे 5-6 मिनट या जब तक घी सफ़ेद रंग जैसा ना हो जाए, तब तक रगड़ते रहें।",
+        "अब इसमें 2 कप मैदा डालकर टुकड़े करते हुए, अच्छे से मसलें।",
+        "इसे गूंधे नहीं क्योंकि हमें इसका बैटर बनाना है।",
+        "इसके बाद इसमें ½ कप ठंडा दूध डालें और हल्का सा मिलाएं।",
+        "इसके बाद इसमें 1 कप ठंडा पानी डालें और एक गाढ़ा बैटर बना लें।",
+        "इसमें एक कप पानी और डालें और 5 मिनट के लिए व्हिस्क की मदद से मिलाएं।",
+        "इसके बाद इसमें 1 टीस्पून नींबू का रस और एक कप ठंडा पानी और डालें।",
+        "इसे व्हिस्क करते रहें जब तक कि इसमें से सारी गाँठ ख़त्म नहीं हो जाती।",
+        "इससे स्मूद कंसिस्टेंसी का घेवर बैटर तैयार हो जाएगा। अब यह बैटर घेवर बनाने के लिए तैयार है। इसे ठंडा रखें, जब तक कि आप इसे फ्राई करने के लिए तैयार होते हैं।",
+        "एक सॉसपैन(व्यास - 18 सेमी, गहराई - 9 सेमी) या बड़ी कढ़ाई जिसमें एक गोल रिंग रखी हो, के ¾ ऊंचाई तक घी या तेल भरकर गर्म करें।",
+        "तेल बहुत ज्यादा गर्म होना चाहिए, इसके बाद तेल से सही दूरी(लगभग 10 सेमी) बनाये रखते हुए 2 टेबलस्पून बैटर तेल में डालें।",
+        "बैटर डालते ही इसमें से तड़के जैसी छींटें पड़ेंगी और फिर झाग सारा किनारों पर आ जाएगा।",
+        "इसके बाद तेल से दूरी बनाये रखते हुए पतली धार करके 2 टेबलस्पून बैटर इसके बीचों बीच और डालें।",
+        "ऐसा 10-15 बार करें, लेकिन ये आपके सॉसपैन पर भी निर्भर करता है।",
+        ".इसके बीच में एक छेद रहना चाहिए।",
+        "घेवर को मध्यम आँच पर सुनहरा भूरा होने तक फ्राई करें।",
+        "घेवर के किनारों को चाक़ू से हटा कर, इसे तेल में डुबो दें।",
+        "इसे तब तक फ्राई करते रहें, जब तक कि सारे बुलबुले ख़त्म ना हो जाएँ।",
+        "अब घेवर को धीरे से बाहर निकाल लें और एक्स्ट्रा तेल को पूरी तरह से निचुड़ने दें। अब इसे अलग रख दें।",
+        "अब 1 कप शक्कर और ¼ कप पानी लेकर शक्कर की चाशनी तैयार करें।",
+        "शक़्कर को पानी में पूरी तरह घोल लें और 5 मिनट के लिए उबालें।",
+        "इसे 2 तार की चाशनी बनने तक उबालते रहें।",
+        "अब इस चाशनी को घेवर के ऊपर डालें या फिर घेवर को चाशनी में डुबोएं।",
+        "इसे कटे हुए मेवों से सजाएं और इलाइची पाउडर छिड़कें।",
+        "अंत में घेवर को चांदी पेपर या रबड़ी से सजाएं और यह फिर परोसे जाने के लिए तैयार है।"
+      ],
+      "cuisine": "राजस्थान",
+      "prep_time": 20,
+      "cook_time": 30,
+      "servings": "7",
+      "json_ld_found": true,
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "घेवर रेसिपी | ghevar in hindi | घर पर ही बनाइये घेवर | जयपुर घेवर",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "आसान घेवर रेसिपी | घर पर ही बनाइये घेवर | जयपुर घेवर",
+        "datePublished": "2020-07-30T23:37:45+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-1-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "7",
+          "7 परोसना"
+        ],
+        "prepTime": "PT20M",
+        "cookTime": "PT30M",
+        "totalTime": "PT50M",
+        "recipeIngredient": [
+          "½ कप घी",
+          "1  बर्फ का टुकड़ा",
+          "2 कप मैदा",
+          "½ कप दूध (ठंडा)",
+          "3 कप पानी (ठंडा)",
+          "1 टी स्पून नींबू का रस",
+          "1 कप शक्कर",
+          "¼ कप पानी",
+          "तेल / घी डीप फ्राई करने के लिए",
+          "सूखे मेवे (सजाने के लिए)",
+          "¼ टी स्पून इलाइची पाउडर",
+          "चाँदी का वर्क (सजाने के लिए)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "सबसे पहले एक बड़े कटोरे में ½ कप घी लें।",
+            "name": "सबसे पहले एक बड़े कटोरे में ½ कप घी लें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "अब एक बर्फ का टुकड़ा लें और इसे रगड़ना शुरू करें।",
+            "name": "अब एक बर्फ का टुकड़ा लें और इसे रगड़ना शुरू करें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "घी को गोलाकार गति में रगड़ें जब तक कि घी की कंसिस्टेंसी गाढ़ी और क्रीमी ना हो जाए।",
+            "name": "घी को गोलाकार गति में रगड़ें जब तक कि घी की कंसिस्टेंसी गाढ़ी और क्रीमी ना हो जाए।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसे 5-6 मिनट या जब तक घी सफ़ेद रंग जैसा ना हो जाए, तब तक रगड़ते रहें।",
+            "name": "इसे 5-6 मिनट या जब तक घी सफ़ेद रंग जैसा ना हो जाए, तब तक रगड़ते रहें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "अब इसमें 2 कप मैदा डालकर टुकड़े करते हुए, अच्छे से मसलें।",
+            "name": "अब इसमें 2 कप मैदा डालकर टुकड़े करते हुए, अच्छे से मसलें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसे गूंधे नहीं क्योंकि हमें इसका बैटर बनाना है।",
+            "name": "इसे गूंधे नहीं क्योंकि हमें इसका बैटर बनाना है।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसके बाद इसमें ½ कप ठंडा दूध डालें और हल्का सा मिलाएं।",
+            "name": "इसके बाद इसमें ½ कप ठंडा दूध डालें और हल्का सा मिलाएं।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसके बाद इसमें 1 कप ठंडा पानी डालें और एक गाढ़ा बैटर बना लें।",
+            "name": "इसके बाद इसमें 1 कप ठंडा पानी डालें और एक गाढ़ा बैटर बना लें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसमें एक कप पानी और डालें और 5 मिनट के लिए व्हिस्क की मदद से मिलाएं।",
+            "name": "इसमें एक कप पानी और डालें और 5 मिनट के लिए व्हिस्क की मदद से मिलाएं।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसके बाद इसमें 1 टीस्पून नींबू का रस और एक कप ठंडा पानी और डालें।",
+            "name": "इसके बाद इसमें 1 टीस्पून नींबू का रस और एक कप ठंडा पानी और डालें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-9"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसे व्हिस्क करते रहें जब तक कि इसमें से सारी गाँठ ख़त्म नहीं हो जाती।",
+            "name": "इसे व्हिस्क करते रहें जब तक कि इसमें से सारी गाँठ ख़त्म नहीं हो जाती।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-10"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इससे स्मूद कंसिस्टेंसी का घेवर बैटर तैयार हो जाएगा। अब यह बैटर घेवर बनाने के लिए तैयार है। इसे ठंडा रखें, जब तक कि आप इसे फ्राई करने के लिए तैयार होते हैं।",
+            "name": "इससे स्मूद कंसिस्टेंसी का घेवर बैटर तैयार हो जाएगा। अब यह बैटर घेवर बनाने के लिए तैयार है। इसे ठंडा रखें, जब तक कि आप इसे फ्राई करने के लिए तैयार होते हैं।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-11"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "एक सॉसपैन(व्यास - 18 सेमी, गहराई - 9 सेमी) या बड़ी कढ़ाई जिसमें एक गोल रिंग रखी हो, के ¾ ऊंचाई तक घी या तेल भरकर गर्म करें।",
+            "name": "एक सॉसपैन(व्यास - 18 सेमी, गहराई - 9 सेमी) या बड़ी कढ़ाई जिसमें एक गोल रिंग रखी हो, के ¾ ऊंचाई तक घी या तेल भरकर गर्म करें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-12"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "तेल बहुत ज्यादा गर्म होना चाहिए, इसके बाद तेल से सही दूरी(लगभग 10 सेमी) बनाये रखते हुए 2 टेबलस्पून बैटर तेल में डालें।",
+            "name": "तेल बहुत ज्यादा गर्म होना चाहिए, इसके बाद तेल से सही दूरी(लगभग 10 सेमी) बनाये रखते हुए 2 टेबलस्पून बैटर तेल में डालें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-13"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "बैटर डालते ही इसमें से तड़के जैसी छींटें पड़ेंगी और फिर झाग सारा किनारों पर आ जाएगा।",
+            "name": "बैटर डालते ही इसमें से तड़के जैसी छींटें पड़ेंगी और फिर झाग सारा किनारों पर आ जाएगा।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-14"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसके बाद तेल से दूरी बनाये रखते हुए पतली धार करके 2 टेबलस्पून बैटर इसके बीचों बीच और डालें।",
+            "name": "इसके बाद तेल से दूरी बनाये रखते हुए पतली धार करके 2 टेबलस्पून बैटर इसके बीचों बीच और डालें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-15"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "ऐसा 10-15 बार करें, लेकिन ये आपके सॉसपैन पर भी निर्भर करता है।",
+            "name": "ऐसा 10-15 बार करें, लेकिन ये आपके सॉसपैन पर भी निर्भर करता है।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-16"
+          },
+          {
+            "@type": "HowToStep",
+            "text": ".इसके बीच में एक छेद रहना चाहिए।",
+            "name": ".इसके बीच में एक छेद रहना चाहिए।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-17"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "घेवर को मध्यम आँच पर सुनहरा भूरा होने तक फ्राई करें।",
+            "name": "घेवर को मध्यम आँच पर सुनहरा भूरा होने तक फ्राई करें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-18"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "घेवर के किनारों को चाक़ू से हटा कर, इसे तेल में डुबो दें।",
+            "name": "घेवर के किनारों को चाक़ू से हटा कर, इसे तेल में डुबो दें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-19"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "इसे तब तक फ्राई करते रहें, जब तक कि सारे बुलबुले ख़त्म ना हो जाएँ।",
+            "name": "इसे तब तक फ्राई करते रहें, जब तक कि सारे बुलबुले ख़त्म ना हो जाएँ।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-20"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "अब घेवर को धीरे से बाहर निकाल लें और एक्स्ट्रा तेल को पूरी तरह से निचुड़ने दें। अब इसे अलग रख दें।",
+            "name": "अब घेवर को धीरे से बाहर निकाल लें और एक्स्ट्रा तेल को पूरी तरह से निचुड़ने दें। अब इसे अलग रख दें।",
+            "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-0-21"
+          },
+          {
+            "@type": "HowToSection",
+            "name": "शक्कर की चाशनी बनाना:",
+            "itemListElement": [
+              {
+                "@type": "HowToStep",
+                "text": "अब 1 कप शक्कर और ¼ कप पानी लेकर शक्कर की चाशनी तैयार करें।",
+                "name": "अब 1 कप शक्कर और ¼ कप पानी लेकर शक्कर की चाशनी तैयार करें।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-0"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "शक़्कर को पानी में पूरी तरह घोल लें और 5 मिनट के लिए उबालें।",
+                "name": "शक़्कर को पानी में पूरी तरह घोल लें और 5 मिनट के लिए उबालें।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-1"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "इसे 2 तार की चाशनी बनने तक उबालते रहें।",
+                "name": "इसे 2 तार की चाशनी बनने तक उबालते रहें।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-2"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "अब इस चाशनी को घेवर के ऊपर डालें या फिर घेवर को चाशनी में डुबोएं।",
+                "name": "अब इस चाशनी को घेवर के ऊपर डालें या फिर घेवर को चाशनी में डुबोएं।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-3"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "इसे कटे हुए मेवों से सजाएं और इलाइची पाउडर छिड़कें।",
+                "name": "इसे कटे हुए मेवों से सजाएं और इलाइची पाउडर छिड़कें।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-4"
+              },
+              {
+                "@type": "HowToStep",
+                "text": "अंत में घेवर को चांदी पेपर या रबड़ी से सजाएं और यह फिर परोसे जाने के लिए तैयार है।",
+                "name": "अंत में घेवर को चांदी पेपर या रबड़ी से सजाएं और यह फिर परोसे जाने के लिए तैयार है।",
+                "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#wprm-recipe-121618-step-1-5"
+              }
+            ]
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "21"
+        },
+        "recipeCategory": [
+          "डेज़र्ट"
+        ],
+        "recipeCuisine": [
+          "राजस्थान"
+        ],
+        "keywords": "घेवर रेसिपी",
+        "@id": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home/"
+      }
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/ghevar-recipe-crispy-porous-ghewar-home",
+      "status_code": 200,
+      "json_ld_found": true,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "648a55da-05ef-4bde-9b62-29035a52f68d",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:32.959900+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-3.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-3.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ff3e8930-efed-4326-9cc3-539ebe36e506",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:33.230781+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-4.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-4.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "6b5ce918-5203-4568-a448-6e1c511e56c3",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:33.758502+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-5.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-5.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "82ccec14-a482-49db-8ddb-161fb1573037",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.175694+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-6.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-6.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "c8cfb114-5662-4934-ac11-7ff12daaee42",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.392714+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-7.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-7.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "3de2a2b5-f781-4a37-b2f9-b6f162e2a43d",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.446816+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-8.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-8.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "1f30fb3c-4436-4006-9b8c-31f79431cd5e",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.530739+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-9.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-9.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "aab2bcc7-95e4-42e2-8be2-20b09bca208c",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.543963+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-10.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-10.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "7e58b0cc-c3e8-4559-a9b8-26d4ea43e51c",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.710901+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-12.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-12.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "bf3b5213-1a26-4a73-8024-a1de7e2c74ee",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:34.929029+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-13.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-13.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "fb1de128-91e6-4979-9ae3-4177dd4a4ce0",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:35.399318+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-14.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-14.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "7934f406-f418-4278-b330-6c550a74bdb8",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:35.846797+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-16.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-16.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "d80c3a63-7fb2-42a6-8adb-58b6e019f5cc",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.207954+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-15.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-15.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "07d7fe36-47b7-4ec3-a089-af4392241705",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.316448+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-17.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-17.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "5075692d-4df0-4bf9-bfd1-d34e3a9c98dd",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.384415+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-18.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-18.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ccab9084-7c3a-4ffe-a44c-6f89de512eb5",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.399321+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-19.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-19.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "1c6a4f41-25c9-4bb3-b8b2-55a510f5e7b2",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.519533+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-20.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-20.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "c166b031-4b1b-4e82-bbe5-53b2ddd7f400",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:36.655136+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-21.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-21.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "a1353a00-e8fd-4d4a-b52e-d6d648a1f897",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:37.111231+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-22.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-22.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "69982d5f-3bee-412b-a5ee-ac3d6bdeb470",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:37.607811+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-23.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-23.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "67047c83-82c2-4a54-a8ad-842f90a56205",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.022545+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-24.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-24.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "ca11cf43-6670-43ae-8500-646716229e35",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.305363+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-26.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-26.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "0df57554-94a0-455f-bf20-156425918646",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.309935+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-25.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-25.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "a2ca7493-2266-4d74-82f1-40a6f61448ce",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.368479+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-27.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-27.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "b65ffffb-7bd4-4b57-8b13-488c620c122f",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.425794+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-28.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-28.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "f27baaac-4c2d-465c-9caf-8af22d686545",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.519649+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-29.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/2018/02/ghevar-recipe-how-to-make-crispy-porus-ghewar-at-home-29.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "bee68f82-ba95-4883-9405-0046fdc6c3c4",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:38.977246+00:00",
+    "raw_content": {
+      "title": "Untitled Recipe",
+      "source_url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-2.jpeg",
+      "ingredients": [],
+      "steps": [],
+      "cuisine": null,
+      "prep_time": null,
+      "cook_time": null,
+      "servings": null,
+      "json_ld_found": false,
+      "raw_json_ld": null
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-2.jpeg",
+      "status_code": 200,
+      "json_ld_found": false,
+      "adapter": "WebScraperAdapter"
+    }
+  },
+  {
+    "record_id": "970720a2-311f-4478-98dc-5d78a8e8a7f2",
+    "source_id": "ds2_batch_web",
+    "source_type": "web",
+    "version": "1.0",
+    "ingested_at": "2026-06-02T08:00:39.123560+00:00",
+    "raw_content": {
+      "title": "misal pav recipe | how to make maharashtrian misal pav recipe",
+      "source_url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe",
+      "ingredients": [
+        "2 cup moth beans / matki (sprouts)",
+        "¼ tsp turmeric",
+        "½ tsp salt",
+        "1 cup water",
+        "2 tsp oil",
+        "2 inch ginger (roughly chopped)",
+        "1  onion (finely chopped)",
+        "2 clove garlic",
+        "¼ cup dry coconut / kopra",
+        "1 to  mato (finely chopped)",
+        "¼ cup water",
+        "3 tbsp oil",
+        "1 tsp mustard",
+        "1 tsp jeera / cumin",
+        "few curry leaves",
+        "1 tsp kashmiri red chilli pwoder",
+        "¼ tsp turmeric / haldi",
+        "1 tsp coriander powder",
+        "1 tsp garam masala / goda masala",
+        "small piece jaggery / gud",
+        "½ tsp salt",
+        "5 cup water",
+        "2 cup farsan / mixture",
+        "½  onion (finely chopped)",
+        "2 tbsp coriander leaves (finely chopped)",
+        "6  pav",
+        "1  lemon (quarter)"
+      ],
+      "steps": [
+        "firstly, in a large kadai heat&nbsp;3 tbsp oil and splutter 1 tsp mustard, 1 tsp jeera and few curry leaves.",
+        "also add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder and 1 tsp garam masala.",
+        "saute on low flame till spices turn aromatic.",
+        "now add in prepared masala paste and saute well.",
+        "cook till the oil is released from masala paste.",
+        "add in cooked matki, small piece jaggery and ½ tsp salt. give a good mix.",
+        "also add 5 cup water and adjust consistency.",
+        "cover and boil for 10 minutes or till misal is cooked completely.",
+        "once the misal is cooked, oil starts to float indicating misal is ready.",
+        "in a serving plate, take matki usal add some farsan over it.",
+        "top with chopped onions and coriander leaves over it.",
+        "also pour ladleful of kat or gravy from sides.",
+        "finally, serve misal with pav and lemon wedges making a complete misal pav recipe."
+      ],
+      "cuisine": "mumbai",
+      "prep_time": 15,
+      "cook_time": 30,
+      "servings": "3",
+      "json_ld_found": true,
+      "raw_json_ld": {
+        "@type": "Recipe",
+        "name": "misal pav recipe | how to make maharashtrian misal pav recipe",
+        "author": {
+          "@id": "https://hebbarskitchen.com/#/schema/person/fdf1122d98e52197bd94fb5ac0366736"
+        },
+        "description": "",
+        "datePublished": "2019-02-16T01:49:53+00:00",
+        "image": [
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-1.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-1-500x500.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-1-500x375.jpeg",
+          "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/misal-pav-recipe-how-to-make-maharashtrian-misal-pav-recipe-1-480x270.jpeg"
+        ],
+        "recipeYield": [
+          "3",
+          "3 Servings"
+        ],
+        "prepTime": "PT15M",
+        "cookTime": "PT30M",
+        "totalTime": "PT45M",
+        "recipeIngredient": [
+          "2 cup moth beans / matki (sprouts)",
+          "¼ tsp turmeric",
+          "½ tsp salt",
+          "1 cup water",
+          "2 tsp oil",
+          "2 inch ginger (roughly chopped)",
+          "1  onion (finely chopped)",
+          "2 clove garlic",
+          "¼ cup dry coconut / kopra",
+          "1 to  mato (finely chopped)",
+          "¼ cup water",
+          "3 tbsp oil",
+          "1 tsp mustard",
+          "1 tsp jeera / cumin",
+          "few curry leaves",
+          "1 tsp kashmiri red chilli pwoder",
+          "¼ tsp turmeric / haldi",
+          "1 tsp coriander powder",
+          "1 tsp garam masala / goda masala",
+          "small piece jaggery / gud",
+          "½ tsp salt",
+          "5 cup water",
+          "2 cup farsan / mixture",
+          "½  onion (finely chopped)",
+          "2 tbsp coriander leaves (finely chopped)",
+          "6  pav",
+          "1  lemon (quarter)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "firstly, in a large kadai heat&nbsp;3 tbsp oil and splutter 1 tsp mustard, 1 tsp jeera and few curry leaves.",
+            "name": "firstly, in a large kadai heat&nbsp;3 tbsp oil and splutter 1 tsp mustard, 1 tsp jeera and few curry leaves.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "also add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder and 1 tsp garam masala.",
+            "name": "also add ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder and 1 tsp garam masala.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "saute on low flame till spices turn aromatic.",
+            "name": "saute on low flame till spices turn aromatic.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "now add in prepared masala paste and saute well.",
+            "name": "now add in prepared masala paste and saute well.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "cook till the oil is released from masala paste.",
+            "name": "cook till the oil is released from masala paste.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-4"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "add in cooked matki, small piece jaggery and ½ tsp salt. give a good mix.",
+            "name": "add in cooked matki, small piece jaggery and ½ tsp salt. give a good mix.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-5"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "also add 5 cup water and adjust consistency.",
+            "name": "also add 5 cup water and adjust consistency.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-6"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "cover and boil for 10 minutes or till misal is cooked completely.",
+            "name": "cover and boil for 10 minutes or till misal is cooked completely.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-7"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "once the misal is cooked, oil starts to float indicating misal is ready.",
+            "name": "once the misal is cooked, oil starts to float indicating misal is ready.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-8"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "in a serving plate, take matki usal add some farsan over it.",
+            "name": "in a serving plate, take matki usal add some farsan over it.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-9"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "top with chopped onions and coriander leaves over it.",
+            "name": "top with chopped onions and coriander leaves over it.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-10"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "also pour ladleful of kat or gravy from sides.",
+            "name": "also pour ladleful of kat or gravy from sides.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-11"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "finally, serve misal with pav and lemon wedges making a complete misal pav recipe.",
+            "name": "finally, serve misal with pav and lemon wedges making a complete misal pav recipe.",
+            "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#wprm-recipe-37042-step-0-12"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.97",
+          "ratingCount": "413"
+        },
+        "recipeCategory": [
+          "Breakfast",
+          "Snack"
+        ],
+        "recipeCuisine": [
+          "mumbai"
+        ],
+        "@id": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#recipe",
+        "isPartOf": {
+          "@id": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/#article"
+        },
+        "mainEntityOfPage": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe/"
+      }
+    },
+    "metadata": {
+      "url": "https://hebbarskitchen.com/spicy-maharashtrian-misal-pav-recipe",
+      "status_code": 200,
+      "json_ld_found": true,
+      "adapter": "WebScraperAdapter"
+    }
+  }
+]
