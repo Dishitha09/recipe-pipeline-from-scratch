@@ -8,7 +8,7 @@ adapters:
       url_file: "data/raw/recipe_urls.txt"
       timeout: 15
 
-  ds3_youtube_recipe:
+   ds3_youtube_recipe:
     adapter: YouTubeRecipeAdapter
     source_id: ds3_youtube_recipe
     source_type: youtube
@@ -18,34 +18,3 @@ adapters:
         - "https://www.youtube.com/watch?v=elN-VTOFBDw"
       transcript_languages:
         - "en"
-  ds4_audio_recipe:
-    adapter: AudioRecipeAdapter
-    source_id: ds4_audio_recipe
-    source_type: audio
-    version: "1.0"
-    config:
-      files: []
-      file_dir: "data/raw/audio"
-      model_name: "base"
-      language: "en"
-  ds5_pdf_recipe:
-    adapter: PDFRecipeAdapter
-    source_id: ds5_pdf_recipe
-    source_type: pdf
-    version: "1.0"
-    config:
-      file_dir: "data/raw/pdf"
-  ds6_text_recipe:
-    adapter: TextRecipeAdapter
-    source_id: ds6_text_recipe
-    source_type: text
-    version: "1.0"
-    config:
-      file_dir: "data/raw/text"
-  ds7_image_recipe:
-    adapter: ImageRecipeAdapter
-    source_id: ds7_image_recipe
-    source_type: image
-    version: "1.0"
-    config:
-      file_dir: "data/raw/images"
