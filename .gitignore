@@ -18,3 +18,9 @@ logs/
 
 # VS Code
 .vscode/
+crawl.zip
+*.zip
+.venv/
+__pycache__/
+runs/
+*.db
