@@ -8,7 +8,7 @@ adapters:
       url_file: "data/raw/recipe_urls.txt"
       timeout: 15
 
-   ds3_youtube_recipe:
+  ds3_youtube_recipe:
     adapter: YouTubeRecipeAdapter
     source_id: ds3_youtube_recipe
     source_type: youtube
