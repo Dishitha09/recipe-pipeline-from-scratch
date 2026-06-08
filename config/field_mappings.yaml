@@ -1,0 +1,57 @@
+sources:
+
+  ds2_hebbars_web:
+    title: ["title", "name"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time", "totalTime"]
+    servings: ["servings", "recipeYield"]
+    ingredients: ["ingredients", "recipeIngredient"]
+    steps: ["steps", "recipeInstructions"]
+
+  ds3_youtube_recipe:
+    title: ["title"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]
+
+  ds4_pdf_recipe:
+    title: ["title"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]
+
+  ds5_audio_recipe:
+    title: ["title"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]
+
+  ds6_text_recipe:
+    title: ["title"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]
+
+  ds7_image_recipe:
+    title: ["title"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]
+
+  ds8_csv_recipe:
+    title: ["title", "recipe_name"]
+    cuisine: ["cuisine"]
+    prep_time: ["prep_time"]
+    servings: ["servings"]
+    ingredients: ["ingredients"]
+    steps: ["steps"]

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PreProcessedRecipe",
+  "type": "object",
+  "required": [
+    "title",
+    "cuisine",
+    "prep_time",
+    "servings",
+    "ingredients",
+    "steps",
+    "metadata"
+  ],
+  "properties": {
+    "title": {
+      "type": ["string", "null"]
+    },
+    "cuisine": {
+      "type": ["string", "null"]
+    },
+    "prep_time": {
+      "type": ["integer", "null"]
+    },
+    "servings": {
+      "type": ["integer", "null"]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
