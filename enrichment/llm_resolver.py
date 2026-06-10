@@ -11,9 +11,17 @@ def resolve_by_llm(name: str):
     global LLM_CALLS_SUCCEEDED
     global LLM_COST_USD
 
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv(
+        "GEMINI_API_KEY"
+    )
 
     if not api_key:
+
+        print(
+            "\nLLM ERROR\n"
+            "GEMINI_API_KEY not found"
+        )
+
         return None
 
     LLM_CALLS_MADE += 1
@@ -22,10 +30,12 @@ def resolve_by_llm(name: str):
 
         import google.generativeai as genai
 
-        genai.configure(api_key=api_key)
+        genai.configure(
+            api_key=api_key
+        )
 
         model = genai.GenerativeModel(
-            "gemini-1.5-flash"
+            "gemini-2.5-flash"
         )
 
         prompt = f"""
@@ -42,7 +52,8 @@ Return only the canonical ingredient name.
         )
 
         canonical_name = (
-            response.text.strip()
+            response.text
+            .strip()
         )
 
         LLM_CALLS_SUCCEEDED += 1
@@ -50,24 +61,49 @@ Return only the canonical ingredient name.
         LLM_COST_USD += 0.0001
 
         return {
-            "canonical_name": canonical_name,
-            "resolution_type": "llm",
+            "canonical_name":
+                canonical_name,
+            "resolution_type":
+                "llm",
         }
 
-    except Exception:
+    except Exception as e:
+
+        print("\nLLM ERROR\n")
+
+        print(type(e).__name__)
+
+        print(str(e))
+
         return None
 
 
 def get_llm_metrics():
 
     return {
+
         "llm_calls_made":
             LLM_CALLS_MADE,
+
         "llm_calls_succeeded":
             LLM_CALLS_SUCCEEDED,
+
         "llm_cost_usd":
             round(
                 LLM_COST_USD,
                 6,
             ),
     }
+
+
+if __name__ == "__main__":
+
+    result = resolve_by_llm(
+        "totally_unknown_ingredient_xyz"
+    )
+
+    print(result)
+
+    print(
+        get_llm_metrics()
+    )

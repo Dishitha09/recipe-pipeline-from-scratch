@@ -1,102 +1,105 @@
+import enrichment.llm_resolver as llm_resolver
 
-from enrichment.ingredient_resolver import resolve_ingredient
-from enrichment.vector_resolver import resolve_by_vector
+from enrichment.ingredient_resolver import (
+    resolve_ingredient,
+)
+
+from enrichment.vector_resolver import (
+    resolve_by_vector,
+)
+
 from enrichment.llm_resolver import (
     resolve_by_llm,
-    get_llm_metrics,
 )
 
 
-class ResolutionMetrics:
+METRICS = {
+    "resolved_exact": 0,
+    "resolved_vector": 0,
+    "resolved_llm": 0,
+    "unresolved": 0,
+}
 
-    def __init__(self):
 
-        self.resolved_exact = 0
-        self.resolved_vector = 0
-        self.resolved_llm = 0
-        self.unresolved = 0
+def resolve_ingredient_v2(raw_name):
 
-    def record(self, resolution_type: str):
+    # STEP 1
+    # Exact / Alias
 
-        if resolution_type == "exact":
-            self.resolved_exact += 1
+    exact_result = resolve_ingredient(
+        raw_name
+    )
 
-        elif resolution_type == "vector":
-            self.resolved_vector += 1
+    if exact_result is not None:
 
-        elif resolution_type == "llm":
-            self.resolved_llm += 1
+        if exact_result[
+            "resolution_type"
+        ] in [
+            "exact",
+            "alias",
+        ]:
 
-        else:
-            self.unresolved += 1
+            METRICS[
+                "resolved_exact"
+            ] += 1
 
-    def summary(self):
+            return exact_result
 
-        total = (
-            self.resolved_exact
-            + self.resolved_vector
-            + self.resolved_llm
-            + self.unresolved
+    # STEP 2
+    # Vector Search
+
+    vector_result = resolve_by_vector(
+        raw_name
+    )
+
+    if vector_result is not None:
+
+        score = vector_result.get(
+            "score",
+            0,
         )
 
-        if total == 0:
-            resolution_rate = 0.0
-        else:
-            resolution_rate = round(
-                (
-                    (
-                        self.resolved_exact
-                        + self.resolved_vector
-                        + self.resolved_llm
-                    )
-                    / total
-                )
-                * 100,
-                2,
-            )
+        # Only accept vector matches
+        # above confidence threshold
+
+        if score >= 0.70:
+
+            METRICS[
+                "resolved_vector"
+            ] += 1
+
+            return {
+                "raw_name": raw_name,
+                **vector_result,
+            }
+
+    # STEP 3
+    # LLM Fallback
+
+    llm_result = resolve_by_llm(
+        raw_name
+    )
+
+    if llm_result is not None:
+
+        METRICS[
+            "resolved_llm"
+        ] += 1
 
         return {
-            "resolved_exact": self.resolved_exact,
-            "resolved_vector": self.resolved_vector,
-            "resolved_llm": self.resolved_llm,
-            "unresolved": self.unresolved,
-            "resolution_rate": resolution_rate,
+            "raw_name": raw_name,
+            **llm_result,
         }
 
+    # STEP 4
+    # Unresolved
 
-metrics = ResolutionMetrics()
-
-
-def resolve_ingredient_v2(name: str):
-
-    exact_result = resolve_ingredient(name)
-
-    if exact_result["resolution_type"] == "exact":
-
-        metrics.record("exact")
-
-        return exact_result
-
-    vector_result = resolve_by_vector(name)
-
-    if vector_result:
-
-        metrics.record("vector")
-
-        return vector_result
-
-    llm_result = resolve_by_llm(name)
-
-    if llm_result:
-
-        metrics.record("llm")
-
-        return llm_result
-
-    metrics.record("unresolved")
+    METRICS[
+        "unresolved"
+    ] += 1
 
     return {
-        "raw_name": name,
+        "raw_name": raw_name,
         "canonical_name": None,
         "resolution_type": "unresolved",
     }
@@ -104,27 +107,61 @@ def resolve_ingredient_v2(name: str):
 
 def get_metrics():
 
+    total = (
+        METRICS["resolved_exact"]
+        + METRICS["resolved_vector"]
+        + METRICS["resolved_llm"]
+        + METRICS["unresolved"]
+    )
+
+    resolution_rate = 0
+
+    if total > 0:
+
+        resolution_rate = round(
+            (
+                (
+                    METRICS["resolved_exact"]
+                    + METRICS["resolved_vector"]
+                    + METRICS["resolved_llm"]
+                )
+                / total
+            )
+            * 100,
+            2,
+        )
+
     return {
-        **metrics.summary(),
-        **get_llm_metrics(),
+        **METRICS,
+        "resolution_rate": resolution_rate,
+
+        "llm_calls_made":
+            llm_resolver.LLM_CALLS_MADE,
+
+        "llm_calls_succeeded":
+            llm_resolver.LLM_CALLS_SUCCEEDED,
+
+        "llm_cost_usd":
+            llm_resolver.LLM_COST_USD,
     }
 
 
 if __name__ == "__main__":
 
-    test_ingredients = [
-        "haldi",
+    tests = [
+        "haldi powder",
         "jeera powder",
-        "cilantro leaves",
+        "gehun atta",
+        "curd",
         "ghee",
-        "random_unknown_ingredient",
+        "totally_unknown_ingredient_xyz",
     ]
 
-    for ingredient in test_ingredients:
+    for test in tests:
 
         print(
             resolve_ingredient_v2(
-                ingredient
+                test
             )
         )
 
