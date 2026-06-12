@@ -1,0 +1,11 @@
+catalogue_file: data/master_ingredients_final_v4.csv
+
+cache_file: cache/ingredient_embeddings.pkl
+
+embedding_model: all-MiniLM-L6-v2
+
+vector_threshold: 0.70
+
+gemini_model: gemini-2.5-flash
+
+logs_dir: logs
