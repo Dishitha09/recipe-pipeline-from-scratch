@@ -1,10 +1,10 @@
 [
   {
-    "record_id": "27a4f245-167b-4a38-bca2-471949feeaef",
+    "record_id": "12cf7392-21a4-4c5b-b2b9-b0b0cc666ec5",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:54.208081+00:00",
+    "ingested_at": "2026-06-12T09:05:36.367632+00:00",
     "raw_content": {
       "title": "Paneer Butter Masala Recipe - Restaurant Style",
       "source_url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/",
@@ -281,11 +281,11 @@
     }
   },
   {
-    "record_id": "62e336ee-f626-41c5-86e5-45bd33cf4b04",
+    "record_id": "643cf2ac-3e52-431e-aef8-9b040ae3bcef",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:54.617308+00:00",
+    "ingested_at": "2026-06-12T09:05:37.013100+00:00",
     "raw_content": {
       "title": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa",
       "source_url": "https://hebbarskitchen.com/masala-dosa-recipe-crispy-masale-dose/",
@@ -634,11 +634,11 @@
     }
   },
   {
-    "record_id": "65a189be-2877-433a-8852-3de93e30dbd6",
+    "record_id": "d57e1422-3448-4566-bc48-c7bd36a15dbd",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:55.028368+00:00",
+    "ingested_at": "2026-06-12T09:05:37.655201+00:00",
     "raw_content": {
       "title": "chole bhature recipe | chhole bhature | chana bhatura | chola batura",
       "source_url": "https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/",
@@ -1000,11 +1000,11 @@
     }
   },
   {
-    "record_id": "e2240a4a-3354-4152-afb0-641093095bfb",
+    "record_id": "ba6fdd0e-bbf9-4a0c-9eca-7738a2cc6d59",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:55.442403+00:00",
+    "ingested_at": "2026-06-12T09:05:38.584306+00:00",
     "raw_content": {
       "title": "aloo palak recipe | palak aloo recipe | aloo palak gravy recipe",
       "source_url": "https://hebbarskitchen.com/aloo-palak-gravy-recipe-palak-aloo/",
@@ -1203,11 +1203,11 @@
     }
   },
   {
-    "record_id": "bf697b0f-9568-4244-9c5f-5ea75d4c76a8",
+    "record_id": "43d7a967-ace8-4c55-a169-8e302d75b97e",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:55.860575+00:00",
+    "ingested_at": "2026-06-12T09:05:39.463495+00:00",
     "raw_content": {
       "title": "chana masala recipe | chickpea masala recipe | chana curry | chana masala curry",
       "source_url": "https://hebbarskitchen.com/chana-masala-recipe-chickpea-masala/",
@@ -1478,11 +1478,11 @@
     }
   },
   {
-    "record_id": "6303594c-7e90-4df4-9e2e-2c0d2917ccae",
+    "record_id": "c1b870f7-4091-4be4-92ce-cb94417b24e9",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:56.239598+00:00",
+    "ingested_at": "2026-06-12T09:05:40.363400+00:00",
     "raw_content": {
       "title": "pindi chole recipe | pindi chana masala | how to make pindi chole masala",
       "source_url": "https://hebbarskitchen.com/pindi-chole-recipe-pindi-chana-masala/",
@@ -1680,11 +1680,11 @@
     }
   },
   {
-    "record_id": "601a5ffe-27ce-4411-ad2a-9b550be3438b",
+    "record_id": "574184aa-1383-412f-a3f9-73a0db176d15",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:56.623965+00:00",
+    "ingested_at": "2026-06-12T09:05:41.211688+00:00",
     "raw_content": {
       "title": "bhatura recipe | punjabi bhature recipe | bhatura for chole bhatura",
       "source_url": "https://hebbarskitchen.com/bhatura-bhature-recipe-restaurant-style/",
@@ -1969,11 +1969,11 @@
     }
   },
   {
-    "record_id": "07419afa-0201-4998-aa07-f29553ce6c9a",
+    "record_id": "32dc20bf-4992-4369-ab02-268d089180b4",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:56.992925+00:00",
+    "ingested_at": "2026-06-12T09:05:42.250484+00:00",
     "raw_content": {
       "title": "potato curry for masala dosa | aloo baji for masala dosa",
       "source_url": "https://hebbarskitchen.com/potato-curry-recipe-masala-dosa-aloo-bhaji-masala-dosa/",
@@ -2139,11 +2139,11 @@
     }
   },
   {
-    "record_id": "ca4b5593-8694-4b0d-bb59-c2a7ffa43d63",
+    "record_id": "839630ec-5030-4ad7-9652-c7c697287ba8",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:57.389237+00:00",
+    "ingested_at": "2026-06-12T09:05:50.758946+00:00",
     "raw_content": {
       "title": "sambar powder recipe | sambar masala | sambar podi | sambhar masala at home",
       "source_url": "https://hebbarskitchen.com/sambar-powder-recipe-sambar-masala/",
@@ -2328,11 +2328,11 @@
     }
   },
   {
-    "record_id": "31c9c3a2-ac01-470b-8f43-027566b56c35",
+    "record_id": "2f013a38-0e2d-4e6a-b0c9-497953b46e35",
     "source_id": "ds2_hebbars_web",
     "source_type": "web",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:57.794523+00:00",
+    "ingested_at": "2026-06-12T09:05:51.551619+00:00",
     "raw_content": {
       "title": "paneer butter masala without onion and garlic | paneer jain recipes",
       "source_url": "https://hebbarskitchen.com/paneer-butter-masala-jain-recipes/",
@@ -2506,11 +2506,11 @@
     }
   },
   {
-    "record_id": "c3d9c2ef-3ea7-4c72-a23e-66491313874c",
+    "record_id": "276f08e6-ad24-42f9-8bba-4359d965aa67",
     "source_id": "ds3_youtube_recipe",
     "source_type": "youtube",
     "version": "1.0",
-    "ingested_at": "2026-06-02T07:35:59.500054+00:00",
+    "ingested_at": "2026-06-12T09:05:54.596037+00:00",
     "raw_content": {
       "title": "15 Mins Pressure Cooker Meals for Whole Family - Pulao, Khichdi, Dal & Sambar | Cooker Lunch Recipes",
       "source_url": "https://www.youtube.com/watch?v=elN-VTOFBDw",
